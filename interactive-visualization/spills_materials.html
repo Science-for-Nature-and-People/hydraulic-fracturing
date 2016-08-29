@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+       <link rel="shortcut icon" href="../NCEAS/img/SNAPP.png">
+
+        <link rel="stylesheet" href="../NCEAS/css/cssStyle.css">
+        <link rel="stylesheet" href="../NCEAS/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../NCEAS/scripts/leaflet.css" />
+        
+                <script type="text/javascript" src="../NCEAS/scripts/d3.v3.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/wordcloud.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/d3.layout.cloud.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/gviz-api.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/geojson.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/leaflet.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/jquery.csv-0.71.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/gviz-api.js"></script>
+        <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+        
+        <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+        <script type="text/javascript" ,="" src="../NCEAS/scripts/dygraph-combined-dev.js"></script>
+
+<style type="text/css">
+            tab1 { padding-left: 2em; }
+
+            .nav-tabs > li.active > a,
+            .nav-tabs > li.active > a:hover,
+            .nav-tabs > li.active > a:focus{
+                color: #AED6F1;
+                background-color: #5D6D7E;  
+            } 
+</style>
+			
+		<title> NCEAS | Spills Data Visualization </title>
+
+<script type = "text/javascript">
+
+/*Set global variables*/
+var mapState = "All";
+var mapMaterial = "All";
+var mapContain = "All";
+var mapWater = "All";
+var mapVolume = "All";
+var plotThisBox = "Material"
+var filterData;
+</script>
+</head>
+
+<body>
+<div class="page-header">
+        <h1>Visualizing Spills Data from Unconventional Oil and Gas Activity</h1>
+</div>
+
+<div class="col-sm-10 col-md-offset-1">
+     <p style="font-family: verdana; font-size: 15px;">The dashboard uses the same data as in the <a href="http://people.duke.edu/~lap19/www/NCEAS/spills_nceas.html"><span style="color: red;";>Pathway Analysis</span></a> tool, but focuses on the volume of spills based on the material spilled and whether the spill was reported to have impacted surface of groundwater. 
+        <br><br>
+    Select spills by attributes in the left panel. The map and charts work in tandem based on your selection. Click on the tab of interest to see where spills occurred and explore rates, volumes and pathways.</p> 
+<hr><br>
+</div> <!-- Introduction div-->
+
+<div class="container-fluid"> <!--panel to filter and map divs-->
+     <div class="row" style="padding-top: 0px">
+
+<!-- ###################################### START CONTROL PANEL  ############################ -->
+        <div class="col-sm-3" style="height: 830px; background-color: #E5E7E9">
+            <h4 style="text-align: center"><strong> Make a Selection </strong></h4>
+            <br>      
+
+        <form name = "state" style="color: black; padding-left: 5px">
+            <td><b>State: </b></td>
+            <br>
+            <input name="stateList" id="stateList" onclick="setState(this.value)" value="All" type="radio" checked> All <br>
+            <input name="stateList" id="stateList" onclick="setState(this.value)" value="co" type="radio"> Colorado <br>
+            <input name="stateList" id="stateList" onclick="setState(this.value)" value="nm"  type="radio"> New Mexico <br>
+            <input name="stateList" id="stateList" onclick="setState(this.value)" value="nd"  type="radio"> North Dakota <br>
+            <input name="stateList" id="stateList" onclick="setState(this.value)" value="pa" type="radio"> Pennsylvania <br>
+        </form>
+
+<br><br>
+
+ <form style="color: black">
+         <br>
+        <td><b>Spill Volume (gallons): </b></td>
+        <td><select name="volumeLayer" id="volumeLayer" onchange="setVolume(this);">
+            <option selected = "selected" value="All"> All Volumes </option>
+            <option value="100"> more than 100 </option>            
+            <option value="500"> more than 500 </option>
+            <option value="1000"> more than 1,000 </option>          
+            <option value="5000"> more than 5,000 </option>          
+            <option value="10000"> more than 10,000 </option>       
+            <option value="25000"> more than 25,000 </option>
+        </select></td>  
+</form>
+<br><br>
+
+ <form style="color: black">
+         <br>
+        <td><b>Select Material: </b></td>
+        <td><select name="materialLayer" id="materialLayer" onchange="setMaterial(this);">
+            <option selected = "selected" value="All"> All Materials </option>
+            <option value="Chemicals"> Chemicals </option>
+            <option value="Condensate"> Condensate </option>
+            <option value="Crude Oil"> Crude Oil </option>            
+            <option value="Diesel"> Diesel </option>
+            <option value="Drilling Waste"> Drilling Waste </option>            
+            <option value="Equipment Oil"> Equipment Oil </option>
+            <option value="Freshwater"> Freshwater </option>
+            <option value="Hydraulic Fracture Solution"> Hydraulic Fracture Solution </option>
+            <option value="Oil & Saltwater"> Oil & Saltwater </option>
+            <option value="Saltwater"> Saltwater </option>
+            <option value="Unknown"> Unknown </option>
+            </select></td>  
+</form>
+
+<br><br>
+
+ <form style="color: black">
+         <br>
+        <td><b>Containment of Spill: </b></td>
+        <td><select name="containLayer" id="containLayer" onchange="setContain(this);">
+            <option selected = "selected" value="All"> All </option>
+            <option value="Yes"> Spill Contained </option>
+            <option value="No"> Not Contained </option>
+            <option value="Unknown"> Unknown </option>            
+            </select></td>  
+</form>
+
+<br><br>
+
+ <form style="color: black">
+         <br>
+        <td><b>Water Impact of Spill: </b></td>
+        <td><select name="waterLayer" id="waterLayer" onchange="setWater(this);">
+            <option selected = "selected" value="All"> All </option>
+            <option value="Yes"> Water Impacted </option>
+            <option value="No"> Water Not Impacted </option>
+            <option value="Unknown"> Unknown </option>            
+            </select></td>  
+</form>
+</div> <!--column of  for selecting spills data-->
+<!-- ###################################### END CONTROL PANEL  ############################ -->
+
+
+
+<script>
+//################################################################################################
+//                      FUNCTION TO GRAB SELECTION AND SEND TO MAP                             ??
+function setState(target) {
+    var selection = document.state.stateList;
+
+    for (i=0; i<selection.length; i++)
+        if (selection[i].checked==true)
+        mapState = selection[i].value; 
+    materialtoFilter(mapVolume, mapMaterial, mapContain, mapWater);
+    //createTrace();
+    createPathwayforMaterials(mapState, mapMaterial, mapVolume, mapContain, mapWater);
+    return mapState;
+} //end setPathway
+
+
+//Function to grab pathway
+function setMaterial(target) {
+    mapMaterial = document.getElementById('materialLayer').value; 
+    materialtoFilter(mapVolume, mapMaterial, mapContain, mapWater);
+    createPathwayforMaterials(mapState, mapMaterial, mapVolume, mapContain, mapWater);
+    return mapMaterial;
+} //end setPathway
+
+function setVolume(target) {
+    mapVolume = document.getElementById('volumeLayer').value; //
+    materialtoFilter(mapVolume, mapMaterial, mapContain, mapWater);
+    createPathwayforMaterials(mapState, mapMaterial, mapVolume, mapContain, mapWater);
+    return mapVolume;
+} //end setPathway
+
+function setContain(target) {
+    mapContain = document.getElementById('containLayer').value; //
+    materialtoFilter(mapVolume, mapMaterial, mapContain, mapWater);
+    createPathwayforMaterials(mapState, mapMaterial, mapVolume, mapContain, mapWater);
+    return mapContain;
+} //end setCause
+
+function setWater(target) {
+    mapWater = document.getElementById('waterLayer').value; //
+    materialtoFilter(mapVolume, mapMaterial, mapContain, mapWater);
+    createPathwayforMaterials(mapState, mapMaterial, mapVolume, mapContain, mapWater);
+    return mapWater;
+} //end setCause
+
+
+$(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
+//        console.log("I'm clicked")
+        createPathwayforMaterials(mapState, mapMaterial, mapVolume, mapContain, mapWater);
+    })
+
+//################################################################################################
+</script>
+
+
+<div class="col-sm-9 col-md" id="content" style="height: 550px; padding: 5px;">  <!--border: 2px solid black"-->
+        <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+            <li class="active"><a href="#mapdata" data-toggle="tab">Map of Spills</a></li>
+            <li><a href="#spillrates" data-toggle="tab">Spill Rate Charts</a></li>
+            <li><a href="#spillvolume" data-toggle="tab">Volume Charts</a></li>
+            <li><a href="#pathway" data-toggle="tab">Pathway Charts</a></li>
+        </ul>
+
+<div id="my-tab-content" class="tab-content">
+<!-- ###################################### MAP PANEL  ############################ -->
+    <div class="tab-pane active" id="mapdata">
+         <div class="col-sm-12"> 
+            <p style="font-family: verdana; font-size: 15px; padding-top: -40px;"><span style="color: #3BB9FF;"><em>Map of spills</em></span> displays the location of unconventional oil and gas spills. Click on a spill for more information. Click on the map overlay icon in the upper right corner of the map.</p>
+         </div> 
+    <div id="map" class='custom-popup' style="height: 550px;">        
+        <!-- ###################################### START MAP  ############################ -->
+<script type="text/javascript">
+var geojsonLayer = new L.FeatureGroup();
+var map = new L.map('map');
+
+function drawMap(){
+L.mapbox.accessToken = 'pk.eyJ1IjoibHBhdHRlcnNvbiIsImEiOiJjaWtrNWtrcDUwYTdrdHlqNzUxdGJzdm1mIn0.aDMjBGdT4DfUM5NdoALxLg';
+
+// Replace 'mapbox.streets' with your map id.
+var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
+    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+});
+
+  map.addLayer(mapboxTiles)
+    .setView([39.5, -98.4], 4); //center of US
+
+//load in spills data
+var spillStyle = {
+        radius: 3,
+        fillOpacity: 0.8,
+        fillColor: "blue",
+        color: "black",
+        weight: 1
+    };
+
+//var cospills = new L.LayerGroup();
+var counter = 0;
+var cospills = $.getJSON("../NCEAS/data/"+mapState+"spills.json");
+cospills.then(function(data) {
+
+    var coSpills = L.geoJson(data, {
+        pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, spillStyle);
+        },//end pointtoLayer
+     onEachFeature: function(feature,layer){
+               layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                    "<br>"+"Material: "+ feature.properties.material +
+                    "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
+                    "<br>"+"Pathway: "+ feature.properties.pathway +
+                    "<br>"+"Contained: "+ feature.properties.contained +
+                    "<br>"+"Water Impact: "+ feature.properties.waterimpact)
+                counter++
+                }//end onEachFeature
+    });//end var geoJson
+    geojsonLayer.addLayer(coSpills);
+    //console.log(coSpills);
+    map.addLayer(geojsonLayer);
+    
+//console.log(counter);
+addOverlays(map);   
+mapComment(counter);
+});//end .getJSON
+
+}
+drawMap();
+ </script>
+<!-- ###################################### END MAP  ############################ -->
+    </div><!--end maps tab-->
+    <div class="col-sm-12 col-md" id="commentSelect" style="font-size: 22px; padding: 1px;"> <!--border: 2px solid black"-->
+</div> <!--end row-->
+</div><!--end map tab-->
+
+
+
+
+<!-- ###################################### SPILL RATES TAB ############################ -->
+        <div class="tab-pane" id="spillrates">
+        <div class="col-sm-12"> 
+        <p style="font-family: verdana; font-size: 15px">
+            <span style="color: #3BB9FF;"><em>Annual Spill Rate</em></span> shows the spill rate for each calendar year (red line) and the cumulative number of wells (black line).
+            <br><br>
+            <span style="color: #3BB9FF;"><em>Spill Rate by Life Year</em></span> shows the rate of spills based on the age of the well. Younger wells &#8212 drilling, fracturing, and highest production &#8212 have more spills than more mature wells.</p>
+        </div>    
+
+     <div class="col-sm-6" style="padding: 5px;">
+         <div class="panel panel-primary" style ="padding: 3px;">
+           <div class="panel-heading">
+              <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                    <stronger>Annual Spill Rate</stronger></h3>
+            </div> <!--panel heading primary-->
+          <div id="annualrate" style="height: 400px; margin-left: 0px; padding: 0px; margin-bottom: 0px">
+        </div> <!--annualrate graph-->
+        </div> <!--panel-primary-->
+    </div> <!--col-sm-6-->
+
+    <div class="col-sm-6" style="padding: 5px;">
+    <div class="panel panel-primary" style= "padding: 3px;">
+         <div class="panel-heading">
+           <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                    <stronger>Spill Rate by Life Year</stronger></h3>
+            </div> <!--panel heading primary-->
+          <div id="lifeyearrate" style="height: 400px; margin-left: 0px; padding: 0px; margin-bottom: 0px">
+        </div> <!--lifeyearrate-->
+        </div> <!-- end primary panel-->
+    </div> <!--end div 2 columns-->
+  
+   </div><!--end spill rates tab-->
+
+
+
+<!-- ###################################### SPILL VOLUME TAB ############################ -->
+    <div class="tab-pane" id="spillvolume" style = "padding: 0px;">
+    <div class="col-sm-12"> 
+             <p style="font-family: verdana; font-size: 15px">
+               <span style="color: #3BB9FF;"><em>Boxplot of Spills</em></span> presents the volume of reported spills based on plot selection. You can zoom in or out (select autoscale symbol in topright of the chart). Hover over a box plot to see volumes at selected quantiles. Points to the left are individual spills.</p>
+           </div> 
+    <div class="col-sm-12">
+         <div class="panel panel-primary" style="margin: -10px; padding: 3px;">
+           <div class="panel-heading">
+           <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                    <stronger>Boxplot of Spills</stronger></h3>
+            </div> <!--panel heading primary-->
+        
+       <div id="selectBox">
+            <form name = "boxplot" style="color: black; font-size: 15px; padding-left: 5px">
+            <td><b>Plot: </b></td><tab1></tab1>
+            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="Material" type="radio" checked> Materials   
+            <tab1></tab1>
+            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="Contained" type="radio"> Containment
+            <tab1></tab1>
+            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="Water" type="radio"> Water Impacted
+             <tab1></tab1>
+        </form>
+        </div> <!--end selectbox-->
+
+        <div id="volumeBoxplot" style="height: 400px; margin-left: 0px; padding: 0px; margin-top: 0px">
+        </div> <!--boxplot-->
+
+        </div> <!-- end primary panel-->
+    </div> <!--end div 1 columns-->
+    <div class="col-sm-12">
+        <p style="font-family: verdana; font-size: 15px">This chart shows which materials tend to be released in large spills. Differences in volumes released can also be observed between spills that impact water resources and those that do not.</p>
+    </div>
+   </div><!--end spill rates tab-->
+
+
+<!-- ###################################### PATHWAY TAB ############################ -->
+     <div class="tab-pane" id="pathway">
+         <div class="col-sm-12" style = "padding-top: 0px; margin-top: -10px;"> 
+            <p style="font-family: verdana; font-size: 14px">
+            <span style="color: #3BB9FF;"><em>Spills by Pathway</em></span> shows the percent of spills by pathway (hover over chart).
+            <br><br>
+            <span style="color: #3BB9FF;"><em>Material Details</em></span> shows more details about the materials spilled when available. Larger text indicates greater frequency. For example, select "Chemicals" material to see different chemicals that spilled.  
+            <br><br>  
+            <span style="color: #3BB9FF;"><em>Causal Mechanism</em></span> shows the underlying cause behind a spill. </p>
+    </div> 
+
+        <div class="col-sm-6" style = "padding-top: 1px; padding-bottom: 1px; padding-right: 5px; margin-top: -10px;">
+         <div class="panel panel-primary" style = "padding-top: 1px; padding-bottom: 1px;">
+           <div class="panel-heading">
+              <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                  <stronger>Spills by Pathway</stronger></h3>
+            </div>
+            <div id="pathwayPie" style="text-align: center; height: 320px; margin: 0px;">
+        </div> <!--spills by pathway graph-->
+        </div> <!--panel-primary-->
+        <strong><div id="path_text" style="width:100%;text-align:center; padding: 0px; background-color: #EBEDEF"></div></strong>
+    </div> <!--col-sm-6-->
+
+    <div class="col-sm-6" style = "padding-top: 1px; padding-bottom: 1px; padding-left: 5px; margin-top: -10px;">
+    <div class="panel panel-primary" style = "padding-top: 1px; padding-bottom: 1px;">
+         <div class="panel-heading">
+              <h3 class="panel-title" style="text-align: center; font-size: 16px; padding-bottom: 1px">
+                  <stronger>Material Details</stronger></h3>
+            </div>
+            <div id="cloudWord" style="height: 320px; position: relative; padding: 0px; width: 100%;
+            ">
+        </div> <!--cloud-->
+        </div> 
+        <div id="details" style="width:100%; text-align:center; padding: 0px; margin-top: -20px; background-color: #EBEDEF; font-size: 18px;"></div>
+    </div> <!-- end primary panel-->
+
+    <div class="col-sm-12" style = "padding-top: 10px; padding-bottom: 1px; margin-top: 0px"> 
+     <div class="panel panel-primary" style = "padding-top: 1px; padding-bottom: 1px;">
+         <div class="panel-heading">
+              <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                  <stronger>Causal Mechanism</stronger></h3>
+            </div>
+            <div id="causeMech" style="height: 150px; position: relative; padding: 0px; width: 100%;
+            "></div> <!--causeMech-->
+        </div> 
+    </div> 
+ 
+    </div> <!--end div 2 columns-->
+   </div><!--end pathway tab-->
+   </div> <!--end my-tab-content div-->
+
+</div> <!--end col-sm-8 col-md--> 
+
+  </div> <!--end row div-->
+</div> <!--end fluid container-->
+
+<hr>
+
+
+<!-- page selection buttons -->
+<div class="row" style="padding-top: 10px">
+     <div class="col-md-6" style="text-align: center; padding-top: 0px;">
+<!--            <button type="button" id="btn1" class="btn btn-danger btn-lg">Pathway Analysis</button>-->
+            <br>
+                <p style="text-align: left; padding-left: 10px; font-size: 15px;"><em><span style="color: red;">Pathway Analysis</span></em> explores where releases occur at the well site<br><br>
+                <em><span style="color: darkorange;">FracFocus Data</span></em> shows the volumes of EPA regulated chemicals used for hydraulic fracturing.</p>    
+    </div>
+
+    <div class="col-md-3" style="text-align: center">
+        <button type="button" id="btn1" class="btn btn-danger btn-lg">Pathway Analysis</button>
+    </div>
+    
+   <!-- <div class="col-md-4" style="text-align: center">
+        <button type="button" id="btn2" class="btn btn-primary btn-lg">Materials Spilled</button>
+    </div>-->
+    
+    <div class="col-md-3" style="text-align: center">
+        <button type="button" id="btn3" class="btn btn-warning btn-lg">FracFocus Data</button>
+    </div>
+    <!--<div class="col-md-3" style="text-align: center">
+        <button type="button" id="btn4" class="btn btn-success btn-lg">More information</button>
+    </div>-->
+</div> <!-- End row div-->
+
+
+<script type="text/javascript">
+    document.getElementById("btn1").onclick = function () {
+        location.href = "http://people.duke.edu/~lap19/www/NCEAS/spills_nceas.html";
+    };
+
+   /*  document.getElementById("btn2").onclick = function () {
+        location.href = "http://people.duke.edu/~lap19/www/NCEAS/spills_materials.html";
+    };*/
+
+    document.getElementById("btn3").onclick = function () {
+        location.href = "http://people.duke.edu/~lap19/www/NCEAS/fracfocus.html";
+    };
+
+     /*document.getElementById("btn4").onclick = function () {
+        location.href = "http://people.duke.edu/~lap19/www/NCEAS/spills_nceas.html";
+    };*/
+</script>
+
+<br><br>
+<div class="row" style="background-color: #E5E7E9; padding-top: 10px;">
+    <div class="col-sm-9" id="internal_footer" style="color: black; font-size: 16px;">
+        <br><br><br>
+        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People (SNAP) partnership looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a></p>
+
+        
+</div> <!--internal footer div-->  
+
+<div class="col-sm-3" id="footer">
+    <a href = "https://nicholasinstitute.duke.edu"> <img src="../NCEAS/img/logo.jpg" style="width: 200px; height: 78px; display: inline-block"> </a> 
+    <br><br><br>
+     <a href = "http://www.nature.org"> <img src="../NCEAS/img/logo-nature.png" style="width: 200px; height: 80px; display: inline-block"> </a>
+</div> <!-- footer div-->
+
+
+
+
+		<script src="../NCEAS/scripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/AddOverlays.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/MapDataMaterials.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/materialtoFilter.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/CreatePathwayforMaterials.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/CausalMechanism.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/CreateMaterialWordCloud.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/CreateBoxplotMaterials.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/AnnualSpillRate.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/LifeYearSpillRates.js"></script>
+	</body>
+</html>

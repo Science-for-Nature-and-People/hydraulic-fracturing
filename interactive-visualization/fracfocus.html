@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+       <link rel="shortcut icon" href="../NCEAS/img/SNAPP.png">
+
+        <link rel="stylesheet" href="../NCEAS/css/cssStyle.css">
+        <link rel="stylesheet" href="../NCEAS/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../NCEAS/scripts/leaflet.css" />
+        
+                <script type="text/javascript" src="../NCEAS/scripts/d3.v3.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/wordcloud.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/d3.layout.cloud.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/gviz-api.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/geojson.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/leaflet.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/jquery.csv-0.71.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/gviz-api.js"></script>
+        <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+        
+        <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
+        <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
+        <script type="text/javascript" ,="" src="../NCEAS/scripts/dygraph-combined-dev.js"></script>
+
+<style type="text/css">
+            tab1 { padding-left: 2em; }
+
+            .legend .circle {
+              border-radius: 50%;
+              width: 10px;
+              height: 10px;
+              margin-top: 8px;
+            }
+</style>
+			
+		<title> NCEAS | Spills Data Visualization </title>
+
+<script type = "text/javascript">
+
+/*Set global variables*/
+var mapState = "Oklahoma";
+var mapYear = "All";
+var mapChemical = "water";
+</script>
+</head>
+
+<body>
+<div class="page-header" style="text-align: center">
+        <h1>Visualizing FracFocus Data</h1>
+</div>
+
+<div>
+     <p style="font-family: verdana; font-size: 15px;">The map below explores data from <a href="https://fracfocus.org/">Fracfocus</a> obtained in May 2015. Fracfocus contains information about how much water and what chemicals were used to hydraulically fracture a well. Here, we explore which wells were reported to have used chemicals that are on the Environmental Protection Agencies <a href="https://www.epa.gov/ccl/contaminant-candidate-list-2-ccl-2"> drinking water contaminant list </a> or <a href="https://www.epa.gov/ccl/chemical-contaminants-ccl-4"> candidate list</a>.</p>
+
+     <br><br>
+    
+     <p style="font-family: verdana; font-size: 15px;">The panel on the left contains three drop down menus: state, year, and chemical constiuent. Chemicals found on either EPA list and reported as being present in more than 5 wells are in the drop-down menu. Click on a point to get more information.  Click on the map overlay icon in the upper right corner of the map.
+  </p>
+</div> <!-- Introduction div-->
+
+<div class="container-fluid"> <!--panel to filter and map divs-->
+     <div class="row" style="padding-top: 0px">
+
+<!-- ###################################### START CONTROL PANEL  ############################ -->
+        <div class="col-sm-3" style="height: 540px; background-color: #E5E7E9">
+            <h4 style="text-align: center"><strong> Make a Selection: </strong></h4>
+                  
+
+        <form style="color: black">
+         <br>
+        <td><b>State: </b></td>
+        <td><select name="stateLayer" id="stateLayer" onchange="setState(this);">
+            <option value="All"> All States </option>
+            <option value="Alabama"> Alabama </option>      <option value="Alaska"> Alaska </option>
+            <option value="Arkansas"> Arkansas </option>    <option value="California"> California </option>
+            <option value="Colorado"> Colorado </option>    <option value="Kansas"> Kansas </option>
+            <option value="Louisiana"> Louisiana </option>  <option value="Michigan"> Michigan </option>
+            <option value="Mississippi"> Mississippi </option>
+            <option value="Montana"> Montana </option>
+            <option value="New Mexico"> New Mexico </option>
+            <option value="North Dakota"> North Dakota </option>
+            <option value="Ohio"> Ohio </option>            
+            <option selected = "selected" value="Oklahoma"> Oklahoma </option>
+            <option value="Pennsylvania"> Pennsylvania </option>            
+            <option value="Texas"> Texas </option>
+            <option value="Utah"> Utah </option>            <option value="Virginia"> Virginia </option>
+            <option value="West Virginia"> West Virginia </option> 
+            <option value="Wyoming"> Wyoming </option>
+        </select></td>  
+</form>
+
+    <br><br>
+
+<form style="color: black">
+         <br>
+        <td><b>Year Well was Completed: </b></td>
+        <td><select name="yearLayer" id="yearLayer" onchange="setYear(this);">
+            <option selected = "selected" value="All"> All Years </option>
+            <option value="2015"> 2015 </option>            <option value="2014"> 2014 </option>
+            <option value="2013"> 2013 </option>            <option value="2012"> 2012 </option>
+            <option value="2011"> 2011 </option>            <option value="2010"> 2010 </option>            
+        </select></td>  
+</form>
+
+ <br><br>
+
+
+ <form style="color: black">
+         <br>
+        <td><b>Chemical Constituent: </b></td>
+        <td><select name="constLayer" id="constLayer" onchange="setConstituent(this);">
+            <option selected = "selected" value="water"> Water </option>
+            <option value="Acrylamide"> Acrylamide </option>            
+            <option value="Benzene"> Benzene </option>
+            <option value="ChlorineDioxide"> Chlorine Dioxide </option>            
+            <option value="Epichlorohydrin"> Epichlorohydrin </option>
+            <option value="Ethylbenzene"> Ethylbenzene </option>
+            <option value="SodiumChlorite"> Sodium Chlorite </option>           
+            <option value="Toluene"> Toulene </option>
+            <option value="Xylenes"> Xylene </option>
+            <option value="12-PropyleneOxide"> 1,2-Propylene Oxide </option>
+            <option value="14-Dioxane"> 1,4-Dioxane </option>
+            <option value="1-Butonal"> 1-Butonal </option>
+            <option value="Acetaldehyde"> Acetaldehyde </option>
+            <option value="Aniline"> Aniline </option>
+            <option value="BenzylChloride"> Benzyl Chloride </option>
+            <option value="EthyleneGlycol"> Ethylene Glycol </option>
+            <option value="EthyleneOxide"> Ethylene Oxide </option>
+            <option value="Formaldehyde"> Formaldehyde </option>
+            <option value="Methanol"> Methanol </option>
+            <option value="N-Methyl-2-Pyrrolidone"> N-Methyl-2-Pyrrolidone </option>
+            <option value="Quinoline"> Quinoline </option>
+            <option value="Chloromethane"> Chloromethane </option>
+        </select></td>  
+</form>
+<br><br>
+<h4 align="center"><b>Map Legend</b></h4>
+
+<canvas id="LgdCanvas" height=170  style = "margin-left: -30px; "></canvas>
+    <script>
+    function drawlegend(mapChemical){
+        var lgdCanvas = document.getElementById('LgdCanvas');
+        var contextV = lgdCanvas.getContext('2d');
+        contextV.clearRect(0, 0, lgdCanvas.width, lgdCanvas.height);
+
+            contextV.font = '12pt Calibri' ;
+ 
+        if (mapChemical == "water"){
+        //Draw max volume
+        contextV.beginPath();
+            contextV.arc(80, 10, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#C0392B';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('>10 Mgal', 100, 14);
+
+         contextV.beginPath();
+            contextV.arc(80, 35, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#E67E22';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('7.1-10 Mgal', 100, 39);
+
+        contextV.beginPath();
+            contextV.arc(80, 60, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#F1C40F';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('4.1-7 Mgal', 100, 64);
+
+        contextV.beginPath();
+            contextV.arc(80, 80, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#48C9B0';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('2.1-4 Mgal', 100, 89);
+
+        contextV.beginPath();
+            contextV.arc(80, 110, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#3498DB';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('1.1-2 Mgal', 100, 114);
+
+        contextV.beginPath();
+            contextV.arc(80, 135, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#1A5276  ';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('0.1-1 Mgal', 100, 139);
+
+         contextV.beginPath();
+            contextV.arc(80, 160, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#ffffff';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+            contextV.fillStyle = '#000000';
+        contextV.fillText('<= 0.1 Mgal', 100, 164);
+    }// end if water
+
+ if (mapChemical != "water"){
+        //Draw max volume
+        contextV.beginPath();
+            contextV.arc(80, 10, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#C0392B';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('>5,000 gal', 100, 14);
+
+         contextV.beginPath();
+            contextV.arc(80, 35, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#E67E22';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('1,001-5,000 gal', 100, 39);
+
+        contextV.beginPath();
+            contextV.arc(80, 60, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#F1C40F';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('501-100 gal', 100, 64);
+
+        contextV.beginPath();
+            contextV.arc(80, 85, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#48C9B0';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('101-500 gal', 100, 89);
+
+        contextV.beginPath();
+            contextV.arc(80, 110, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#3498DB';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('51-101 gal', 100, 114);
+
+         contextV.beginPath();
+            contextV.arc(80, 135, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#1A5276  ';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+        contextV.fillText('11-51 gal', 100, 139);
+
+         contextV.beginPath();
+            contextV.arc(80, 160, 5, 0, 2*Math.PI, false)
+            contextV.fillStyle = '#ffffff';
+            contextV.fill();
+            contextV.strokeStyle="black";
+            contextV.stroke();
+            contextV.fillStyle = '#000000';
+        contextV.fillText('<= 10 gal', 100, 164);
+ }// end if not water
+
+    }// end function
+    drawlegend(mapChemical)
+    </script>
+
+
+</div> <!--column of  for selecting spills data-->
+<!-- ###################################### END CONTROL PANEL  ############################ -->
+
+
+
+<!-- ###################################### MAP PANEL  ############################ -->
+<div id="map" class='custom-popup'>
+        <div class="col-sm-8 col-md-offset-1" id="map" style="height: 500px;">
+
+
+<script>
+var geojsonLayer = new L.FeatureGroup();
+var map = new L.map('map');
+
+//################################################################################################
+//                      FUNCTION TO GRAB SELECTION AND SEND TO MAP                             ??
+//Function to grab pathway
+function setState(target) {
+    mapState = document.getElementById('stateLayer').value; 
+    fracfocustoFilter(mapState, mapYear, mapChemical);
+    return mapState;
+} //end setPathway
+
+function setYear(target) {
+    mapYear = document.getElementById('yearLayer').value; 
+    fracfocustoFilter(mapState, mapYear, mapChemical);
+    return mapYear;
+} //end setPathway
+
+//Function to grab pathway
+function setConstituent(target) {
+    mapChemical = document.getElementById('constLayer').value; //getElementById did not work, but Name does work
+    fracfocustoFilter(mapState, mapYear, mapChemical);
+    drawlegend(mapChemical);
+    return mapChemical;
+} //end setSpillYear
+//################################################################################################
+</script>
+
+
+<!-- ###################################### START MAP  ############################ -->
+<script type="text/javascript">
+
+function drawMap(){
+L.mapbox.accessToken = 'pk.eyJ1IjoibHBhdHRlcnNvbiIsImEiOiJjaWtrNWtrcDUwYTdrdHlqNzUxdGJzdm1mIn0.aDMjBGdT4DfUM5NdoALxLg';
+
+// Replace 'mapbox.streets' with your map id.
+var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
+    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
+});
+
+  map.addLayer(mapboxTiles)
+    .setView([39.5, -98.4], 4); //center of US
+
+function getColor(d) {
+            return d > 10 ? '#C0392B' :
+                   d > 7  ? '#E67E22' :
+                   d > 4  ? '#F1C40F' :
+                   d > 2   ? '#48C9B0' :
+                   d > 1   ? '#3498DB' :
+                   d > 0 ? '#B3B6B7' :
+                   '#ffffff' ;
+        } //getColor
+
+//load in spills data
+function style(feature) {
+            return {
+                weight: 1,
+                radius: 3,
+                color: 'black',
+                fillOpacity: 0.5,
+                fillColor: getColor(feature.properties.Mgal)
+            };
+        }//end style
+
+
+//var cospills = new L.LayerGroup();
+var counter = 0;
+var ffdata = $.getJSON("../NCEAS/data/fracfocus/"+mapState+"water.json");
+ffdata.then(function(data) {
+    var ffdata = L.geoJson(data, {
+        style: style,
+        pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng);
+        },//end pointtoLayer
+     onEachFeature: function(feature,layer){
+                layer.bindPopup ("Year: " +feature.properties.endyear +
+                    "<br>"+"Volume: "+ feature.properties.Mgal + " Mgal")
+                counter++;
+                }//end onEachFeature
+    });//end var geoJson
+    geojsonLayer.addLayer(ffdata);
+    
+    map.addLayer(geojsonLayer);
+
+
+//Legend
+/*var legend = L.control({position: 'bottomright'});
+    legend.onAdd = function (map) {
+    var div = L.DomUtil.create('div', 'info legend');
+    categories = ['>10 Mgal','8-10 Mgal','5-8 Mgal','2-5 Mgal','1-5 Mgal', '0-1 Mgal']
+    for (var i = 0; i < categories.length; i++) {
+        div.innerHTML +=
+            '<i style="background:' + getColor(categories[i]) + '"></i> ' +
+             (categories[i] ? categories[i] + '<br>' : '+');
+    }
+    return div;
+} // end legend
+*/
+//console.log(counter);
+//mapComment(counter);
+addOverlays(map);
+});//end .getJSON
+
+} //end draw map
+drawMap();
+
+
+ </script>
+
+        </div> <!--Map-->
+    </div><!--custom popups div-->
+<!-- ###################################### END MAP  ############################ -->
+<div class="col-sm-9 col-md" id="commentSelect" style="font-size: 22px; padding: 1px;"> <!--border: 2px solid black"-->
+</div> <!--end row-->
+
+  </div> <!--end row div-->
+</div> <!--end fluid container-->
+
+<hr>
+
+ <h3 style="padding-top:0px;"><b>Methods: <span style="color: #D35400;">Calculating Chemical Volumes</b></span></h3>
+
+<div class="col-md-12">
+    <p style="font-family: verdana; font-size: 15px;"> Fracfocus data were cleaned by removing wells missing data, reporting 0 gallons, or reporting more than 30 million gallons of water used to fracture a well. Chemical CAS number and names were cleaned and standardized to correct for spelling errors and chemical naming inconsistencies. 
+    <br><br>
+    The volume of the chemical is approximated based on FracFocus data: </p>
+
+    <p style="text-align: center; font-family: verdana; font-size: 15px;"><b> Chemical Volume = PercentofJob * (PercentofJob)/(PercentofJobNotProppant) * Total Water Base</b><br></p>
+
+    <p style="font-family: verdana; font-size: 15px;">We assume a chemical density of close to one, which may not be accurate. Zero gallons indicate the chemical was listed as present, but by this method, or via reporting (e.g. 0% of the job) the volume of the chemical used was less than 1 gallon.</p>
+<hr>
+</div>
+
+
+<!-- page selection buttons -->
+<div class="row" style="padding-top: 10px">
+         <div class="col-md-6" style="text-align: center; padding-top: 0px;">
+            <br>
+                <p style="text-align: left; padding-left: 10px; font-size: 15px;"><em><span style="color: darkred;">Pathway Analysis</span></em> uses states' spill data to explore where releases occur at the well site<br><br>
+                <em><span style="color: darkblue;">Materials Spilled</span></em> uses states' spill data to explore what is spilled and whether the spill impacted water.</p>    
+    </div>
+
+	<div class="col-md-3" style="text-align: center; padding-top: 40px;">
+		<button type="button" id="btn1" class="btn btn-danger btn-lg">Pathway Analysis</button>
+	</div>
+    <div class="col-md-3" style="text-align: center; padding-top: 40px;">
+    	<button type="button" id="btn2" class="btn btn-primary btn-lg">Materials Spilled</button>
+    </div>
+    <!--<div class="col-md-4" style="text-align: center">
+    	<button type="button" id="btn3" class="btn btn-warning btn-lg">FracFocus Data</button>
+    </div>-->
+    <!--<div class="col-md-3" style="text-align: center">
+    	<button type="button" id="btn4" class="btn btn-success btn-lg">More information</button>
+    </div>-->
+</div> <!-- End row div-->
+
+
+<script type="text/javascript">
+    document.getElementById("btn1").onclick = function () {
+        location.href = "http://people.duke.edu/~lap19/www/NCEAS/spills_nceas.html";
+    };
+
+     document.getElementById("btn2").onclick = function () {
+        location.href = "http://people.duke.edu/~lap19/www/NCEAS/spills_materials.html";
+    };
+
+  /*  document.getElementById("btn3").onclick = function () {
+        location.href = "http://people.duke.edu/~lap19/www/NCEAS/fracfocus.html";
+    };*/
+
+     /*document.getElementById("btn4").onclick = function () {
+        location.href = "http://people.duke.edu/~lap19/www/NCEAS/spills_nceas.html";
+    };*/
+</script>
+
+<br><br>
+<div class="row" style="background-color: #E5E7E9; padding-top: 10px;">
+    <div class="col-sm-9" id="internal_footer" style="color: black; font-size: 16px;">
+        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People (SNAP) partnership looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a>
+
+        <br><br>
+
+        There is no paper with this tool. Please contact <a href="mailto:lap19@duke.edu">Lauren Patterson</a> for additional information or if there are other chemicals you would like added to the list.</p>
+
+        
+</div> <!--internal footer div-->  
+
+<div class="col-sm-3" id="footer">
+    <a href = "https://nicholasinstitute.duke.edu"> <img src="../NCEAS/img/logo.jpg" style="width: 200px; height: 78px; display: inline-block"> </a> 
+    <br><br><br>
+     <a href = "http://www.nature.org"> <img src="../NCEAS/img/logo-nature.png" style="width: 200px; height: 80px; display: inline-block"> </a>
+</div> <!-- footer div-->
+
+		<script src="../NCEAS/scripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/AddOverlays.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/fracfocustoFilter.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/MapDataFracFocus.js"></script>
+      
+	</body>
+</html>

@@ -1,0 +1,74 @@
+div{
+  margin-left: auto;
+  margin-right: auto; /*these center divs*/
+  padding: 10px;
+  /*border: 2px solid black;*/
+  border-radius: 10px;
+}
+
+ul{
+   padding-left:50px;
+   text-indent:2px;
+    list-style: none;
+   list-style-position:outside; 
+  
+}
+
+li.check:before {
+    content: '✔';   
+    margin-left: -1em; margin-right: .100em;
+    }
+
+li{
+    font-family: verdana; 
+    font-size: 16px;
+}
+
+
+ canvas #circle {
+      display: inline-block;
+      margin: 1em;
+    } 
+
+
+
+/* Map Popup Style */
+.custom-popup .leaflet-popup-content-wrapper {
+  background:#2c3e50;
+  color:#fff;
+  font-size:14px;
+  line-height:18px;
+  border-radius: 8px;
+  opacity: 0.8;
+  }
+.custom-popup .leaflet-popup-content-wrapper a {
+  color:rgba(255,255,255,0.5);
+  }
+.custom-popup .leaflet-popup-tip-container {
+  width:30px;
+  height:15px;
+  }
+.custom-popup .leaflet-popup-tip {
+  border-left:15px solid transparent;
+  border-right:15px solid transparent;
+  border-top:15px solid #2c3e50;
+  }
+
+
+#chart_legend{
+     width: 50px;
+     opacity: 0.7;
+     z-index: 10;
+ }
+
+
+/* donut text*/
+.arc text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
+
+.arc path {
+  stroke: #fff;
+}
+
