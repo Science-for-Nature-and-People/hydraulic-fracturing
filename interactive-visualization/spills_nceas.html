@@ -66,25 +66,34 @@ var filterData;
 </head>
 
 <body>
-<div class="page-header" style="text-align: left">
+<div class="page-header" style="text-align: left; padding-top: 0px; margin-top: 0px;">
+    <div class="col-sm-9">
         <h2>Visualizing Spills Data from Unconventional Oil and Gas Activity</h2>
+    </div>
+    <div class="col-sm-3">
+        <br>
+        <a href = "http://snappartnership.net/"> <img src="../NCEAS/img/Snapp-Acronym-Color.png" style="width: 200px; height: 60px; display: inline-block"> </a>
+    </div>
 </div>
 
 <div class="col-sm-10 col-md-offset-1" >
-     <p style="font-family: verdana; font-size: 15px;">The dashboard supplements a paper, <span style="background-color: yellow;"><b>Unconventional Oil and Gas Spills: Risks, Mitigation Priorities and State Reporting Requirements</b>, published in the Journal XXX.</span> The study quantifies the spill rates and volumes that occurred through different pathways &#8212 such as tanks and flowlines.
-    <br><br>
-    Select spills based on attributes in the left panel. The map and charts work in tandem based on your selection. Click on the tab of interest to see where spills occurred and explore rates, volumes, and pathways.</p> 
-<hr><br>
+     <p style="font-family: verdana; font-size: 15px;">The dashboard displays spills data from unconventional oil and gas wells located in four states. Users are able to filter spills based on selectins in the left panel. The map and charts in the panel to the right update with the selection. Click on the tab of interest to see where spills occurred and explore rates, volumes, and pathways. Pathways refer to where the spill occurred &#8212 such as tanks and flowlines. The focus of this dashboard is to show how spill frequency, volume, and pathways vary with the age of the well and the underlying cause of the spill (human error, equipment failure or environmental conditions).
+
+     <br><br>
+
+     This work was made possible by an interdisciplinary <a href="http://snappartnership.net/groups/hydraulic-fracturing/">SNAPP working group </a> focused on hydraulic fracturing.</p> 
+      <hr>
 </div> <!-- Introduction div-->
 
-<div class="container-fluid"> <!--panel to filter and map divs-->
+<div class="container-fluid" style: "border: 0;"> <!--panel to filter and map divs-->
      <div class="row" style="padding-top: 0px">
 <!-- ###################################### START CONTROL PANEL  ############################ -->
-        <div class="col-sm-3" style="height: 850px; background-color: #E5E7E9">
+        <div class="col-sm-3" style="height: 850px; " >
+            <br><br><br><br>
+           <div class="container-fluid" style= "background-color: #E5E7E9;">
             <h4 style="text-align: center"><strong> Make a selection: </strong></h4>
-            <br>      
 
-        <form name = "state" style="color: black; padding-left: 5px">
+        <form name = "state" style="color: black; padding-left: 5px;">
             <td><b>State: </b></td>
             <br>
             <input name="stateList" id="stateList" onclick="setState(this.value)" value="All" type="radio" checked> All <br>
@@ -94,7 +103,7 @@ var filterData;
             <input name="stateList" id="stateList" onclick="setState(this.value)" value="pa" type="radio"> Pennsylvania <br>
         </form>
 
-        <br><br>
+        <br>
 
         <form style="color: black">
          <br>
@@ -114,7 +123,7 @@ var filterData;
         </select></td>  
 </form>
 
-    <br><br>
+    <br>
 
  <form style="color: black">
          <br>
@@ -129,7 +138,7 @@ var filterData;
         </select></td>  
 </form>
 
-<br><br>
+<br>
 
  <form style="color: black">
          <br>
@@ -149,7 +158,7 @@ var filterData;
         </select></td>  
 </form>
 
-    <br><br>
+    <br>
 
  <form style="color: black">
          <br>
@@ -164,8 +173,7 @@ var filterData;
             <option value="25000"> more than 25,000 </option>
         </select></td>  
 </form>
-<br><br><br>
-
+<br>
 
  <form style="color: black">
          <br>
@@ -193,8 +201,7 @@ var filterData;
             </select></td>  
 </form>
 
-<br><br>
-
+<br>
  <form style="color: black">
          <br>
         <td><b>Causal Mechanism: </b></td>
@@ -206,6 +213,8 @@ var filterData;
             <option value="Unknown"> Unknown </option>            
             </select></td>  
 </form>
+<br>
+    </div> <!-- end Div container gray-->
 </div> <!--column of  for selecting spills data-->
 <!-- ###################################### END CONTROL PANEL  ############################ -->
 
@@ -298,7 +307,7 @@ $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
 <!-- ###################################### MAP PANEL  ############################ -->
     <div class="tab-pane active" id="mapdata">
          <div class="col-sm-12"> 
-            <p style="font-family: verdana; font-size: 15px; padding-top: -40px;"><span style="color: #3BB9FF;"><em>Map of spills</em></span> displays the location of unconventional oil and gas spills. Click on a spill for more information. Click on the map overlay icon in the upper right corner of the map.</p>
+            <p style="font-family: verdana; font-size: 15px; padding-top: -40px;"><span style="color: #3BB9FF;"><em>Map of spills</em></span> displays the location of unconventional oil and gas spills. Click on a spill for more information. Click on the map overlay icon in the upper right corner of the map to see all unconventional wells, shale plays and tight plays.</p>
          </div> 
     <div id="map" class='custom-popup' style="height: 550px;">
         <!-- ###################################### START MAP  ############################ -->
@@ -343,7 +352,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                   "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -551,12 +561,11 @@ drawMap();
 <br>
 <div class="row" style="background-color: #E5E7E9; padding-top: 10px;">
     <div class="col-sm-9" id="internal_footer" style="color: black; font-size: 16px;">
-        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People (SNAP) partnership looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a>
+        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People Partnership (SNAPP) looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a>
 
         <br><br>
 
-        <span style="background-color: yellow;"><b>Unconventional Oil and Gas Spills: Risks, Mitigation Priorities and State Reporting Requirements</b>, published in the Journal XXX.</span></p>
-        <p style="padding-left: 20px;"><b>Authors:</b><br>
+        <p style="padding-left: 20px;"><b>Participants with the spills project:</b><br>
             <ul>
                 <li> <a href="https://nicholasinstitute.duke.edu/people/lauren-patterson">Lauren Patterson</a>, 
                 <a href="http://hls.harvard.edu/faculty/directory/11376/Konschnik">Kate Konschnik</a>, 
@@ -567,8 +576,7 @@ drawMap();
                 <a href="http://www.beg.utexas.edu/personnel_ext.php?id=63"> Jean-Philippe Nicot,
                 <a href="http://www.nature.org/science-in-action/our-scientists/nature-conservancy-experts-conservation-lands-sharon-baruch-mordo.xml"> Sharon Baruch-Mordo,
                 <a href="https://uca.edu/biology/facultystaff/sally-entrekin-ph-d/"> Sally Entrekin</a>,
-                <a href="http://www.nature.org/science-in-action/leading-with-science/anne-trainor.xml"> Anne Trainor</a>,
-                <a href="http://www.colorado.edu/ceae/environmental/ryan/"> Joseph Ryan</a>, and
+                <a href="http://www.nature.org/science-in-action/leading-with-science/anne-trainor.xml"> Anne Trainor</a>, and
                 <a href="https://environment.yale.edu/profile/saiers/"> James Saiers</a>
             </ul>
         </p>

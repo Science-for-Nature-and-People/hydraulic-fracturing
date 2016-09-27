@@ -50,16 +50,24 @@ var mapChemical = "water";
 </head>
 
 <body>
-<div class="page-header" style="text-align: center">
-        <h1>Visualizing FracFocus Data</h1>
+<div class="page-header" style="text-align: left; padding-top: 0px; margin-top: 0px;">
+    <div class="col-sm-9">
+        <h2>Visualizing FracFocus Data</h2>
+    </div>
+    <div class="col-sm-3">
+        <br>
+        <a href = "http://snappartnership.net/"> <img src="../NCEAS/img/Snapp-Acronym-Color.png" style="width: 200px; height: 60px; display: inline-block"> </a>
+    </div>
 </div>
+
+
 
 <div>
      <p style="font-family: verdana; font-size: 15px;">The map below explores data from <a href="https://fracfocus.org/">Fracfocus</a> obtained in May 2015. Fracfocus contains information about how much water and what chemicals were used to hydraulically fracture a well. Here, we explore which wells were reported to have used chemicals that are on the Environmental Protection Agencies <a href="https://www.epa.gov/ccl/contaminant-candidate-list-2-ccl-2"> drinking water contaminant list </a> or <a href="https://www.epa.gov/ccl/chemical-contaminants-ccl-4"> candidate list</a>.</p>
 
      <br><br>
     
-     <p style="font-family: verdana; font-size: 15px;">The panel on the left contains three drop down menus: state, year, and chemical constiuent. Chemicals found on either EPA list and reported as being present in more than 5 wells are in the drop-down menu. Click on a point to get more information.  Click on the map overlay icon in the upper right corner of the map.
+     <p style="font-family: verdana; font-size: 15px;">The panel on the left contains three drop down menus: state, year, and chemical constiuent. Chemicals found on either EPA list and reported as being present in more than 5 wells are in the drop-down menu. Click on a point to get more information.  Click on the map overlay icon in the upper right corner of the map to see outlines of shale and tight plays.
   </p>
 </div> <!-- Introduction div-->
 
@@ -67,7 +75,7 @@ var mapChemical = "water";
      <div class="row" style="padding-top: 0px">
 
 <!-- ###################################### START CONTROL PANEL  ############################ -->
-        <div class="col-sm-3" style="height: 540px; background-color: #E5E7E9">
+        <div class="col-sm-3" style="height: 520px; background-color: #E5E7E9">
             <h4 style="text-align: center"><strong> Make a Selection: </strong></h4>
                   
 
@@ -94,7 +102,7 @@ var mapChemical = "water";
         </select></td>  
 </form>
 
-    <br><br>
+    <br>
 
 <form style="color: black">
          <br>
@@ -107,8 +115,7 @@ var mapChemical = "water";
         </select></td>  
 </form>
 
- <br><br>
-
+ <br>
 
  <form style="color: black">
          <br>
@@ -424,7 +431,7 @@ drawMap();
 <div class="row" style="padding-top: 10px">
          <div class="col-md-6" style="text-align: center; padding-top: 0px;">
             <br>
-                <p style="text-align: left; padding-left: 10px; font-size: 15px;"><em><span style="color: darkred;">Pathway Analysis</span></em> uses states' spill data to explore where releases occur at the well site<br><br>
+                <p style="text-align: left; padding-left: 10px; font-size: 15px;"><em><span style="color: darkred;">Pathway Analysis</span></em> uses states' spill data to explore where releases occur at the well site.<br><br>
                 <em><span style="color: darkblue;">Materials Spilled</span></em> uses states' spill data to explore what is spilled and whether the spill impacted water.</p>    
     </div>
 
@@ -464,13 +471,11 @@ drawMap();
 <br><br>
 <div class="row" style="background-color: #E5E7E9; padding-top: 10px;">
     <div class="col-sm-9" id="internal_footer" style="color: black; font-size: 16px;">
+        <br><br>
         <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People (SNAP) partnership looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a>
 
         <br><br>
-
-        There is no paper with this tool. Please contact <a href="mailto:lap19@duke.edu">Lauren Patterson</a> for additional information or if there are other chemicals you would like added to the list.</p>
-
-        
+       
 </div> <!--internal footer div-->  
 
 <div class="col-sm-3" id="footer">
@@ -480,7 +485,7 @@ drawMap();
 </div> <!-- footer div-->
 
 		<script src="../NCEAS/scripts/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/AddOverlays.js"></script>
+        <script type="text/javascript" src="../NCEAS/scripts/AddOverlaysFracFocus.js"></script>
         <script type="text/javascript" src="../NCEAS/scripts/fracfocustoFilter.js"></script>
         <script type="text/javascript" src="../NCEAS/scripts/MapDataFracFocus.js"></script>
       

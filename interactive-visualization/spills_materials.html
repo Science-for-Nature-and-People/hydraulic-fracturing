@@ -55,14 +55,21 @@ var filterData;
 </head>
 
 <body>
-<div class="page-header">
-        <h1>Visualizing Spills Data from Unconventional Oil and Gas Activity</h1>
+<div class="page-header" style="text-align: left; padding-top: 0px; margin-top: 0px;">
+    <div class="col-sm-9">
+        <h2>Visualizing Spills Data from Unconventional Oil and Gas Activity</h2>
+    </div>
+    <div class="col-sm-3">
+        <br>
+        <a href = "http://snappartnership.net/"> <img src="../NCEAS/img/Snapp-Acronym-Color.png" style="width: 200px; height: 60px; display: inline-block"> </a>
+    </div>
 </div>
 
 <div class="col-sm-10 col-md-offset-1">
-     <p style="font-family: verdana; font-size: 15px;">The dashboard uses the same data as in the <a href="http://people.duke.edu/~lap19/www/NCEAS/spills_nceas.html"><span style="color: red;";>Pathway Analysis</span></a> tool, but focuses on the volume of spills based on the material spilled and whether the spill was reported to have impacted surface of groundwater. 
-        <br><br>
-    Select spills by attributes in the left panel. The map and charts work in tandem based on your selection. Click on the tab of interest to see where spills occurred and explore rates, volumes and pathways.</p> 
+     <p style="font-family: verdana; font-size: 15px;">The dashboard uses the same spills data as in the <a href="http://people.duke.edu/~lap19/www/NCEAS/spills_nceas.html"><span style="color: red;";>Pathway Analysis</span></a> tool, but focuses on displaying the volume of spills based on the material spilled and whether the spill was reported to have impacted surface of groundwater. Select spills by attributes in the left panel. The map and charts work in tandem based on your selection. Click on the tab of interest to see where spills occurred and explore how rates, volumes and pathways change based on the materials spilled.
+    <br><br>
+    
+     This work was made possible by an interdisciplinary <a href="http://snappartnership.net/groups/hydraulic-fracturing/">SNAPP working group </a> focused on hydraulic fracturing.</p> 
 <hr><br>
 </div> <!-- Introduction div-->
 
@@ -70,9 +77,11 @@ var filterData;
      <div class="row" style="padding-top: 0px">
 
 <!-- ###################################### START CONTROL PANEL  ############################ -->
-        <div class="col-sm-3" style="height: 830px; background-color: #E5E7E9">
+        <div class="col-sm-3" style="height: 830px;">
+                <br><br><br><br>
+           <div class="container-fluid" style= "background-color: #E5E7E9;">
             <h4 style="text-align: center"><strong> Make a Selection </strong></h4>
-            <br>      
+            
 
         <form name = "state" style="color: black; padding-left: 5px">
             <td><b>State: </b></td>
@@ -83,8 +92,7 @@ var filterData;
             <input name="stateList" id="stateList" onclick="setState(this.value)" value="nd"  type="radio"> North Dakota <br>
             <input name="stateList" id="stateList" onclick="setState(this.value)" value="pa" type="radio"> Pennsylvania <br>
         </form>
-
-<br><br>
+<br>
 
  <form style="color: black">
          <br>
@@ -99,7 +107,7 @@ var filterData;
             <option value="25000"> more than 25,000 </option>
         </select></td>  
 </form>
-<br><br>
+<br>
 
  <form style="color: black">
          <br>
@@ -119,8 +127,7 @@ var filterData;
             <option value="Unknown"> Unknown </option>
             </select></td>  
 </form>
-
-<br><br>
+<br>
 
  <form style="color: black">
          <br>
@@ -132,8 +139,7 @@ var filterData;
             <option value="Unknown"> Unknown </option>            
             </select></td>  
 </form>
-
-<br><br>
+<br>
 
  <form style="color: black">
          <br>
@@ -145,6 +151,8 @@ var filterData;
             <option value="Unknown"> Unknown </option>            
             </select></td>  
 </form>
+<br><br>
+    </div>
 </div> <!--column of  for selecting spills data-->
 <!-- ###################################### END CONTROL PANEL  ############################ -->
 
@@ -217,7 +225,7 @@ $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
 <!-- ###################################### MAP PANEL  ############################ -->
     <div class="tab-pane active" id="mapdata">
          <div class="col-sm-12"> 
-            <p style="font-family: verdana; font-size: 15px; padding-top: -40px;"><span style="color: #3BB9FF;"><em>Map of spills</em></span> displays the location of unconventional oil and gas spills. Click on a spill for more information. Click on the map overlay icon in the upper right corner of the map.</p>
+            <p style="font-family: verdana; font-size: 15px; padding-top: -40px;"><span style="color: #3BB9FF;"><em>Map of spills</em></span> displays the location of unconventional oil and gas spills. Click on a spill for more information. Click on the map overlay icon in the upper right corner of the map to see all unconventional wells, shale plays and tight plays.</p>
          </div> 
     <div id="map" class='custom-popup' style="height: 550px;">        
         <!-- ###################################### START MAP  ############################ -->
@@ -255,13 +263,14 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-               layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+               layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Material: "+ feature.properties.material +
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
                     "<br>"+"Pathway: "+ feature.properties.pathway +
                     "<br>"+"Contained: "+ feature.properties.contained +
                     "<br>"+"Water Impact: "+ feature.properties.waterimpact)
-                counter++
+                counter++;
                 }//end onEachFeature
     });//end var geoJson
     geojsonLayer.addLayer(coSpills);
@@ -420,7 +429,7 @@ drawMap();
      <div class="col-md-6" style="text-align: center; padding-top: 0px;">
 <!--            <button type="button" id="btn1" class="btn btn-danger btn-lg">Pathway Analysis</button>-->
             <br>
-                <p style="text-align: left; padding-left: 10px; font-size: 15px;"><em><span style="color: red;">Pathway Analysis</span></em> explores where releases occur at the well site<br><br>
+                <p style="text-align: left; padding-left: 10px; font-size: 15px;"><em><span style="color: red;">Pathway Analysis</span></em> explores where releases occur at the well site.<br><br>
                 <em><span style="color: darkorange;">FracFocus Data</span></em> shows the volumes of EPA regulated chemicals used for hydraulic fracturing.</p>    
     </div>
 
@@ -462,9 +471,25 @@ drawMap();
 <br><br>
 <div class="row" style="background-color: #E5E7E9; padding-top: 10px;">
     <div class="col-sm-9" id="internal_footer" style="color: black; font-size: 16px;">
-        <br><br><br>
-        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People (SNAP) partnership looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a></p>
+        <br>
+        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People Partnership (SNAPP) looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a></p>
+        <br>
 
+        <p style="padding-left: 20px;"><b>Participants with the spills project:</b><br>
+            <ul>
+                <li> <a href="https://nicholasinstitute.duke.edu/people/lauren-patterson">Lauren Patterson</a>, 
+                <a href="http://hls.harvard.edu/faculty/directory/11376/Konschnik">Kate Konschnik</a>, 
+                <a href="http://www.law.fsu.edu/our-faculty/profiles/hwiseman">Hannah Wiseman, </a>
+                <a href="http://www.nature.org/science-in-action/our-scientists/our-scientists-joe-fargione.xml">Joe Fargione</a>, 
+                <a href="http://www.lsc.usgs.gov/?q=narb-kelly-maloney">Kelly Maloney</a>,
+                <a href="http://www.nature.org/newsfeatures/pressreleases/media/nature-conservancy-experts-conservation-lands-joe-kiesecker.xml">Joe Kiesecker</a>,
+                <a href="http://www.beg.utexas.edu/personnel_ext.php?id=63"> Jean-Philippe Nicot,
+                <a href="http://www.nature.org/science-in-action/our-scientists/nature-conservancy-experts-conservation-lands-sharon-baruch-mordo.xml"> Sharon Baruch-Mordo,
+                <a href="https://uca.edu/biology/facultystaff/sally-entrekin-ph-d/"> Sally Entrekin</a>,
+                <a href="http://www.nature.org/science-in-action/leading-with-science/anne-trainor.xml"> Anne Trainor</a>, and
+                <a href="https://environment.yale.edu/profile/saiers/"> James Saiers</a>
+            </ul>
+        </p>
         
 </div> <!--internal footer div-->  
 
