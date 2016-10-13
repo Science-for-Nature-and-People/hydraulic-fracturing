@@ -22,7 +22,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -65,7 +66,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -108,7 +110,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -152,7 +155,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -197,7 +201,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -239,7 +244,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -281,7 +287,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -323,7 +330,7 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -367,7 +374,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -410,7 +418,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -453,7 +462,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -498,7 +508,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -542,7 +553,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -585,7 +597,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -629,7 +642,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -673,7 +687,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -717,7 +732,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -760,7 +776,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -803,7 +820,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -847,7 +865,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -890,7 +909,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -933,7 +953,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -976,7 +997,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1021,7 +1043,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1065,7 +1088,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1108,7 +1132,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1152,7 +1177,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1197,7 +1223,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1241,7 +1268,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1285,7 +1313,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1329,7 +1358,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1373,7 +1403,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1415,7 +1446,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1458,7 +1490,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1500,7 +1533,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1543,7 +1577,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1585,7 +1620,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1627,7 +1663,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1670,7 +1707,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1713,7 +1751,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1755,7 +1794,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1799,7 +1839,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1843,7 +1884,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1886,7 +1928,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1929,7 +1972,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -1973,7 +2017,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2017,7 +2062,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2062,7 +2108,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2104,7 +2151,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2147,7 +2195,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2190,7 +2239,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2233,7 +2283,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number + 
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2276,7 +2327,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2319,7 +2371,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2362,7 +2415,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2406,7 +2460,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2450,7 +2505,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2493,7 +2549,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2537,7 +2594,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2582,7 +2640,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2624,7 +2683,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2667,7 +2727,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2712,7 +2773,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
@@ -2756,7 +2818,8 @@ cospills.then(function(data) {
         return L.circleMarker(latlng, spillStyle);
         },//end pointtoLayer
      onEachFeature: function(feature,layer){
-                layer.bindPopup ("API: " +feature.properties.api_number +" : "+feature.properties.direction +
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                    "<br>"+"Wellbore: "+feature.properties.direction +
                     "<br>"+"Spill Year: "+ feature.properties.year +
                     "<br>"+"Spud Year: "+ feature.properties.spudyr + 
                     "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
