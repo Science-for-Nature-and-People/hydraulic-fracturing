@@ -1,5 +1,5 @@
 function createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause) {
-d3.csv("/~lap19/www/NCEAS/data/" + mapState + "_spills_final_dataviz.csv", function (spillsData) {
+d3.csv("../NCEAS/data/" + mapState + "_spills_final_dataviz.csv", function (spillsData) {
 
 // If Spud Year is All
 if (mapSpudYr=="All"){

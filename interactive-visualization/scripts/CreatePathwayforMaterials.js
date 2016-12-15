@@ -1,5 +1,5 @@
 function createPathwayforMaterials(mapState, mapMaterial, mapVolume, mapContain, mapWater) {
-d3.csv("/~lap19/www/NCEAS/data/" + mapState + "_spills_final_dataviz.csv", function (spillsData) {
+d3.csv("../NCEAS/data/" + mapState + "_spills_final_dataviz.csv", function (spillsData) {
 
 // If Materials is All
 if (mapMaterial =="All") {

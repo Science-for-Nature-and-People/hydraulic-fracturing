@@ -1,8 +1,8 @@
-//Load Data and get correct########################################################
+//.Load Data and get correct########################################################
 function createLifeYearRate() {
 g2 = new Dygraph(
     document.getElementById("lifeyearrate"),
-    "/~lap19/www/NCEAS/data/lifeyearrates.csv",
+    "../NCEAS/data/lifeyearrates.csv",
    
     //options
     {

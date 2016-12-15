@@ -23,7 +23,7 @@ var spillYear2 = Object.keys(countSpillyr).map(function(k) {
 });
 //console.log(spillYear2)
 
-d3.csv("/~lap19/www/NCEAS/data/annualwells.csv", function (wellsData){
+d3.csv("../NCEAS/data/annualwells.csv", function (wellsData){
    var wellDataMap = wellsData.filter(function(d, i){
 // filter dates
       if (d["State"] == mapState) { return d; }

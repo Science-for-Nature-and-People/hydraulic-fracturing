@@ -7,14 +7,14 @@ function drawChart(subbasinSelect){
 	
 
 //read in csv and subset
-//d3.csv("/~lap19/www/LCA/data/",+subbasinSelect+".csv", function(data) {
+//d3.csv("../LCA/data/",+subbasinSelect+".csv", function(data) {
 	//var filter = data.filter(function(row) { return row["SubBasin"] == subbasinSelect;	}); // end filter
 
 //});
 //http://blog.dygraphs.com/2012/04/how-to-download-and-parse-data-for.html
 
 g2 = new Dygraph(
-	document.getElementById("chart"), "/~lap19/www/LCA/data/"+subbasinSelect+".csv", 
+	document.getElementById("chart"), "../LCA/data/"+subbasinSelect+".csv", 
 	//options
 	{
 		ylabel: 'Water Consumed (Mgal)',
