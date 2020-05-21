@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 1624, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.71985079575008, 35.619682623780101 ] } },
+{ "type": "Feature", "id": 1625, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.71485062963301, 35.613293761110143 ] } },
+{ "type": "Feature", "id": 1627, "properties": { "state": "California", "endyear": 2014.000000, "casvol": 1231.000000 }, "geometry": { "type": "Point", "coordinates": [ -98.254001966882953, 28.690885962824812 ] } },
+{ "type": "Feature", "id": 1629, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 374.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.34518005206864, 35.629569145569718 ] } },
+{ "type": "Feature", "id": 1630, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 339.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.3349955580638, 35.631096393591477 ] } },
+{ "type": "Feature", "id": 1631, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 527.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.26599259105714, 35.525377779722128 ] } },
+{ "type": "Feature", "id": 1633, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 500.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.335025558943, 35.630996395548841 ] } },
+{ "type": "Feature", "id": 1634, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 554.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.28355330405618, 35.539557641228143 ] } },
+{ "type": "Feature", "id": 1676, "properties": { "state": "California", "endyear": 2014.000000, "casvol": 165.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.35928293129184, 35.638402118777272 ] } },
+{ "type": "Feature", "id": 1677, "properties": { "state": "California", "endyear": 2014.000000, "casvol": 842.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.149553372586169, 29.538967553847723 ] } },
+{ "type": "Feature", "id": 1680, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 18207.000000 }, "geometry": { "type": "Point", "coordinates": [ -118.88176712781497, 34.474303111613864 ] } },
+{ "type": "Feature", "id": 36154, "properties": { "state": "California", "endyear": 2014.000000, "casvol": 2240.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.672521, 35.543882 ] } },
+{ "type": "Feature", "id": 36318, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 15.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.582346, 35.324306 ] } },
+{ "type": "Feature", "id": 36319, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 13.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.561476, 35.317589 ] } },
+{ "type": "Feature", "id": 36323, "properties": { "state": "California", "endyear": 2013.000000, "casvol": 181.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.561579, 35.316757 ] } },
+{ "type": "Feature", "id": 36328, "properties": { "state": "California", "endyear": 2014.000000, "casvol": 24.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.5841542, 35.3225997 ] } },
+{ "type": "Feature", "id": 36333, "properties": { "state": "California", "endyear": 2014.000000, "casvol": 110.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.339438, 35.622289 ] } },
+{ "type": "Feature", "id": 36334, "properties": { "state": "California", "endyear": 2014.000000, "casvol": 163.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.3593671, 35.63840124 ] } },
+{ "type": "Feature", "id": 36387, "properties": { "state": "California", "endyear": 2014.000000, "casvol": 2012.000000 }, "geometry": { "type": "Point", "coordinates": [ -119.669505, 35.532291 ] } }
+]
+}

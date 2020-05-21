@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 3190, "properties": { "state": "Louisiana", "endyear": 2015.000000, "casvol": 54.000000 }, "geometry": { "type": "Point", "coordinates": [ -93.574031664715235, 32.23289634402137 ] } },
+{ "type": "Feature", "id": 3195, "properties": { "state": "Louisiana", "endyear": 2015.000000, "casvol": 314.000000 }, "geometry": { "type": "Point", "coordinates": [ -93.529011394227467, 32.166561415176332 ] } },
+{ "type": "Feature", "id": 3198, "properties": { "state": "Louisiana", "endyear": 2015.000000, "casvol": 251.000000 }, "geometry": { "type": "Point", "coordinates": [ -93.529141396972221, 32.166559415897275 ] } },
+{ "type": "Feature", "id": 3199, "properties": { "state": "Louisiana", "endyear": 2015.000000, "casvol": 321.000000 }, "geometry": { "type": "Point", "coordinates": [ -93.529206398344598, 32.166558416257736 ] } },
+{ "type": "Feature", "id": 3200, "properties": { "state": "Louisiana", "endyear": 2015.000000, "casvol": 1838.000000 }, "geometry": { "type": "Point", "coordinates": [ -93.618780667874887, 31.815362829755738 ] } },
+{ "type": "Feature", "id": 3201, "properties": { "state": "Louisiana", "endyear": 2015.000000, "casvol": 1854.000000 }, "geometry": { "type": "Point", "coordinates": [ -93.61878166802758, 31.815307831142878 ] } },
+{ "type": "Feature", "id": 3202, "properties": { "state": "Louisiana", "endyear": 2015.000000, "casvol": 937.000000 }, "geometry": { "type": "Point", "coordinates": [ -93.618780667751082, 31.815417828379889 ] } },
+{ "type": "Feature", "id": 3293, "properties": { "state": "Louisiana", "endyear": 2015.000000, "casvol": 76.000000 }, "geometry": { "type": "Point", "coordinates": [ -93.856767677425665, 32.106274720104992 ] } }
+]
+}

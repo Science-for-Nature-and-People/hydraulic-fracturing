@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 3315, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 41692.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.763636215546228, 31.191025352195783 ] } },
+{ "type": "Feature", "id": 3316, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 47759.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.806731898797167, 31.000964297198276 ] } },
+{ "type": "Feature", "id": 3317, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 216.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.646708699304781, 31.102991117464423 ] } },
+{ "type": "Feature", "id": 3318, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 477.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.83014260606781, 31.06595312998255 ] } },
+{ "type": "Feature", "id": 3319, "properties": { "state": "Mississippi", "endyear": 2013.000000, "casvol": 1603.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.49022259751095, 31.075730677026133 ] } },
+{ "type": "Feature", "id": 3320, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 183.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.159808979593095, 31.19581878321674 ] } },
+{ "type": "Feature", "id": 3328, "properties": { "state": "Mississippi", "endyear": 2013.000000, "casvol": 37161.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.741371438181147, 31.131856387821173 ] } },
+{ "type": "Feature", "id": 3329, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 49157.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.559845923357386, 31.146969869410405 ] } },
+{ "type": "Feature", "id": 3330, "properties": { "state": "Mississippi", "endyear": 2013.000000, "casvol": 210.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.627350195963928, 31.085091738183515 ] } },
+{ "type": "Feature", "id": 3331, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 216.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.646708699304781, 31.102991117464423 ] } },
+{ "type": "Feature", "id": 3332, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 56769.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.136968412652323, 31.102735152928645 ] } },
+{ "type": "Feature", "id": 3333, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 54552.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.16252103731118, 31.124173506886002 ] } },
+{ "type": "Feature", "id": 3336, "properties": { "state": "Mississippi", "endyear": 2013.000000, "casvol": 1348.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.719505892898482, 31.065424002920111 ] } },
+{ "type": "Feature", "id": 3337, "properties": { "state": "Mississippi", "endyear": 2013.000000, "casvol": 1992.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.721396267190585, 31.0487377096646 ] } },
+{ "type": "Feature", "id": 3338, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 675.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.653368875053275, 31.021268206282329 ] } },
+{ "type": "Feature", "id": 3339, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 675.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.653368875053275, 31.021268206282329 ] } },
+{ "type": "Feature", "id": 3363, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 53532.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.646538700593709, 31.103331113410395 ] } },
+{ "type": "Feature", "id": 3366, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 280.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.234008801520972, 31.156473287274014 ] } },
+{ "type": "Feature", "id": 3370, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.791152453789948, 32.938327623161101 ] } },
+{ "type": "Feature", "id": 3377, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 8.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.197947911761801, 31.150203663638916 ] } },
+{ "type": "Feature", "id": 3381, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 140.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.211318242845337, 31.156263430371823 ] } },
+{ "type": "Feature", "id": 3382, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 72.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.278106566626406, 31.02220714664664 ] } }
+]
+}

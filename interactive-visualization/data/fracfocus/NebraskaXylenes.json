@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 40528, "properties": { "state": "Nebraska", "endyear": 2014.000000, "casvol": 100.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.559376, 41.22243 ] } },
+{ "type": "Feature", "id": 40529, "properties": { "state": "Nebraska", "endyear": 2015.000000, "casvol": 212.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.559376, 41.22243 ] } }
+]
+}

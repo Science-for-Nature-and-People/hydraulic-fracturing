@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 2585, "properties": { "state": "Kansas", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.966266294934769, 37.080482374188747 ] } },
+{ "type": "Feature", "id": 2586, "properties": { "state": "Kansas", "endyear": 2013.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -98.008863442054462, 37.095066252298359 ] } },
+{ "type": "Feature", "id": 2594, "properties": { "state": "Kansas", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -99.447135700159123, 37.344622831608007 ] } },
+{ "type": "Feature", "id": 2597, "properties": { "state": "Kansas", "endyear": 2013.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.767557900116941, 37.067958743756421 ] } }
+]
+}

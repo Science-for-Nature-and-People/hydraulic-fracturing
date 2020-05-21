@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 36128, "properties": { "state": "Alaska", "endyear": 2015.000000, "casvol": 259.000000 }, "geometry": { "type": "Point", "coordinates": [ -150.24984482245176, 70.495505762187662 ] } },
+{ "type": "Feature", "id": 36129, "properties": { "state": "Alaska", "endyear": 2015.000000, "casvol": 585.000000 }, "geometry": { "type": "Point", "coordinates": [ -150.14788105304245, 70.294195692108531 ] } },
+{ "type": "Feature", "id": 36133, "properties": { "state": "Alaska", "endyear": 2013.000000, "casvol": 156.000000 }, "geometry": { "type": "Point", "coordinates": [ -150.25000501017132, 70.495451054726431 ] } },
+{ "type": "Feature", "id": 36137, "properties": { "state": "Alaska", "endyear": 2014.000000, "casvol": 677.000000 }, "geometry": { "type": "Point", "coordinates": [ -150.24893289206025, 70.495815804622112 ] } },
+{ "type": "Feature", "id": 36138, "properties": { "state": "Alaska", "endyear": 2014.000000, "casvol": 626.000000 }, "geometry": { "type": "Point", "coordinates": [ -150.14770217256529, 70.294302001891822 ] } },
+{ "type": "Feature", "id": 36139, "properties": { "state": "Alaska", "endyear": 2014.000000, "casvol": 633.000000 }, "geometry": { "type": "Point", "coordinates": [ -150.14763316692532, 70.294280002377164 ] } },
+{ "type": "Feature", "id": 36146, "properties": { "state": "Alaska", "endyear": 2014.000000, "casvol": 645.000000 }, "geometry": { "type": "Point", "coordinates": [ -150.14499010178056, 70.294159058627955 ] } },
+{ "type": "Feature", "id": 36152, "properties": { "state": "Alaska", "endyear": 2013.000000, "casvol": 174.000000 }, "geometry": { "type": "Point", "coordinates": [ -150.24909327972239, 70.495760907140891 ] } }
+]
+}

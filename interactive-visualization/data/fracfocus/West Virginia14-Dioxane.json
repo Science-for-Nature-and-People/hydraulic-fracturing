@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 34878, "properties": { "state": "West Virginia", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.560274828815039, 39.253568621610128 ] } },
+{ "type": "Feature", "id": 34903, "properties": { "state": "West Virginia", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.5601942264028, 39.253513024023931 ] } },
+{ "type": "Feature", "id": 34904, "properties": { "state": "West Virginia", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.5601952264293, 39.253514023988643 ] } },
+{ "type": "Feature", "id": 34909, "properties": { "state": "West Virginia", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.560222027262327, 39.253529723233996 ] } },
+{ "type": "Feature", "id": 34925, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.699976922694972, 39.317970509468793 ] } },
+{ "type": "Feature", "id": 34926, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.699904719764405, 39.317976110668482 ] } },
+{ "type": "Feature", "id": 34927, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.699940821229674, 39.317973310068638 ] } },
+{ "type": "Feature", "id": 34928, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.69997702269842, 39.317970609465313 ] } },
+{ "type": "Feature", "id": 34934, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.822911268305589, 39.254969267045404 ] } },
+{ "type": "Feature", "id": 34963, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.822877967592788, 39.254960967823266 ] } },
+{ "type": "Feature", "id": 34966, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.925344090015997, 39.327430005650008 ] } },
+{ "type": "Feature", "id": 34967, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.925308089189585, 39.327433006288096 ] } },
+{ "type": "Feature", "id": 34971, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.547032717743392, 39.254702241474412 ] } },
+{ "type": "Feature", "id": 34975, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.862236780907324, 39.277424039401843 ] } },
+{ "type": "Feature", "id": 34977, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.822844966893967, 39.254950168636931 ] } },
+{ "type": "Feature", "id": 34979, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.822808966123475, 39.2549411694783 ] } },
+{ "type": "Feature", "id": 34980, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.862306782450361, 39.277432037926872 ] } },
+{ "type": "Feature", "id": 34983, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.598664663833773, 39.247195451203019 ] } },
+{ "type": "Feature", "id": 34996, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.929982965379992, 39.180999783703598 ] } },
+{ "type": "Feature", "id": 35002, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.901165329056155, 39.195427010113086 ] } },
+{ "type": "Feature", "id": 35003, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.547001716378475, 39.254719241741782 ] } },
+{ "type": "Feature", "id": 35004, "properties": { "state": "West Virginia", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.92527208836924, 39.327433006975582 ] } },
+{ "type": "Feature", "id": 35224, "properties": { "state": "West Virginia", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.862200980122822, 39.27741814018615 ] } },
+{ "type": "Feature", "id": 35225, "properties": { "state": "West Virginia", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.862167679393167, 39.277412640915884 ] } }
+]
+}

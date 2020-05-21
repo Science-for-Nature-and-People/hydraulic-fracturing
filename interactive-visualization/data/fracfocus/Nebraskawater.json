@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 3503, "properties": { "state": "Nebraska", "endyear": 2014.000000, "Mgal": 0.604000 }, "geometry": { "type": "Point", "coordinates": [ -103.56024293016705, 41.222494671089414 ] } },
+{ "type": "Feature", "id": 40526, "properties": { "state": "Nebraska", "endyear": 2015.000000, "Mgal": 2.448000 }, "geometry": { "type": "Point", "coordinates": [ -103.110718, 41.176291 ] } },
+{ "type": "Feature", "id": 40527, "properties": { "state": "Nebraska", "endyear": 2013.000000, "Mgal": 0.008000 }, "geometry": { "type": "Point", "coordinates": [ -103.81995, 42.19473 ] } },
+{ "type": "Feature", "id": 40528, "properties": { "state": "Nebraska", "endyear": 2014.000000, "Mgal": 0.948000 }, "geometry": { "type": "Point", "coordinates": [ -103.559376, 41.22243 ] } },
+{ "type": "Feature", "id": 40529, "properties": { "state": "Nebraska", "endyear": 2015.000000, "Mgal": 1.968000 }, "geometry": { "type": "Point", "coordinates": [ -103.559376, 41.22243 ] } }
+]
+}

@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 11764, "properties": { "state": "Pennsylvania", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -75.689432409769367, 41.749978763218046 ] } },
+{ "type": "Feature", "id": 12248, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.004810084810842, 40.166490268896595 ] } },
+{ "type": "Feature", "id": 12249, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.004887087415383, 40.166523268387635 ] } },
+{ "type": "Feature", "id": 12250, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.004826085001156, 40.166607267148947 ] } },
+{ "type": "Feature", "id": 12251, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.004749082399954, 40.166573267672725 ] } },
+{ "type": "Feature", "id": 12252, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.004671079760172, 40.166540268181933 ] } },
+{ "type": "Feature", "id": 12272, "properties": { "state": "Pennsylvania", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -77.312593571097338, 41.86390263045363 ] } },
+{ "type": "Feature", "id": 12273, "properties": { "state": "Pennsylvania", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -77.312562569502347, 41.863866630754686 ] } },
+{ "type": "Feature", "id": 44850, "properties": { "state": "Pennsylvania", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.177778, 39.990625 ] } },
+{ "type": "Feature", "id": 44851, "properties": { "state": "Pennsylvania", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.17775, 39.990575 ] } },
+{ "type": "Feature", "id": 44852, "properties": { "state": "Pennsylvania", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.177719, 39.990525 ] } },
+{ "type": "Feature", "id": 44853, "properties": { "state": "Pennsylvania", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.177692, 39.990475 ] } },
+{ "type": "Feature", "id": 44854, "properties": { "state": "Pennsylvania", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.177664, 39.990633 ] } }
+]
+}

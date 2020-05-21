@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 35422, "properties": { "state": "Wyoming", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -105.0273450752632, 43.016139102991836 ] } },
+{ "type": "Feature", "id": 35423, "properties": { "state": "Wyoming", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -105.02719807009139, 43.016223103397543 ] } },
+{ "type": "Feature", "id": 35424, "properties": { "state": "Wyoming", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -105.26813459366002, 43.044326154230724 ] } },
+{ "type": "Feature", "id": 35425, "properties": { "state": "Wyoming", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -105.06635045745591, 43.002367045988393 ] } },
+{ "type": "Feature", "id": 35426, "properties": { "state": "Wyoming", "endyear": 2015.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -105.06630245579885, 43.002500046567874 ] } },
+{ "type": "Feature", "id": 50093, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -107.49463, 43.21467 ] } },
+{ "type": "Feature", "id": 50094, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.678903, 42.459578 ] } },
+{ "type": "Feature", "id": 50095, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.677963, 42.482979 ] } },
+{ "type": "Feature", "id": 50096, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.678851, 42.459278 ] } },
+{ "type": "Feature", "id": 50097, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.678877, 42.459428 ] } },
+{ "type": "Feature", "id": 50098, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.709289, 42.46163 ] } },
+{ "type": "Feature", "id": 50185, "properties": { "state": "Wyoming", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -105.365795, 43.76666 ] } },
+{ "type": "Feature", "id": 50253, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.660105, 42.478285 ] } },
+{ "type": "Feature", "id": 50255, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 7.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.660305, 42.478317 ] } },
+{ "type": "Feature", "id": 50256, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.71735, 42.453051 ] } },
+{ "type": "Feature", "id": 50260, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.677957, 42.48313 ] } },
+{ "type": "Feature", "id": 50261, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.660504, 42.478349 ] } },
+{ "type": "Feature", "id": 50262, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.659906, 42.478253 ] } },
+{ "type": "Feature", "id": 50264, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.71716, 42.453051 ] } },
+{ "type": "Feature", "id": 50558, "properties": { "state": "Wyoming", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -107.92487, 41.747757 ] } },
+{ "type": "Feature", "id": 50712, "properties": { "state": "Wyoming", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -106.835341, 44.673134 ] } }
+]
+}

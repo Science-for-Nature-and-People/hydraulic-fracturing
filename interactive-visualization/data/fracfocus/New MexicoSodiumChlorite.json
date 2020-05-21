@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 3553, "properties": { "state": "New Mexico", "endyear": 2013.000000, "casvol": 133.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.8497649533177, 32.644705692015087 ] } },
+{ "type": "Feature", "id": 3627, "properties": { "state": "New Mexico", "endyear": 2014.000000, "casvol": 70.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.73842408657062, 32.180534900883991 ] } },
+{ "type": "Feature", "id": 3994, "properties": { "state": "New Mexico", "endyear": 2014.000000, "casvol": 8.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.68651209060506, 32.166140310442664 ] } },
+{ "type": "Feature", "id": 3995, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 71.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.72732504591458, 32.152613855943379 ] } },
+{ "type": "Feature", "id": 3996, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 63.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.72716384123152, 32.152613856189028 ] } },
+{ "type": "Feature", "id": 4005, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 317.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.77206775891307, 32.439605215724363 ] } },
+{ "type": "Feature", "id": 4006, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 98.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.54753883031064, 32.269396466928214 ] } },
+{ "type": "Feature", "id": 4008, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 37.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.83351877880158, 32.637690896518158 ] } },
+{ "type": "Feature", "id": 4009, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 76.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.88534529018079, 32.639917001966666 ] } },
+{ "type": "Feature", "id": 4010, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 64.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.4819782646166, 32.4707151709949 ] } },
+{ "type": "Feature", "id": 4011, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 76.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.88331122925034, 32.627877722470487 ] } },
+{ "type": "Feature", "id": 4013, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 174.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.54730102050733, 32.269265567861744 ] } },
+{ "type": "Feature", "id": 4014, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 104.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.53944872358363, 32.268962891384831 ] } },
+{ "type": "Feature", "id": 4015, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 118.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.53961042745813, 32.268963390910812 ] } },
+{ "type": "Feature", "id": 4016, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 60.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.07180764339826, 32.64534374487495 ] } },
+{ "type": "Feature", "id": 4114, "properties": { "state": "New Mexico", "endyear": 2013.000000, "casvol": 16.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.25692121202209, 32.815144233098607 ] } },
+{ "type": "Feature", "id": 4117, "properties": { "state": "New Mexico", "endyear": 2014.000000, "casvol": 26.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.25071529126281, 32.813516405913688 ] } },
+{ "type": "Feature", "id": 4118, "properties": { "state": "New Mexico", "endyear": 2014.000000, "casvol": 33.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.24457338342246, 32.815574055956404 ] } },
+{ "type": "Feature", "id": 4372, "properties": { "state": "New Mexico", "endyear": 2015.000000, "casvol": 303.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.02775641258556, 32.19680945627276 ] } }
+]
+}

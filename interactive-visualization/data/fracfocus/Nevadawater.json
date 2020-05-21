@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 40530, "properties": { "state": "Nevada", "endyear": 2014.000000, "Mgal": 0.030000 }, "geometry": { "type": "Point", "coordinates": [ -115.37305310000001, 38.4417082 ] } },
+{ "type": "Feature", "id": 40531, "properties": { "state": "Nevada", "endyear": 2014.000000, "Mgal": 0.210000 }, "geometry": { "type": "Point", "coordinates": [ -116.084728, 40.14105 ] } },
+{ "type": "Feature", "id": 40532, "properties": { "state": "Nevada", "endyear": 2014.000000, "Mgal": 0.301000 }, "geometry": { "type": "Point", "coordinates": [ -115.736981, 40.420253 ] } },
+{ "type": "Feature", "id": 40533, "properties": { "state": "Nevada", "endyear": 2014.000000, "Mgal": 0.250000 }, "geometry": { "type": "Point", "coordinates": [ -115.40662520000001, 40.8636326 ] } },
+{ "type": "Feature", "id": 40534, "properties": { "state": "Nevada", "endyear": 2014.000000, "Mgal": 0.250000 }, "geometry": { "type": "Point", "coordinates": [ -115.40662520000001, 40.8636326 ] } },
+{ "type": "Feature", "id": 40535, "properties": { "state": "Nevada", "endyear": 2014.000000, "Mgal": 0.344000 }, "geometry": { "type": "Point", "coordinates": [ -115.42734610000001, 40.8504361 ] } }
+]
+}

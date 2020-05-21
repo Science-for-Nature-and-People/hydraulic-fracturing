@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 3441, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.99197414402437, 47.733127879293676 ] } },
+{ "type": "Feature", "id": 40437, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.83584, 47.73142 ] } },
+{ "type": "Feature", "id": 40489, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.85755, 47.74579 ] } }
+]
+}

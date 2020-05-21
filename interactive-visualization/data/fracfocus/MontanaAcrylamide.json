@@ -1,0 +1,38 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 3394, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.62331325215058, 47.845317236012662 ] } },
+{ "type": "Feature", "id": 3395, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.61659321064985, 47.881367541682977 ] } },
+{ "type": "Feature", "id": 3402, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.79592058803739, 47.947517971347139 ] } },
+{ "type": "Feature", "id": 3405, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.64491488435921, 47.976418300476197 ] } },
+{ "type": "Feature", "id": 3408, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.63559450929388, 47.97261827919754 ] } },
+{ "type": "Feature", "id": 3412, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.24679886348136, 48.062719724285401 ] } },
+{ "type": "Feature", "id": 3418, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.83882172134895, 47.753816264142898 ] } },
+{ "type": "Feature", "id": 3444, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.36450419703695, 48.149820534388354 ] } },
+{ "type": "Feature", "id": 3454, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.83882200778407, 47.847817102327255 ] } },
+{ "type": "Feature", "id": 3457, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.77431972023564, 47.947517961281953 ] } },
+{ "type": "Feature", "id": 3458, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.46649266708388, 47.565110405742281 ] } },
+{ "type": "Feature", "id": 3459, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.64491463222468, 47.933117942395448 ] } },
+{ "type": "Feature", "id": 3460, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.48560670008195, 47.725576419810857 ] } },
+{ "type": "Feature", "id": 3462, "properties": { "state": "Montana", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.89365628320519, 47.895742499705335 ] } },
+{ "type": "Feature", "id": 3463, "properties": { "state": "Montana", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.69671251521547, 47.929767941381257 ] } },
+{ "type": "Feature", "id": 3464, "properties": { "state": "Montana", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.69671161578079, 47.9298912923934 ] } },
+{ "type": "Feature", "id": 3465, "properties": { "state": "Montana", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.73768210224246, 47.760106337988695 ] } },
+{ "type": "Feature", "id": 3466, "properties": { "state": "Montana", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.73786510989423, 47.760106967848536 ] } },
+{ "type": "Feature", "id": 3467, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.47540623460395, 47.724716422562068 ] } },
+{ "type": "Feature", "id": 3484, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.11919355779969, 48.280122947231099 ] } },
+{ "type": "Feature", "id": 3485, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.62501293359374, 47.782816715877111 ] } },
+{ "type": "Feature", "id": 3486, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.62268279597387, 47.776206662933596 ] } },
+{ "type": "Feature", "id": 3487, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.62286280344406, 47.776206662786656 ] } },
+{ "type": "Feature", "id": 3488, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.94572644704877, 47.869817273666747 ] } },
+{ "type": "Feature", "id": 3489, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.83882198645379, 47.840817039909275 ] } },
+{ "type": "Feature", "id": 3497, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -107.98554829875395, 46.682296787892682 ] } },
+{ "type": "Feature", "id": 40443, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.92678, 48.04028 ] } },
+{ "type": "Feature", "id": 40449, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.80396, 47.80396 ] } },
+{ "type": "Feature", "id": 40450, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -105.01381, 47.80396 ] } },
+{ "type": "Feature", "id": 40505, "properties": { "state": "Montana", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -107.589608, 46.641894 ] } },
+{ "type": "Feature", "id": 40523, "properties": { "state": "Montana", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.056269, 47.895292 ] } }
+]
+}

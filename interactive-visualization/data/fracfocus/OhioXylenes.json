@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 6698, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 38.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.380455681881131, 39.837553066199057 ] } },
+{ "type": "Feature", "id": 6700, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 42.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.380526684625607, 39.837561066450789 ] } },
+{ "type": "Feature", "id": 43786, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 19.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.380756, 39.837502 ] } }
+]
+}

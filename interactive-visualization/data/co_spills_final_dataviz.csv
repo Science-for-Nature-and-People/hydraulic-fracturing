@@ -1,0 +1,476 @@
+api_number,incident_id,year,spudyr,LifeYear,direction,operator,latitude,longitude,pathway,leak_over,pathway_detail,cause,material,material_detail,volume_gal,waterimpact,contained,state
+05-123-37509,400603227,2014,2013,1,Horizontal,Encana Oil & Gas Inc,40.22209,-105.01632,Flowline,Leak,Gasket,Equipment Failure,Condensate,Unknown,126,No,No,CO
+05-123-38563,400608672,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.129204,-104.882983,Flowline,Leak,Disconnected,Human Error,Drilling Waste,Drilling Fluids,2184,No,Yes,CO
+05-123-38787,400614142,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.3352,-104.40355,Flowline,Leak,Unknown,Equipment Failure,Drilling Waste,Unknown,252,No,No,CO
+05-123-35252,400616283,2014,2014,0,Horizontal,PDC Energy Inc,40.27654,-104.95606,Tank,Leak,Valve,Human Error,Saltwater,Unknown,840,No,No,CO
+05-123-38787,400619009,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.3352,-104.40355,Pump,Leak,Unknown,Equipment Failure,Drilling Waste,Unknown,336,No,Yes,CO
+05-123-38288,400623311,2014,2013,1,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.093922,-104.75059,Tank,Overflow,Valve,Equipment Failure,Oil & Saltwater,Recycled Water,168,No,Yes,CO
+05-123-39187,400625645,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.198881,-104.944148,Tank,Overflow,Valve,Human Error,Drilling Waste,Unknown,8400,No,Yes,CO
+05-123-36957,400627686,2014,2013,1,Horizontal,PDC Energy Inc,40.16082,-104.52084,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,168,No,No,CO
+05-123-37911,400644143,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.008551,-104.922354,Tank,Leak,Transport,Human Error,Drilling Waste,Drilling Mud,1848,No,Yes,CO
+05-123-37251,400648471,2014,2014,0,Horizontal,Extraction Oil & Gas LLC,40.46144,-104.88538,Wellhead,Leak,Fitting,Equipment Failure,Saltwater,Flowback,9030,No,No,CO
+05-123-36932,400668543,2014,2013,1,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.028392,-104.890029,Tank,Leak,Cleanout Plate,Human Error,Saltwater,Recycled Water,5460,No,Yes,CO
+05-123-40315,400724415,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.159141,-104.700563,Drill Rig,NA,Incorrectly Connected,Human Error,Drilling Waste,Drilling Fluids,336,No,Yes,CO
+05-123-39218,400728903,2014,2014,0,Horizontal,Encana Oil & Gas Inc,40.090826,-104.719481,Pump,Leak,Connecting Hose,Equipment Failure,Saltwater,Unknown,168,No,No,CO
+05-123-39190,400732692,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.071422,-104.909833,Tank,Overflow,Lack of Communication,Human Error,Crude Oil,Unknown,378,No,Yes,CO
+05-123-39774,400737170,2014,2014,0,Horizontal,Encana Oil & Gas Inc,40.101468,-104.578637,Pump,Leak,Hole,Equipment Failure,Drilling Waste,Unknown,126,No,No,CO
+05-123-40394,400750489,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.611086,-104.391514,Well Cellar,Overflow,Pump Plugged,Equipment Failure,Drilling Waste,Drilling Mud,546,No,No,CO
+05-045-14756,1943772,2009,2008,0,Directional,Caerus Piceance LLC,39.456977,-107.91604,Unknown,Leak,Unknown,Human Error,Hydraulic Fracture Solution,Unknown,2100,No,Yes,CO
+05-083-06660,200215571,2009,2009,0,Horizontal,Barret Bill Corp,37.53188,-108.61906,Tank,NA,Valve,Equipment Failure,Hydraulic Fracture Solution,HCL Water,7560,No,No,CO
+05-045-20639,42612,2012,2011,1,Directional,Encana Oil & Gas Inc,39.409952,-108.067305,Blender,NA,Pump,Equipment Failure,Saltwater,Unknown,252,No,Yes,CO
+05-045-10361,1395011,2006,2005,1,Directional,Encana Oil & Gas Inc,39.39208,-108.05892,Tank,NA,Valve - Froze,Environmental Conditions,Crude Oil,Unknown,546,No,No,CO
+05-045-10649,1395014,2006,2005,0,Directional,Encana Oil & Gas Inc,39.466194,-107.71263,Flowline,Leak,Unknown,Human Error,Hydraulic Fracture Solution,Unknown,3360,No,No,CO
+05-045-11402,1395021,2006,2005,0,Directional,Vanguard Operating LLC,39.475044,-107.647525,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,1260,No,No,CO
+05-045-10744,1395208,2006,2007,-1,Directional,Encana Oil & Gas Inc,39.597965,-108.137536,Pump,NA,Fitting,Equipment Failure,Saltwater,Unknown,3780,No,No,CO
+05-045-09991,1395214,2006,2005,0,Directional,WPX Energy Rocky Mountain LLC,39.49848,-107.967391,Unknown,NA,Unknown,Equipment Failure,Saltwater,Unknown,52500,No,No,CO
+05-045-12325,1395660,2006,2006,0,Directional,Encana Oil & Gas Inc,39.551755,-108.112329,Flowline,Leak,Unknown,Human Error,Unknown,Unknown,NA,No,Yes,CO
+05-103-09915,1395713,2006,1998,8,Vertical,XTO Energy Inc,39.891,-108.29159,Flowline,Leak,Valve/Connection,Equipment Failure,Saltwater,Unknown,294,No,No,CO
+05-045-10429,1396285,2006,2005,1,Directional,Encana Oil & Gas Inc,39.589351,-108.044434,Unknown,Leak,Fitting,Equipment Failure,Saltwater,Unknown,840,No,No,CO
+05-045-12493,1396815,2006,2006,0,Vertical,Vanguard Operating LLC,39.48078,-107.67853,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,420,No,No,CO
+05-045-11993,1396839,2006,2006,1,Directional,Vanguard Operating LLC,39.482689,-107.639994,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,4200,No,No,CO
+05-045-12503,1396840,2006,2006,0,Directional,Vanguard Operating LLC,39.481157,-107.630399,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,1680,No,No,CO
+05-045-12379,1396841,2006,2006,0,Directional,Vanguard Operating LLC,39.478253,-107.630286,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,630,No,No,CO
+05-045-11110,1396842,2006,2006,0,Directional,Vanguard Operating LLC,39.49281,-107.674143,Tank,Overflow,Unknown,Equipment Failure,Crude Oil,Unknown,1470,No,No,CO
+05-045-10440,1396843,2006,2005,2,Directional,Vanguard Operating LLC,39.511943,-107.629987,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,420,No,No,CO
+05-045-12002,1396847,2006,2006,1,Directional,Encana Oil & Gas Inc,39.578084,-108.110474,Unknown,NA,Gasket,Equipment Failure,Saltwater,Unknown,504,No,No,CO
+05-045-13388,1417942,2005,2005,0,Directional,Encana Oil & Gas Inc,39.49031,-107.66752,Tank,NA,Valve,Human Error,Saltwater,Unknown,840,No,No,CO
+05-045-13406,1433016,2005,2005,0,Directional,Encana Oil & Gas Inc,39.444298,-107.721255,Tank,NA,Valve,Equipment Failure,Crude Oil,Unknown,3150,No,No,CO
+05-045-10562,1433081,2005,2005,0,Directional,Encana Oil & Gas Inc,39.42637,-107.70615,Transport,Overflow,Loading/Unloading,Human Error,Condensate,Unknown,1680,No,Yes,CO
+05-045-10742,1433144,2005,2005,-1,Directional,Encana Oil & Gas Inc,39.478127,-107.773625,Gas Buster,NA,Valve,Equipment Failure,Drilling Waste,Drilling Mud,2520,No,No,CO
+05-045-10495,1433275,2005,2005,1,Directional,Encana Oil & Gas Inc,39.45362,-107.78242,Transport,NA,In Transit,Human Error,Unknown,Unknown,42,No,No,CO
+05-103-09915,1433310,2006,1998,7,Vertical,XTO Energy Inc,39.891,-108.29159,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,420,No,Yes,CO
+05-103-10510,1433318,2006,2004,2,Directional,XTO Energy Inc,39.88289,-108.29259,Tank,Overflow,Unknown,Equipment Failure,Crude Oil,Unknown,420,No,Yes,CO
+05-045-10554,1433319,2005,2005,1,Directional,Encana Oil & Gas Inc,39.600238,-108.151695,Blender,NA,Unknown,Human Error,Hydraulic Fracture Solution,Unknown,630,No,No,CO
+05-045-10565,1433322,2006,2006,0,Directional,OXY USA WTP LP,39.495022,-108.244038,Wellhead,Leak,Weld,Equipment Failure,Drilling Waste,Drilling Mud,15120,No,Yes,CO
+05-045-11402,1433367,2006,2005,0,Directional,Vanguard Operating LLC,39.475044,-107.647525,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,8400,No,No,CO
+05-103-09915,1433424,2006,1998,8,Vertical,XTO Energy Inc,39.891,-108.29159,Pump,Leak,Packing Failed,Equipment Failure,Chemicals,Amine,798,No,Yes,CO
+05-045-11175,1433429,2006,2005,1,Directional,Encana Oil & Gas Inc,39.579097,-108.033057,Pump,NA,Valve,Equipment Failure,Saltwater,Unknown,420,No,Yes,CO
+05-045-11360,1433501,2006,2006,1,Directional,Piceance Energy LLC,39.50103,-107.8138,Pit,NA,Evaporative Water System,Human Error,Saltwater,Unknown,42,No,No,CO
+05-045-12515,1433608,2007,2006,0,Directional,Encana Oil & Gas Inc,39.47215,-107.62302,Transport,NA,Loading/Unloading,Human Error,Condensate,Unknown,84,No,No,CO
+05-045-12249,1433629,2007,2008,-1,Directional,Encana Oil & Gas Inc,39.5618,-108.11165,Transport,Leak,Loading/Unloading,Equipment Failure,Saltwater,Unknown,630,No,Yes,CO
+05-045-10760,1433630,2007,2005,2,Directional,Vanguard Operating LLC,39.490019,-107.646813,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,294,No,Yes,CO
+05-045-11125,1433688,2007,2005,2,Directional,Vanguard Operating LLC,39.488138,-107.614476,Flowline,Leak,Fitting,Equipment Failure,Oil & Saltwater,Unknown,1050,No,No,CO
+05-045-12992,1433715,2007,2007,0,Directional,Encana Oil & Gas Inc,39.478142,-107.647172,Pit,Overflow,Unknown,Human Error,Hydraulic Fracture Solution,Unknown,1050,No,Yes,CO
+05-045-14096,1433755,2007,2007,1,Directional,Vanguard Operating LLC,39.469682,-107.599545,Unknown,Overflow,Unknown,Human Error,Oil & Saltwater,Flowback,2100,No,No,CO
+05-045-14726,1433782,2008,2008,0,Directional,Encana Oil & Gas Inc,39.47094,-107.63156,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,1260,No,Yes,CO
+05-045-14103,1433787,2008,2007,0,Directional,Vanguard Operating LLC,39.5142,-107.68528,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,1680,No,No,CO
+05-045-12992,1433813,2008,2007,1,Directional,Encana Oil & Gas Inc,39.478142,-107.647172,Tank,NA,Power Failure,Equipment Failure,Drilling Waste,Drilling Mud,1260,No,Yes,CO
+05-045-11401,1433850,2007,2005,2,Directional,Vanguard Operating LLC,39.475041,-107.647582,Tank,Overflow,Unanticipated Volume,Environmental Conditions,Oil & Saltwater,Unknown,6300,No,No,CO
+05-045-14096,1433853,2008,2007,1,Directional,Vanguard Operating LLC,39.469682,-107.599545,Tank,NA,Valve,Human Error,Crude Oil,Unknown,294,No,Yes,CO
+05-045-11402,1433855,2008,2005,2,Directional,Vanguard Operating LLC,39.475044,-107.647525,Tank,Overflow,Unknown,Equipment Failure,Crude Oil,Unknown,252,No,Yes,CO
+05-045-14912,1433861,2008,2007,0,Directional,Vanguard Operating LLC,39.49388,-107.63394,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,12600,No,No,CO
+05-045-09465,1433876,2008,2004,4,Directional,Encana Oil & Gas Inc,39.46933,-107.64664,Transport,Leak,Loading/Unloading,Equipment Failure,Saltwater,Unknown,17640,No,No,CO
+05-045-13295,1433877,2008,2007,1,Directional,Vanguard Operating LLC,39.47982,-107.61919,Separator,NA,Valve,Human Error,Saltwater,Unknown,882,Yes,No,CO
+05-045-12610,1433881,2007,2006,0,Directional,Vanguard Operating LLC,39.485701,-107.631513,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,4200,No,No,CO
+05-045-11718,1433902,2008,2008,0,Directional,Encana Oil & Gas Inc,39.590261,-108.046892,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,84,Yes,No,CO
+05-045-14290,1433921,2008,2007,1,Directional,Ursa Operating LLC,39.525741,-107.64274,Tank,NA,Valve,Equipment Failure,Saltwater,Flowback,4200,No,Yes,CO
+05-045-12967,1433922,2008,2008,0,Vertical,Piceance Energy LLC,39.51388,-107.82468,Tank,Overflow,Unknown,Human Error,Freshwater,Unknown,504,No,Yes,CO
+05-045-12529,1433925,2008,2007,2,Directional,Encana Oil & Gas Inc,39.43153,-107.73319,Flowline,Leak,Unknown,Human Error,Unknown,Unknown,1680,No,Yes,CO
+05-045-12159,1433927,2008,2006,2,Directional,Ursa Operating LLC,39.522111,-107.708723,Flowline,Leak,Manifold,Human Error,Hydraulic Fracture Solution,Unknown,1260,No,Yes,CO
+05-045-14096,1433932,2008,2007,2,Directional,Vanguard Operating LLC,39.469682,-107.599545,Transport,Leak,Loading/Unloading,Human Error,Crude Oil,Unknown,546,No,No,CO
+05-045-13221,1433933,2008,2008,0,Directional,Ursa Operating LLC,39.528936,-107.646261,Flowline,Leak,Fitting,Equipment Failure,Oil & Saltwater,Unknown,525,No,Yes,CO
+05-045-12378,1433948,2009,2006,3,Directional,Vanguard Operating LLC,39.478286,-107.630448,Tank,NA,Valve,Human Error,Saltwater,Unknown,5040,No,Yes,CO
+05-045-13275,1629112,2009,2007,3,Directional,WPX Energy Rocky Mountain LLC,39.526365,-107.578706,Flowline,Leak,Fitting,Equipment Failure,Saltwater,Unknown,3570,Yes,No,CO
+05-045-18450,1629297,2009,2009,0,Directional,WPX Energy Rocky Mountain LLC,39.497623,-107.507567,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,1890,No,No,CO
+05-045-14096,1630006,2009,2007,2,Directional,Vanguard Operating LLC,39.469682,-107.599545,Unknown,NA,Valve,Equipment Failure,Saltwater,Unknown,8400,No,No,CO
+05-045-10831,1630012,2009,2009,0,Directional,Encana Oil & Gas Inc,39.482323,-107.783176,Flowline,Leak,Fitting,Equipment Failure,Drilling Waste,Drilling Mud,588,No,Yes,CO
+05-045-17338,1630117,2009,2008,1,Directional,WPX Energy Rocky Mountain LLC,39.530623,-107.564576,Pit,Leak,Liner,Equipment Failure,Unknown,Unknown,NA,No,No,CO
+05-045-16111,1630148,2009,2008,1,Vertical,WPX Energy Rocky Mountain LLC,39.509046,-107.52429,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,5880,No,No,CO
+05-045-14399,1630441,2008,2007,1,Directional,Encana Oil & Gas Inc,39.5842,-108.119058,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,336,No,No,CO
+05-045-08134,1630468,2009,2004,5,Vertical,Vanguard Operating LLC,39.507292,-107.698281,Unknown,NA,Valve,Human Error,Oil & Saltwater,Unknown,5460,No,Yes,CO
+05-045-12499,1630472,2009,2006,3,Directional,Vanguard Operating LLC,39.481182,-107.630623,Tank,NA,Valve,Human Error,Saltwater,Unknown,420,No,Yes,CO
+05-045-17140,1630515,2009,2008,1,Directional,Encana Oil & Gas Inc,39.4215,-108.01214,Flowline,Leak,Vandalism,Human Error,Saltwater,Unknown,1890,No,Yes,CO
+05-077-09383,1630697,2007,2007,0,Directional,Piceance Energy LLC,39.247083,-107.749825,Tank,NA,Seal,Equipment Failure,Saltwater,Flowback,NA,No,No,CO
+05-045-12100,1630704,2008,2006,2,Directional,Encana Oil & Gas Inc,39.58358,-108.11399,Pump,Leak,Disconnected,Human Error,Saltwater,Unknown,6720,No,Yes,CO
+05-045-12515,1630709,2006,2006,0,Directional,Encana Oil & Gas Inc,39.47215,-107.62302,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Flowback,3360,No,No,CO
+05-045-12076,1630710,2006,2007,-1,Directional,Encana Oil & Gas Inc,39.585742,-108.121367,Pit,NA,Shaker,Equipment Failure,Drilling Waste,Drilling Mud and Cuttings,8400,No,Yes,CO
+05-045-13707,1630878,2009,2007,3,Directional,Ursa Operating LLC,39.525266,-107.670249,Flowline,Leak,Valve,Equipment Failure,Oil & Hydraulic Fracture Solution,Unknown,1134,No,No,CO
+05-045-15682,1630887,2009,2009,0,Directional,Caerus Piceance LLC,39.403911,-108.075871,Tank,NA,Diffuser,Equipment Failure,Saltwater,Unknown,630,No,Yes,CO
+05-045-15682,1630888,2009,2009,0,Directional,Caerus Piceance LLC,39.403911,-108.075871,Tank,Leak,Valve,Unknown,Saltwater,Unknown,9156,No,Yes,CO
+05-045-13979,1631156,2009,2007,3,Directional,WPX Energy Rocky Mountain LLC,39.476389,-108.060918,Flowline,Leak,Valve - Froze,Environmental Conditions,Saltwater,Unknown,NA,No,No,CO
+05-103-11462,1631253,2009,2009,0,Directional,WPX Energy Rocky Mountain LLC,39.947547,-108.33943,Blowout,NA,Well Kick,Equipment Failure,Drilling Waste,Unknown,193200,No,Yes,CO
+05-045-15860,1631518,2009,2011,-1,Directional,WPX Energy Rocky Mountain LLC,39.526514,-107.579103,Pit,Leak,Liner,Equipment Failure,Unknown,Unknown,NA,No,No,CO
+05-045-15682,1631521,2009,2009,0,Directional,Caerus Piceance LLC,39.403911,-108.075871,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,252,No,Yes,CO
+05-045-15951,1631588,2009,2008,1,Directional,WPX Energy Rocky Mountain LLC,39.574397,-108.24068,Tank,Overflow,Froze,Environmental Conditions,Unknown,Unknown,168,No,Yes,CO
+05-045-12871,1631599,2009,2008,1,Directional,Linn Operating Inc,39.59014,-108.197335,Pit,Leak,Liner,Equipment Failure,Saltwater,Flowback,NA,Yes,No,CO
+05-045-15461,1631793,2009,2008,1,Directional,Encana Oil & Gas Inc,39.501106,-108.117389,Pit,Leak,Liner,Equipment Failure,Unknown,Unknown,NA,No,Yes,CO
+05-045-12350,1631794,2009,2007,3,Directional,Linn Operating Inc,39.554844,-108.119697,Tank,Overflow,Unanticipated Volume,Environmental Conditions,Condensate,Unknown,798,No,No,CO
+05-045-14096,1632065,2010,2007,3,Directional,Vanguard Operating LLC,39.469682,-107.599545,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,2520,No,No,CO
+05-045-14284,1632784,2010,2007,2,Directional,Ursa Operating LLC,39.525726,-107.64271,Flowline,Leak,Disconnected,Equipment Failure,Saltwater,Flowback,5082,No,Yes,CO
+05-045-16111,1814239,2009,2008,1,Vertical,WPX Energy Rocky Mountain LLC,39.509046,-107.52429,Pump,Leak,Unknown,Equipment Failure,Saltwater,Unknown,840,No,Yes,CO
+05-103-09915,1941137,2008,1998,10,Vertical,XTO Energy Inc,39.891,-108.2916,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,336,No,No,CO
+05-045-15507,1941260,2008,2008,1,Directional,Piceance Energy LLC,39.47942,-107.823,Tank,Overflow,Unknown,Equipment Failure,Oil & Saltwater,Unknown,3570,No,Yes,CO
+05-077-09501,1941481,2008,2008,0,Directional,Piceance Energy LLC,39.239002,-107.741237,Unknown,NA,Unknown,Equipment Failure,Saltwater,Unknown,1512,No,Yes,CO
+05-045-11566,1941484,2008,2006,3,Directional,Encana Oil & Gas Inc,39.607542,-108.144797,Pump,NA,Valve,Human Error,Saltwater,Unknown,8400,Yes,No,CO
+05-077-09505,1941504,2008,2008,0,Directional,Piceance Energy LLC,39.257667,-107.728897,Flowline,Leak,Fitting,Equipment Failure,Saltwater,Unknown,630,No,No,CO
+05-045-15900,1941696,2008,2008,0,Directional,WPX Energy Rocky Mountain LLC,39.528982,-107.934696,Blowout,NA,Well Kick,Environmental Conditions,Oil & Saltwater,Unknown,5460,No,Yes,CO
+05-045-16049,1942122,2008,2008,0,Directional,Encana Oil & Gas Inc,39.47228,-107.6231,Flowline,Leak,Fitting,Equipment Failure,Hydraulic Fracture Solution,Unknown,18060,No,Yes,CO
+05-045-15993,1942187,2009,2009,0,Directional,Encana Oil & Gas Inc,39.49284,-107.76772,Transport,Leak,Loading/Unloading,Human Error,Drilling Waste,Drilling Mud,630,No,No,CO
+05-045-14477,1942191,2008,2008,0,Directional,Ursa Operating LLC,39.531109,-107.675932,Blowout,NA,Unknown,Unknown,Oil & Saltwater,Unknown,33642,No,No,CO
+05-123-26793,1942262,2008,2008,0,Horizontal,Noble Energy Inc,40.23206,-104.62387,Separator,NA,Fitting,Equipment Failure,Crude Oil,Unknown,168,No,No,CO
+05-045-13226,1942433,2008,2008,0,Directional,Ursa Operating LLC,39.528969,-107.646317,Tank,Overflow,Unknown,Human Error,Saltwater,Flowback,1470,No,No,CO
+05-045-14695,1942624,2009,2008,1,Directional,Encana Oil & Gas Inc,39.47371,-107.63187,Heater Treater,NA,Valve,Equipment Failure,Condensate,Unknown,2520,No,No,CO
+05-045-14729,1943126,2009,2008,1,Directional,Encana Oil & Gas Inc,39.45074,-107.96817,Tank,NA,Automated System,Equipment Failure,Oil & Saltwater,Unknown,630,No,Yes,CO
+05-123-29262,1943265,2009,2009,0,Vertical,Noble Energy Inc,40.490237,-104.437237,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,1092,No,Yes,CO
+05-045-10964,1943549,2009,2005,3,Directional,Vanguard Operating LLC,39.510896,-107.684374,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,1134,No,No,CO
+05-045-17682,1943574,2009,2009,0,Directional,Encana Oil & Gas Inc,39.472505,-107.614589,Tank,Overflow,Unanticipated Volume,Environmental Conditions,Drilling Waste,Drilling Mud,420,No,Yes,CO
+05-045-16299,1943582,2009,2008,0,Directional,Encana Oil & Gas Inc,39.54464,-108.118386,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,2730,No,No,CO
+05-045-13304,1943611,2009,2008,1,Directional,WPX Energy Rocky Mountain LLC,39.47034,-107.923384,Tank,Leak,Corrosion,Equipment Failure,Saltwater,Flowback,756,No,Yes,CO
+05-045-16299,1943628,2009,2008,1,Directional,Encana Oil & Gas Inc,39.54464,-108.118386,Manifold,NA,Cap,Equipment Failure,Hydraulic Fracture Solution,Unknown,1260,No,No,CO
+05-045-16218,1943705,2009,2008,0,Directional,Caerus Piceance LLC,39.50842,-108.16853,Tank,Overflow,Unknown,Unknown,Saltwater,Unknown,840,No,No,CO
+05-045-14726,1943890,2009,2008,1,Directional,Encana Oil & Gas Inc,39.47094,-107.63156,Tank,NA,Gauge,Equipment Failure,Crude Oil,Unknown,1344,No,No,CO
+05-045-10831,1943964,2009,2009,0,Directional,Encana Oil & Gas Inc,39.482323,-107.783176,Tank,NA,Valve,Human Error,Drilling Waste,Drilling Mud,NA,No,No,CO
+05-045-14330,1944260,2009,2007,2,Directional,Vanguard Operating LLC,39.49977,-107.62974,Tank,NA,Valve,Human Error,Oil & Saltwater,Unknown,1260,No,No,CO
+05-045-14034,1944640,2009,2008,1,Directional,WPX Energy Rocky Mountain LLC,39.527492,-107.856789,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,NA,No,No,CO
+05-077-09000,1981045,2007,2006,1,Directional,Piceance Energy LLC,39.233803,-107.765864,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,840,No,No,CO
+05-077-09000,1981046,2007,2006,1,Directional,Piceance Energy LLC,39.233803,-107.765864,Transport,Overflow,Loading/Unloading,Human Error,Oil & Saltwater,Unknown,11340,No,No,CO
+05-077-09000,1981047,2007,2006,1,Directional,Piceance Energy LLC,39.233803,-107.765864,Pit,Overflow,Unknown,Human Error,Oil & Saltwater,Unknown,2100,No,No,CO
+05-045-12100,1981048,2007,2006,1,Directional,Encana Oil & Gas Inc,39.58358,-108.11399,Pit,Overflow,Unknown,Human Error,Hydraulic Fracture Solution,Unknown,8400,No,Yes,CO
+05-045-12002,1981054,2007,2006,2,Directional,Encana Oil & Gas Inc,39.578084,-108.110474,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,420,No,No,CO
+05-045-12325,1981056,2007,2006,1,Directional,Encana Oil & Gas Inc,39.551755,-108.112329,Blowdown,NA,Valve,Human Error,Crude Oil,Unknown,420,No,No,CO
+05-045-11551,1981060,2007,2006,2,Directional,Encana Oil & Gas Inc,39.580942,-108.098817,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,2310,No,No,CO
+05-045-09175,1981063,2007,2003,4,Directional,Encana Oil & Gas Inc,39.5072,-107.7376,Tank,Overflow,Unknown,Equipment Failure,Condensate,Unknown,1092,No,Yes,CO
+05-045-11590,1981064,2007,2006,1,Directional,Encana Oil & Gas Inc,39.36933,-108.08496,Tank,Overflow,Unknown,Equipment Failure,Condensate,Unknown,1764,No,Yes,CO
+05-045-11944,1981069,2007,2007,0,Directional,Encana Oil & Gas Inc,39.42956,-108.00918,Flowline,Leak,Line Plugged,Equipment Failure,Hydraulic Fracture Solution,Unknown,420,No,No,CO
+05-045-12515,1981071,2007,2006,0,Directional,Encana Oil & Gas Inc,39.47215,-107.62302,Transport,NA,Loading/Unloading,Human Error,Condensate,Unknown,966,No,Yes,CO
+05-045-10198,1981072,2007,2004,2,Directional,Encana Oil & Gas Inc,39.46547,-107.7385,Well Casing,NA,Valve,Unknown,Saltwater,Unknown,11760,No,Yes,CO
+05-045-14095,1981128,2007,2007,0,Directional,WPX Energy Rocky Mountain LLC,39.521003,-107.976262,Pit,Leak,Liner,Equipment Failure,Saltwater,Unknown,84420,No,No,CO
+05-045-10938,1981708,2007,2008,0,Directional,Linn Operating Inc,39.537405,-108.176781,Pit,Leak,Liner,Equipment Failure,Unknown,Unknown,NA,Yes,No,CO
+05-045-10938,1981710,2007,2008,0,Directional,Linn Operating Inc,39.537405,-108.176781,Pit,Leak,Liner,Equipment Failure,Unknown,Unknown,NA,Yes,No,CO
+05-045-14290,1984363,2008,2007,1,Directional,Ursa Operating LLC,39.525741,-107.64274,Transport,Overflow,Loading/Unloading,Human Error,Saltwater,Unknown,12600,No,Yes,CO
+05-045-12892,1984700,2008,2008,1,Directional,Caerus Piceance LLC,39.50344,-108.174,Tank,NA,Valve,Equipment Failure,Crude Oil,Unknown,966,No,Yes,CO
+05-045-12157,1984946,2008,2006,2,Directional,Ursa Operating LLC,39.522001,-107.708721,Flowline,Leak,Valve,Human Error,Saltwater,Flowback,2520,No,No,CO
+05-045-12984,2057065,2007,2006,0,Directional,Vanguard Operating LLC,39.474453,-107.639532,Tank,NA,Valve - Froze,Environmental Conditions,Oil & Saltwater,Unknown,3990,No,No,CO
+05-045-10818,2057066,2007,2005,2,Directional,Vanguard Operating LLC,39.485643,-107.649101,Wellhead,Leak,Fitting,Equipment Failure,Oil & Saltwater,Unknown,651,Yes,No,CO
+05-045-10926,2057191,2007,2005,1,Directional,Encana Oil & Gas Inc,39.595972,-108.136906,Flowline,Leak,Drain Port,Human Error,Saltwater,Unknown,2520,No,No,CO
+05-045-12897,2057622,2007,2007,0,Directional,Caerus Piceance LLC,39.382028,-108.063904,Transport,Leak,Loading/Unloading,Human Error,Drilling Waste,Drilling Mud,840,No,No,CO
+05-045-12203,2145106,2013,2007,6,Directional,Ursa Operating LLC,39.527664,-107.661298,Wellhead,Leak,Fitting,Equipment Failure,Hydraulic Fracture Solution,Unknown,336,No,Yes,CO
+05-045-14290,2145113,2013,2007,6,Directional,Ursa Operating LLC,39.525741,-107.64274,Tank,NA,Valve,Human Error,Saltwater,Unknown,630,No,Yes,CO
+05-045-14290,2145218,2013,2007,6,Directional,Ursa Operating LLC,39.525741,-107.64274,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,210,No,Yes,CO
+05-045-21837,2145411,2013,2013,0,Directional,Encana Oil & Gas Inc,39.426138,-107.705113,Tank,NA,Valve,Human Error,Saltwater,Unknown,756,No,Yes,CO
+05-045-14323,2145502,2013,2007,6,Directional,Vanguard Operating LLC,39.49974,-107.62964,Well Casing,NA,Valve,Human Error,Oil & Saltwater,Unknown,1386,No,No,CO
+05-123-34369,2145585,2013,2012,1,Horizontal,Encana Oil & Gas Inc,40.104036,-104.585914,Unknown,NA,Unknown,Equipment Failure,Crude Oil,Unknown,336,No,Yes,CO
+05-045-13969,2145593,2013,2008,5,Directional,Caerus Piceance LLC,39.53831,-108.15069,Tank,Leak,Unknown,Equipment Failure,Saltwater,Unknown,1470,No,Yes,CO
+05-045-13221,2145672,2013,2008,6,Directional,Ursa Operating LLC,39.528936,-107.646261,Tank,Overflow,Unknown,Equipment Failure,Saltwater,Unknown,420,No,Yes,CO
+05-045-14290,2145735,2013,2007,6,Directional,Ursa Operating LLC,39.525741,-107.64274,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,2772,No,Yes,CO
+05-103-10938,2145816,2013,2007,6,Vertical,WPX Energy Rocky Mountain LLC,39.908659,-108.371094,Transport,Leak,Loading/Unloading,Equipment Failure,Condensate,Unknown,252,No,Yes,CO
+05-045-13386,2145897,2013,2005,8,Directional,Encana Oil & Gas Inc,39.584277,-108.037352,Unknown,NA,Unknown,Unknown,Saltwater,Unknown,840,No,Yes,CO
+05-045-15166,2145907,2013,2008,5,Directional,Ursa Operating LLC,39.522935,-107.728752,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,210,No,No,CO
+05-123-36383,2146023,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.088276,-104.673999,Unknown,NA,Valve,Human Error,Drilling Waste,Drilling Mud,420,No,Yes,CO
+05-045-17902,2146036,2013,2010,4,Directional,WPX Energy Rocky Mountain LLC,39.512712,-107.839989,Tank,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,252,No,Yes,CO
+05-045-19391,2146332,2013,2013,-1,Directional,Ursa Operating LLC,39.530984,-107.608114,Manifold,Leak,Unknown,Equipment Failure,Drilling Waste,Drill Cuttings,252,No,Yes,CO
+05-103-11876,2146338,2012,2012,0,Directional,WPX Energy Rocky Mountain LLC,39.928055,-108.346257,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,420,No,Yes,CO
+05-103-11650,2146341,2012,2010,2,Directional,WPX Energy Rocky Mountain LLC,39.819185,-108.306665,Tank,NA,Valve,Human Error,Saltwater,Flowback,294,No,Yes,CO
+05-045-20534,2146569,2013,2014,-1,Directional,Ursa Operating LLC,39.431292,-108.03317,Pump,NA,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,84,No,No,CO
+05-045-13637,2146742,2013,2008,5,Directional,Linn Operating Inc,39.567768,-108.189342,Flowline,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,1260,No,No,CO
+05-045-11495,2146883,2013,2006,8,Directional,Encana Oil & Gas Inc,39.40779,-107.72446,Transport,Leak,Loading/Unloading,Human Error,Oil & Saltwater,Unknown,462,No,Yes,CO
+05-045-10461,2146906,2013,2005,9,Directional,Encana Oil & Gas Inc,39.37219,-108.09397,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,1050,No,Yes,CO
+05-045-15279,2147165,2013,2008,5,Directional,Linn Operating Inc,39.573441,-108.181254,Tank,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,5040,No,Yes,CO
+05-123-37789,2147324,2013,2013,0,Horizontal,Encana Oil & Gas Inc,40.01408,-104.71217,Wellhead,NA,Gasket,Equipment Failure,Drilling Waste,Drilling Mud,630,No,No,CO
+05-045-22108,2147389,2014,2013,0,Directional,Ursa Operating LLC,39.420907,-108.060322,Flowline,Leak,Disconnected,Human Error,Drilling Waste,Drilling Mud,1050,No,Yes,CO
+05-045-22108,2147529,2014,2013,0,Directional,Ursa Operating LLC,39.420907,-108.060322,Grinder System,Overflow,Unknown,Human Error,Drilling Waste,Drilling Fluids,210,No,No,CO
+05-045-21666,2147628,2014,2013,1,Directional,WPX Energy Rocky Mountain LLC,39.490194,-107.918704,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,2940,No,Yes,CO
+05-045-16111,2147634,2014,2008,5,Vertical,WPX Energy Rocky Mountain LLC,39.509046,-107.52429,Tank,Overflow,Froze,Environmental Conditions,Saltwater,Unknown,29820,No,Yes,CO
+05-103-11788,2147636,2014,2013,1,Directional,WPX Energy Rocky Mountain LLC,39.946904,-108.362603,Transport,Leak,Loading/Unloading,Equipment Failure,Saltwater,Unknown,294,No,No,CO
+05-045-17131,2147640,2013,2009,5,Vertical,WPX Energy Rocky Mountain LLC,39.487038,-107.930224,Flowline,Leak,Corrosion,Equipment Failure,Condensate,Unknown,546,No,No,CO
+05-103-11518,2147649,2013,2010,3,Directional,WPX Energy Rocky Mountain LLC,39.792908,-108.280582,Flowline,Leak,Froze,Environmental Conditions,Saltwater,Unknown,13020,No,No,CO
+05-045-20746,2147838,2014,2011,2,Vertical,WPX Energy Rocky Mountain LLC,39.485382,-107.835537,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,NA,No,No,CO
+05-103-10510,2147973,2014,2004,9,Directional,XTO Energy Inc,39.88289,-108.2926,Tank,Overflow,Unknown,Equipment Failure,Condensate,Unknown,630,No,Yes,CO
+05-123-31420,2213092,2011,2010,1,Horizontal,Noble Energy Inc,40.57866,-104.505313,Stuffing Box,NA,Polish Rod,Human Error,Oil & Hydraulic Fracture Solution,Unknown,441,No,No,CO
+05-077-09608,2213431,2011,2008,2,Directional,Piceance Energy LLC,39.264058,-107.744889,Unknown,NA,Valve - Froze,Environmental Conditions,Saltwater,Unknown,3360,No,Yes,CO
+05-103-10955,2213619,2011,2007,4,Vertical,XTO Energy Inc,39.951965,-108.079929,Flowline,Leak,Valve,Human Error,Saltwater,Unknown,1596,No,Yes,CO
+05-045-14263,2213639,2011,2007,4,Directional,Vanguard Operating LLC,39.50439,-107.67603,Flowline,Leak,Unknown,Human Error,Saltwater,Unknown,630,No,No,CO
+05-045-17920,2213907,2011,2009,2,Directional,WPX Energy Rocky Mountain LLC,39.510515,-107.557456,Separator,NA,Valve,Human Error,Condensate & Saltwater,Unknown,483,No,Yes,CO
+05-045-11717,2214061,2011,2006,5,Vertical,Encana Oil & Gas Inc,39.60277,-108.10405,Wellhead,NA,Too much water to kill well,Human Error,Saltwater,Unknown,210,No,Yes,CO
+05-045-19150,2214131,2011,2010,1,Directional,Encana Oil & Gas Inc,39.458067,-107.799902,Shaker,NA,Unknown,Human Error,Drilling Waste,Drilling Mud,252,No,Yes,CO
+05-045-19150,2214132,2011,2010,1,Directional,Encana Oil & Gas Inc,39.458067,-107.799902,Pump,NA,Valve,Equipment Failure,Drilling Waste,Drilling Mud,1638,No,Yes,CO
+05-045-18706,2214280,2011,2011,0,Directional,Encana Oil & Gas Inc,39.527465,-108.123519,Tank,NA,Pressur Transducer,Equipment Failure,Saltwater,Unknown,630,No,Yes,CO
+05-045-11738,2214287,2011,2006,5,Directional,Caerus Piceance LLC,39.55733,-108.11864,Flowline,Leak,Rock Slide,Environmental Conditions,Saltwater,Unknown,1470,No,Yes,CO
+05-045-17551,2214308,2011,2009,2,Directional,Vanguard Operating LLC,39.518776,-107.561248,Tank,NA,Valve,Human Error,Crude Oil,Unknown,1890,No,No,CO
+05-045-20395,2214684,2011,2011,0,Directional,Encana Oil & Gas Inc,39.467597,-107.643172,Tank,NA,Valve,Human Error,Saltwater,Unknown,2100,No,Yes,CO
+05-045-10553,2215062,2011,2005,6,Directional,Encana Oil & Gas Inc,39.600381,-108.151599,Pump,NA,Cap Weld,Equipment Failure,Hydraulic Fracture Solution,Unknown,210,No,Yes,CO
+05-045-14916,2215218,2011,2007,4,Directional,Vanguard Operating LLC,39.49403,-107.63382,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,1848,No,Yes,CO
+05-045-20627,2215365,2011,2012,-1,Directional,WPX Energy Rocky Mountain LLC,39.522308,-107.59472,Flowline,Leak,Weld,Equipment Failure,Hydraulic Fracture Solution,Unknown,7980,No,No,CO
+05-123-33249,2215611,2011,2011,0,Horizontal,Encana Oil & Gas Inc,40.188778,-104.886686,Transport,Leak,Loading/Unloading,Human Error,Condensate,Unknown,1260,No,Yes,CO
+05-103-11678,2215673,2011,2011,0,Vertical,WPX Energy Rocky Mountain LLC,39.940924,-108.340155,Pit,Overflow,Flood,Environmental Conditions,Drilling Waste,Drill Cuttings,2016,Yes,No,CO
+05-045-18588,2215675,2011,2010,1,Directional,Caerus Piceance LLC,39.51136,-108.16583,Flowline,Leak,Disconnected,Human Error,Saltwater,Recycled Water,252,No,No,CO
+05-045-15948,2215678,2011,2008,3,Directional,WPX Energy Rocky Mountain LLC,39.574473,-108.24064,Transport,Overflow,Loading/Unloading,Human Error,Hydraulic Fracture Solution,Unknown,1890,No,Yes,CO
+05-045-19767,2215680,2010,2011,-1,Directional,Encana Oil & Gas Inc,39.674482,-108.119373,Manifold,NA,Fitting,Equipment Failure,Saltwater,Unknown,420,No,Yes,CO
+05-045-13282,2215681,2011,2007,4,Directional,WPX Energy Rocky Mountain LLC,39.470226,-107.986022,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,1050,No,No,CO
+05-045-10553,2215685,2011,2005,6,Directional,Encana Oil & Gas Inc,39.600381,-108.151599,Transport,Overflow,Loading/Unloading,Equipment Failure,Saltwater,Unknown,210,No,Yes,CO
+05-123-33702,2216013,2011,2011,0,Horizontal,Noble Energy Inc,40.26683,-104.79093,Separator,NA,Choke Body,Equipment Failure,Condensate & Saltwater,Unknown,609,No,No,CO
+05-045-14574,2216363,2011,2008,3,Directional,WPX Energy Rocky Mountain LLC,39.51549,-107.56095,Tank,Overflow,Unknown,Human Error,Saltwater,Flowback,1260,No,Yes,CO
+05-123-33363,2216508,2011,2011,0,Horizontal,Encana Oil & Gas Inc,40.197952,-104.999288,Wellhead,NA,Choke Body,Equipment Failure,Condensate,Unknown,NA,Yes,No,CO
+05-103-11276,2216617,2011,2011,1,Directional,WPX Energy Rocky Mountain LLC,39.873691,-108.363399,Tank,NA,Valve,Human Error,Saltwater,Flowback,2100,No,Yes,CO
+05-045-18258,2216806,2011,2011,1,Directional,Encana Oil & Gas Inc,39.467606,-107.643031,Flowline,Leak,Vandalism,Human Error,Crude Oil,Unknown,7056,No,Yes,CO
+05-045-19392,2216891,2011,2014,-3,Directional,Ursa Operating LLC,39.533909,-107.620474,Flowline,Leak,Valve,Equipment Failure,Hydraulic Fracture Solution,Unknown,9072,No,Yes,CO
+05-103-10938,2216906,2011,2007,4,Vertical,WPX Energy Rocky Mountain LLC,39.908659,-108.371094,Pit,Overflow,Transport Delay,Human Error,Saltwater,Unknown,588,No,Yes,CO
+05-103-11850,2216908,2011,2011,0,Directional,WPX Energy Rocky Mountain LLC,40.014525,-108.441643,Tank,NA,Valve,Human Error,Saltwater,Flowback,630,No,Yes,CO
+05-103-11850,2216913,2011,2011,0,Directional,WPX Energy Rocky Mountain LLC,40.014525,-108.441643,Transport,Overflow,Loading/Unloading,Human Error,Saltwater,Unknown,420,No,Yes,CO
+05-045-10849,2221036,2011,2006,5,Directional,Ursa Operating LLC,39.539001,-107.697377,Separator,NA,Unknown,Human Error,Oil & Saltwater,Unknown,1428,No,Yes,CO
+05-103-10937,2221263,2011,2007,4,Vertical,WPX Energy Rocky Mountain LLC,39.947526,-108.339413,Flowline,Leak,Disconnected,Human Error,Saltwater,Unknown,924,No,Yes,CO
+05-103-10401,2221339,2011,2005,6,Vertical,BOPCO LLC LP,39.99114,-108.37075,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,714,No,No,CO
+05-045-11857,2221554,2011,2006,5,Directional,Encana Oil & Gas Inc,39.58328,-108.136778,Manifold,NA,Weld,Equipment Failure,Saltwater,Unknown,252,No,Yes,CO
+05-045-10486,2222073,2011,2005,7,Directional,Encana Oil & Gas Inc,39.44283,-107.7761,Centrifuge Unit,NA,Valve,Human Error,Drilling Waste,Unknown,294,No,No,CO
+05-045-18609,2222900,2012,2009,2,Directional,Vanguard Operating LLC,39.518944,-107.625733,Wellhead,Leak,Unknown,Unknown,Saltwater,Unknown,2520,No,No,CO
+05-045-20766,2222957,2012,2011,0,Directional,Encana Oil & Gas Inc,39.511157,-107.713457,Flowline,Leak,Line Plugged,Equipment Failure,Drilling Waste,Drilling Mud,252,No,Yes,CO
+05-045-21180,2222980,2012,2013,-1,Directional,Coachman Energy Operating,39.508561,-107.556078,Transport,NA,Loading/Unloading,Human Error,Drilling Waste,Drilling Mud and Cement,3360,No,Yes,CO
+05-045-17109,2223316,2012,2011,1,Directional,Ursa Operating LLC,39.527237,-107.6821,Blender,NA,Disconnected,Human Error,Saltwater,Unknown,1050,No,Yes,CO
+05-123-35228,2223564,2012,2012,0,Horizontal,Encana Oil & Gas Inc,40.134988,-104.696649,Drill Rig,NA,Valve,Human Error,Drilling Waste,Drilling Mud,378,No,No,CO
+05-103-11796,2223619,2012,2011,0,Directional,WPX Energy Rocky Mountain LLC,39.910301,-108.335088,Manifold,Leak,Unknown,Equipment Failure,Saltwater,Unknown,2520,No,Yes,CO
+05-045-18949,2223795,2012,2010,2,Directional,Vanguard Operating LLC,39.517416,-107.58253,Transport,Overflow,Loading/Unloading,Human Error,Condensate,Unknown,252,No,No,CO
+05-045-20639,2223949,2012,2011,1,Directional,Encana Oil & Gas Inc,39.409952,-108.067305,Tank,Leak,Unknown,Equipment Failure,Hydraulic Fracture Solution,Unknown,336,No,Yes,CO
+05-123-35160,2224050,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.176232,-104.752101,Tank,Leak,Unknown,Human Error,Drilling Waste,Drilling Mud,3150,No,No,CO
+05-103-11279,2224383,2012,2008,3,Directional,WPX Energy Rocky Mountain LLC,39.880241,-108.358295,Tank,NA,Valve,Human Error,Saltwater,Unknown,630,No,Yes,CO
+05-045-17104,2224476,2012,2011,1,Directional,Ursa Operating LLC,39.527242,-107.682047,Tank,Leak,Unknown,Equipment Failure,Saltwater,Flowback,840,No,Yes,CO
+05-103-11796,2224523,2012,2011,0,Directional,WPX Energy Rocky Mountain LLC,39.910301,-108.335088,Manifold,NA,Disassembly,Human Error,Saltwater,Unknown,420,No,Yes,CO
+05-045-13935,2224964,2012,2007,4,Directional,Ursa Operating LLC,39.535844,-107.699357,Tank,Overflow,Transport Delay,Human Error,Saltwater,Unknown,3654,No,Yes,CO
+05-045-15586,2229342,2012,2012,0,Directional,Ursa Operating LLC,39.528365,-107.694063,Transport,NA,Loading/Unloading,Human Error,Oil & Saltwater,Unknown,43848,No,Yes,CO
+05-103-11678,2229540,2012,2011,1,Vertical,WPX Energy Rocky Mountain LLC,39.940924,-108.340155,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,420,No,Yes,CO
+05-123-34868,2229607,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.174884,-104.771084,Wellhead,NA,Valve,Human Error,Drilling Waste,Drilling Mud,336,No,No,CO
+05-045-18637,2229780,2012,2009,3,Directional,Vanguard Operating LLC,39.49717,-107.618005,Tank,NA,Fire,Equipment Failure,Saltwater,Unknown,630,No,No,CO
+05-045-14366,2229908,2012,2007,5,Directional,Encana Oil & Gas Inc,39.64996,-108.18533,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,210,No,No,CO
+05-123-35421,2230137,2012,2012,0,Horizontal,Encana Oil & Gas Inc,40.153535,-104.78533,Wellhead,NA,Well Kick,Equipment Failure,Condensate,Unknown,126,No,No,CO
+05-045-13234,2230294,2011,2007,5,Directional,Caerus Piceance LLC,39.55078,-108.11478,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,1470,No,Yes,CO
+05-103-11276,2230542,2012,2011,1,Directional,WPX Energy Rocky Mountain LLC,39.873691,-108.363399,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,252,No,Yes,CO
+05-123-34750,2230946,2012,2012,0,Horizontal,Encana Oil & Gas Inc,40.162031,-104.901465,Transport,Leak,Loading/Unloading,Human Error,Freshwater,Unknown,1680,No,No,CO
+05-045-14600,2231748,2013,2007,5,Directional,Vanguard Operating LLC,39.50801,-107.66829,Transport,Leak,Loading/Unloading,Human Error,Crude Oil,Unknown,1386,No,Yes,CO
+05-123-36362,2232908,2013,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.10372,-104.657137,Vapor Recovery Tower,NA,Valve,Human Error,Crude Oil,Unknown,630,No,Yes,CO
+05-045-17621,2521011,2010,2009,1,Directional,Vanguard Operating LLC,39.485527,-107.609708,Tank,NA,Valve,Human Error,Crude Oil,Unknown,2100,No,Yes,CO
+05-103-10401,2521012,2010,2005,5,Vertical,BOPCO LLC LP,39.99114,-108.37075,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,2940,No,No,CO
+05-045-19107,2521186,2010,2010,0,Directional,Encana Oil & Gas Inc,39.674177,-108.119917,Flowline,Leak,Disconnected,Equipment Failure,Drilling Waste,Drilling Mud,420,No,Yes,CO
+05-045-11362,2521295,2010,2006,4,Directional,WPX Energy Rocky Mountain LLC,39.479785,-108.100019,Unknown,NA,Unknown,Human Error,Saltwater,Unknown,59976,No,No,CO
+05-045-14263,2521443,2010,2007,3,Directional,Vanguard Operating LLC,39.50439,-107.67603,Flowline,Leak,Unknown,Human Error,Saltwater,Unknown,840,No,No,CO
+05-045-18143,2521852,2010,2010,0,Directional,WPX Energy Rocky Mountain LLC,39.485497,-107.835472,Flowline,Leak,Valve/Connection,Equipment Failure,Saltwater,Unknown,210,No,Yes,CO
+05-123-30953,2521902,2010,2010,0,Horizontal,Noble Energy Inc,40.43937,-104.359061,Tank,Overflow,Unknown,Human Error,Drilling Waste,Drilling Mud,420,No,No,CO
+05-045-14542,2522038,2010,2007,3,Vertical,Encana Oil & Gas Inc,39.645466,-108.165161,Historic Impacts,NA,Pit,Equipment Failure,Unknown,Unknown,NA,No,Yes,CO
+05-045-15092,2522040,2010,2008,2,Directional,Encana Oil & Gas Inc,39.660224,-108.160558,Historic Impacts,NA,Pit,Equipment Failure,Unknown,Unknown,NA,No,Yes,CO
+05-077-09611,2522141,2010,2008,2,Directional,Piceance Energy LLC,39.264122,-107.744897,Tank,Overflow,Line Plugged,Equipment Failure,Saltwater,Unknown,630,No,Yes,CO
+05-045-10384,2522159,2010,2005,5,Directional,Vanguard Operating LLC,39.506586,-107.640694,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,4200,No,No,CO
+05-045-13496,2523020,2010,2005,5,Directional,Encana Oil & Gas Inc,39.637976,-108.152796,Tank,Overflow,Unknown,Equipment Failure,Saltwater,Unknown,12600,No,Yes,CO
+05-103-10975,2523037,2010,2007,4,Vertical,BOPCO LLC LP,40.00114,-108.3605,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,1260,No,No,CO
+05-103-11022,2523254,2010,2007,3,Directional,WPX Energy Rocky Mountain LLC,39.939121,-108.350514,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Flowback,6300,No,No,CO
+05-045-12854,2523706,2011,2008,3,Directional,Linn Operating Inc,39.54238,-108.091135,Tank,NA,Valve - Froze,Environmental Conditions,Oil & Saltwater,Unknown,3864,No,Yes,CO
+05-045-18259,2523725,2011,2010,0,Directional,WPX Energy Rocky Mountain LLC,39.474937,-107.798837,Tank,NA,Valve,Human Error,Saltwater,Unknown,1680,No,Yes,CO
+05-045-17256,2523830,2011,2009,2,Directional,Piceance Energy LLC,39.4265,-107.8225,Tank,Overflow,Unknown,Human Error,Hydraulic Fracture Solution,Unknown,2100,No,Yes,CO
+05-045-18361,2524047,2010,2010,0,Directional,Encana Oil & Gas Inc,39.494256,-107.751292,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,420,No,Yes,CO
+05-045-10196,2524063,2011,2003,7,Vertical,Encana Oil & Gas Inc,39.47443,-107.7836,Transport,Leak,Loading/Unloading,Human Error,Condensate,Unknown,2016,No,Yes,CO
+05-045-17611,2524095,2011,2009,2,Vertical,Piceance Energy LLC,39.4356,-107.82903,Transport,Leak,Loading/Unloading,Equipment Failure,Saltwater,Unknown,2100,No,Yes,CO
+05-103-10937,2524281,2011,2007,4,Vertical,WPX Energy Rocky Mountain LLC,39.947526,-108.339413,Tank,NA,Bull Plug,Human Error,Saltwater,Unknown,420,No,Yes,CO
+05-045-14811,2524330,2008,2008,1,Vertical,WPX Energy Rocky Mountain LLC,39.511536,-108.061267,Tank,NA,Valve,Human Error,Saltwater,Unknown,2100,No,No,CO
+05-045-19837,2524363,2011,2010,0,Directional,Encana Oil & Gas Inc,39.663976,-108.113492,Drill Rig,NA,Gas Buster,Human Error,Unknown,Unknown,10500,Yes,No,CO
+05-045-18949,2524429,2011,2010,1,Directional,Vanguard Operating LLC,39.517416,-107.58253,Tank,NA,Bull Plug,Human Error,Saltwater,Unknown,4200,No,Yes,CO
+05-045-19215,2524430,2011,2010,1,Directional,Vanguard Operating LLC,39.500758,-107.561835,Tank,Overflow,Unknown,Equipment Failure,Condensate,Unknown,1218,No,No,CO
+05-045-19837,2524496,2011,2010,0,Directional,Encana Oil & Gas Inc,39.663976,-108.113492,Tank,Overflow,Unknown,Human Error,Oil & Saltwater,Unknown,546,Yes,Yes,CO
+05-045-17027,2524557,2011,2010,0,Directional,WPX Energy Rocky Mountain LLC,39.522159,-107.58066,Tank,Overflow,Unknown,Human Error,Hydraulic Fracture Solution,Unknown,5250,No,Yes,CO
+05-045-18660,2597006,2011,2010,1,Directional,Vanguard Operating LLC,39.476888,-107.595036,Flowline,Leak,Unknown,Human Error,Condensate & Saltwater,Unknown,756,No,No,CO
+05-045-19115,2605860,2010,2010,0,Directional,Encana Oil & Gas Inc,39.664122,-108.113433,Tank,NA,Valve,Human Error,Drilling Waste,Drilling Mud,504,No,Yes,CO
+05-045-10429,2605864,2009,2005,4,Directional,Encana Oil & Gas Inc,39.589351,-108.044434,Pump,NA,Fitting,Equipment Failure,Saltwater,Unknown,25200,No,Yes,CO
+05-045-13471,2605865,2009,2005,4,Directional,Encana Oil & Gas Inc,39.41043,-108.05083,Tank,NA,Unknown,Unknown,Crude Oil,Unknown,420,No,Yes,CO
+05-045-19107,2606109,2010,2010,0,Directional,Encana Oil & Gas Inc,39.674177,-108.119917,Well Casing,NA,Seal,Equipment Failure,Drilling Waste,Cement,252,No,Yes,CO
+05-045-17338,2606714,2010,2008,1,Directional,WPX Energy Rocky Mountain LLC,39.530623,-107.564576,Flowline,Leak,Valve,Human Error,Saltwater,Unknown,2100,No,No,CO
+05-045-17690,2606777,2010,2009,1,Directional,Vanguard Operating LLC,39.513516,-107.625599,Pit,Leak,Liner,Equipment Failure,Unknown,Unknown,NA,No,No,CO
+05-045-17905,2607025,2010,2009,1,Directional,Vanguard Operating LLC,39.504061,-107.589056,Tank,NA,Valve,Human Error,Crude Oil,Unknown,420,No,Yes,CO
+05-045-17619,2607028,2010,2009,0,Directional,Vanguard Operating LLC,39.485395,-107.60971,Tank,NA,Valve,Human Error,Saltwater,Unknown,4200,No,Yes,CO
+05-045-15682,2607073,2010,2009,1,Directional,Caerus Piceance LLC,39.403911,-108.075871,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,1260,No,Yes,CO
+05-045-17733,2607368,2010,2009,1,Directional,Vanguard Operating LLC,39.479426,-107.61511,Pit,Overflow,Unknown,Human Error,Saltwater,Unknown,2310,No,No,CO
+05-045-17733,2607371,2010,2009,1,Directional,Vanguard Operating LLC,39.479426,-107.61511,Flowline,Leak,Location,Human Error,Saltwater,Unknown,5250,No,No,CO
+05-045-16316,2607389,2008,2008,0,Directional,Caerus Piceance LLC,39.50647,-108.17644,Flowline,Leak,Unknown,Equipment Failure,Hydraulic Fracture Solution,Unknown,420,No,No,CO
+05-045-13969,2607422,2009,2008,1,Directional,Caerus Piceance LLC,39.53831,-108.15069,Tank,NA,Valve,Equipment Failure,Condensate,Unknown,630,No,Yes,CO
+05-045-12892,2607424,2008,2008,1,Directional,Caerus Piceance LLC,39.50344,-108.174,Tank,Overflow,Unknown,Equipment Failure,Saltwater,Unknown,420,No,No,CO
+05-045-07637,2607450,2008,2000,8,Directional,Caerus Piceance LLC,39.54086,-108.1179,Historic Impacts,NA,Unknown,Unknown,Saltwater,Unknown,NA,No,Yes,CO
+05-045-12939,2607454,2008,2008,1,Directional,Caerus Piceance LLC,39.50994,-108.17383,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,714,No,No,CO
+05-045-19107,2607648,2010,2010,0,Directional,Encana Oil & Gas Inc,39.674177,-108.119917,Well Casing,NA,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,840,No,Yes,CO
+05-045-13234,2607806,2009,2007,2,Directional,Caerus Piceance LLC,39.55078,-108.11478,Sump,Leak,Unknown,Equipment Failure,Saltwater,Unknown,NA,No,No,CO
+05-045-13114,2607887,2010,2007,3,Directional,WPX Energy Rocky Mountain LLC,39.469435,-107.934705,Flowline,Leak,Valve,Human Error,Saltwater,Unknown,924,No,No,CO
+05-045-12082,2608108,2010,2007,3,Directional,Antero Resources Piceance Corp,39.531123,-107.653224,Tank,Overflow,Gas Bubble,Equipment Failure,Saltwater,Unknown,420,No,Yes,CO
+05-045-18361,2608641,2010,2010,0,Directional,Encana Oil & Gas Inc,39.494256,-107.751292,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,1890,No,Yes,CO
+05-103-11505,2608644,2010,2009,1,Directional,WPX Energy Rocky Mountain LLC,39.952735,-108.339524,Historic Impacts,NA,Pit,Unknown,Drilling Waste,Unknown,NA,No,Yes,CO
+05-045-16111,2608770,2010,2008,2,Vertical,WPX Energy Rocky Mountain LLC,39.509046,-107.52429,Tank,Overflow,Unknown,Equipment Failure,Saltwater,Unknown,2520,No,Yes,CO
+05-045-13406,200070592,2005,2005,0,Directional,Encana Oil & Gas Inc,39.444298,-107.721255,Tank,NA,Valve,Human Error,Hydraulic Fracture Solution,Unknown,16800,No,No,CO
+05-045-11917,200098060,2006,2006,0,Directional,Ursa Operating LLC,39.531729,-107.733585,Wellhead,NA,Valve,Human Error,Saltwater,Flowback,46200,Yes,No,CO
+05-045-11993,200103172,2007,2006,1,Directional,Vanguard Operating LLC,39.482689,-107.639994,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,2940,No,No,CO
+05-045-11993,200104088,2007,2006,1,Directional,Vanguard Operating LLC,39.482689,-107.639994,Flowline,Leak,Valve - Froze,Environmental Conditions,Saltwater,Unknown,25200,Yes,Yes,CO
+05-077-09002,200106646,2007,2006,1,Directional,Piceance Energy LLC,39.233794,-107.765897,Pit,NA,Unknown,Unknown,Unknown,Unknown,NA,Yes,No,CO
+05-045-10956,200218306,2009,2005,2,Directional,Encana Oil & Gas Inc,39.478442,-107.767889,Transport,Leak,Loading/Unloading,Human Error,Condensate & Saltwater,Unknown,7350,No,Yes,CO
+05-045-14096,200247261,2010,2007,3,Directional,Vanguard Operating LLC,39.469682,-107.599545,Pit,Leak,Liner - Animal,Environmental Conditions,Unknown,Unknown,NA,No,No,CO
+05-045-14709,400597258,2014,2007,7,Directional,OXY USA WTP LP,39.518268,-108.248676,Flowline,Leak,Valve,Equipment Failure,Saltwater,Unknown,126,No,No,CO
+05-045-15415,400621889,2014,2010,4,Directional,WPX Energy Rocky Mountain LLC,39.465016,-107.969296,Blowout,NA,Casing Valve,Equipment Failure,Drilling Waste,Unknown,1260,No,No,CO
+05-045-10909,400638002,2014,2006,8,Directional,Ursa Operating LLC,39.544601,-107.717315,Transport,Leak,Disconnected,Equipment Failure,Crude Oil,Unknown,84,No,No,CO
+05-103-11792,400660215,2014,2013,1,Directional,WPX Energy Rocky Mountain LLC,39.880515,-108.36694,Blowout,NA,Kill Plug,Equipment Failure,Saltwater,Flowback,10920,No,No,CO
+05-045-22217,400693550,2014,2014,0,Directional,WPX Energy Rocky Mountain LLC,39.54324,-107.558326,Pump,Leak,Suction Hose,Equipment Failure,Saltwater,Flowback,1470,No,No,CO
+05-045-20553,400694872,2014,2013,1,Directional,Ursa Operating LLC,39.421017,-108.06056,Transport,Overflow,Loading/Unloading,Human Error,Saltwater,Unknown,420,No,No,CO
+05-123-30151,400696917,2014,2010,4,Vertical,Noble Energy Inc,40.539084,-104.491619,Wellhead,Leak,Well Casing Damaged,Human Error,Condensate,Unknown,168,No,No,CO
+05-045-13512,400703176,2014,2005,9,Directional,Encana Oil & Gas Inc,39.51129,-107.71341,Tank,Leak,Bottom Failure,Equipment Failure,Saltwater,Unknown,6300,No,Yes,CO
+05-123-35880,400737329,2014,2012,2,Horizontal,Encana Oil & Gas Inc,40.159221,-104.796135,Transport,Overflow,Loading/Unloading,Human Error,Condensate,Unknown,84,No,No,CO
+05-045-14718,400745229,2014,2010,4,Directional,Marathon Oil,39.5094,-108.21823,Flowline,Leak,Elbow Bend,Equipment Failure,Condensate & Saltwater,Unknown,9786,No,No,CO
+05-123-34772,2145128,2013,2012,1,Horizontal,Noble Energy Inc,40.53602,-104.52773,Tank,NA,Valve,Human Error,Crude Oil,Unknown,420,No,No,CO
+05-123-36557,2145186,2013,2013,0,Horizontal,Carrizo Niobrara LLC,40.59648,-104.30212,Transport,Overflow,Loading/Unloading,Human Error,Diesel,Unknown,40,No,Yes,CO
+05-123-36663,2145187,2013,2013,0,Horizontal,Noble Energy Inc,40.653803,-104.126016,Tank,NA,Gasket,Equipment Failure,Saltwater,Unknown,210,No,Yes,CO
+05-123-35463,2145221,2013,2012,1,Horizontal,Extraction Oil & Gas LLC,40.44167,-104.69566,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,4200,No,No,CO
+05-123-36053,2145267,2013,2013,0,Horizontal,Whiting Oil & Gas Corp,40.787213,-104.042118,Tank,Overflow,Unanticipated Volume,Environmental Conditions,Saltwater,Unknown,1050,No,Yes,CO
+05-123-35894,2145310,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.175049,-104.827798,Wellhead,NA,Drill Rig Tipped Over,Human Error,Drilling Waste,Drilling Mud,378,No,No,CO
+05-123-36639,2145474,2013,2013,0,Horizontal,Noble Energy Inc,40.65562,-104.23839,Flowline,Leak,Disconnected,Equipment Failure,Hydraulic Fracture Solution,Unknown,420,No,No,CO
+05-123-36310,2145514,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.205038,-104.751637,Drill Rig,NA,Fracture Propagation,Unknown,Drilling Waste,Drilling Mud,420,No,No,CO
+05-123-36217,2145600,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.118265,-104.693211,Flowline,Leak,Valve,Equipment Failure,Saltwater,Unknown,210,No,Yes,CO
+05-123-37156,2145727,2013,2013,0,Horizontal,Noble Energy Inc,40.565898,-104.394827,Flowline,Leak,Unknown,Equipment Failure,Drilling Waste,Drilling Mud and Cuttings,1680,No,No,CO
+05-123-36825,2145895,2013,2013,0,Horizontal,Noble Energy Inc,40.585728,-104.524962,Drill Rig,NA,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,210,No,No,CO
+05-123-37448,2145986,2013,2013,0,Horizontal,Noble Energy Inc,40.778531,-103.861898,Drill Rig,NA,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,630,No,Yes,CO
+05-069-06445,2145993,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.408929,-104.945458,Flowline,Leak,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,252,No,Yes,CO
+05-123-37286,2146079,2013,2013,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.36224,-104.37071,Tank,NA,Valve,Human Error,Crude Oil,Unknown,4200,No,No,CO
+05-123-36403,2146137,2013,2013,0,Horizontal,Noble Energy Inc,40.586038,-104.524954,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,84,No,No,CO
+05-123-37735,2146465,2013,2013,0,Horizontal,Noble Energy Inc,40.343903,-104.733965,Tank,NA,Valve,Equipment Failure,Drilling Waste,Drilling Mud,168,No,No,CO
+05-123-36874,2146486,2013,2013,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.36445,-104.3239,Tank,NA,Valve,Human Error,Crude Oil,Unknown,420,No,No,CO
+05-123-36263,2146506,2013,2013,1,Horizontal,Noble Energy Inc,40.744486,-103.90418,Tank,NA,Fitting,Equipment Failure,Saltwater,Unknown,4830,No,Yes,CO
+05-123-34978,2146529,2013,2013,0,Horizontal,Whiting Oil & Gas Corp,40.785987,-104.028463,Wellhead,NA,Valve,Human Error,Oil & Saltwater,Unknown,2100,No,Yes,CO
+05-123-36123,2146530,2013,2013,0,Horizontal,Whiting Oil & Gas Corp,40.756961,-104.018789,Separator,NA,Gasket,Equipment Failure,Oil & Saltwater,Unknown,798,No,Yes,CO
+05-123-36124,2146531,2013,2012,1,Horizontal,Whiting Oil & Gas Corp,40.808747,-103.834514,Tank,Overflow,Unanticipated Volume,Environmental Conditions,Oil & Saltwater,Unknown,420,No,Yes,CO
+05-123-35951,2146577,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.115871,-104.634106,Flowline,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,126,No,No,CO
+05-123-36123,2146745,2013,2013,0,Horizontal,Whiting Oil & Gas Corp,40.756961,-104.018789,Separator,NA,Gasket,Equipment Failure,Oil & Saltwater,Unknown,2310,No,Yes,CO
+05-123-36123,2146746,2013,2013,0,Horizontal,Whiting Oil & Gas Corp,40.756961,-104.018789,Separator,NA,Valve,Human Error,Crude Oil,Unknown,420,No,Yes,CO
+05-123-33001,2146802,2013,2011,2,Horizontal,Barret Bill Corp,40.379483,-104.301928,Stuffing Box,NA,Well Communication,Equipment Failure,Crude Oil,Unknown,210,No,Yes,CO
+05-123-33331,2146835,2013,2012,2,Horizontal,Bonanza Creek Energy Operating Co LLC,40.40772,-104.23145,Stuffing Box,NA,Rubbers,Equipment Failure,Crude Oil,Unknown,840,No,No,CO
+05-123-38332,2146855,2013,2013,0,Horizontal,Carrizo Niobrara LLC,40.63921,-104.19888,Flowline,Leak,Fitting,Equipment Failure,Drilling Waste,Drill Cuttings and Freshwater,1092,No,Yes,CO
+05-123-35596,2147084,2013,2013,0,Horizontal,Noble Energy Inc,40.39829,-104.85264,Transport,Leak,Loading/Unloading,Human Error,Crude Oil,Unknown,420,No,Yes,CO
+05-123-36330,2147088,2013,2013,1,Horizontal,PDC Energy Inc,40.50986,-104.82836,Flowline,Leak,Unknown,Equipment Failure,Condensate,Unknown,1050,No,Yes,CO
+05-123-38335,2147136,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.103005,-104.737387,Wellhead,NA,Wellbore Plugged - Mud Boot Formed,Unknown,Drilling Waste,Drilling Mud,294,No,Yes,CO
+05-123-35968,2147255,2013,2012,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.36403,-104.41475,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,84,No,No,CO
+05-123-36479,2147258,2013,2013,0,Horizontal,PDC Energy Inc,40.53766,-104.53137,Drill Rig,NA,Fracture Propagation,Unknown,Drilling Waste,Drilling Mud,420,No,No,CO
+05-123-33925,2147259,2013,2013,0,Horizontal,Barret Bill Corp,40.349325,-104.168761,Flowline,Leak,Valve,Equipment Failure,Crude Oil,Unknown,168,No,No,CO
+05-123-33418,2147308,2013,2011,2,Horizontal,Bonanza Creek Energy Operating Co LLC,40.43489,-104.30264,Header,Leak,Froze,Environmental Conditions,Crude Oil,Unknown,84,No,No,CO
+05-123-36469,2147311,2013,2013,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.4074,-104.21915,Separator,NA,Rupture Disk - Froze,Environmental Conditions,Crude Oil,Unknown,84,No,No,CO
+05-123-36597,2147312,2013,2013,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.40911,-104.26881,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,42,No,No,CO
+05-123-34896,2147317,2013,2013,1,Horizontal,Whiting Oil & Gas Corp,40.786005,-103.985517,Heater Treater,NA,Valve,Equipment Failure,Crude Oil,Unknown,4200,No,Yes,CO
+05-123-34812,2147358,2013,2012,2,Horizontal,Noble Energy Inc,40.27951,-104.71679,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,336,No,No,CO
+05-123-32424,2147377,2013,2012,2,Horizontal,Barret Bill Corp,40.63893,-104.27654,Stuffing Box,NA,Line - Froze,Environmental Conditions,Crude Oil,Unknown,84,No,No,CO
+05-123-36210,2147428,2014,2013,0,Horizontal,Encana Oil & Gas Inc,40.21514,-105.00878,Transport,Leak,Loading/Unloading,Human Error,Drilling Waste,Drilling Mud,210,No,No,CO
+05-123-37031,2147442,2014,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.160463,-104.804131,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,378,No,Yes,CO
+05-123-37671,2147444,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.236912,-104.82245,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Recycled Water,672,No,Yes,CO
+05-123-37409,2147488,2013,2013,0,Horizontal,PDC Energy Inc,40.37364,-104.62017,Unknown,NA,Froze,Environmental Conditions,Drilling Waste,Drilling Mud,420,No,Yes,CO
+05-123-30749,2147503,2013,2010,4,Horizontal,EOG Resources Inc,40.91635,-104.430636,Flowline,Leak,Fitting,Equipment Failure,Crude Oil,Unknown,3150,No,Yes,CO
+05-123-36867,2147603,2014,2013,1,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.153621,-104.714121,Separator,NA,Oil Dump,Equipment Failure,Condensate,Unknown,504,No,No,CO
+05-123-37551,2147622,2014,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.233114,-104.801979,Flowline,Leak,Snubbing,Human Error,Oil & Saltwater,Unknown,420,No,Yes,CO
+05-123-38634,2147674,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.37528,-104.22236,Tank,NA,Valve,Human Error,Crude Oil,Unknown,3150,No,No,CO
+05-123-37879,2147675,2014,2014,0,Horizontal,Whiting Oil & Gas Corp,40.808886,-103.834406,Flowline,Leak,Froze,Environmental Conditions,Drilling Waste,Drilling Mud,504,No,Yes,CO
+05-123-37730,2147676,2014,2013,0,Horizontal,Whiting Oil & Gas Corp,40.808881,-103.858489,Separator,NA,Unknown,Equipment Failure,Crude Oil,Unknown,252,No,No,CO
+05-123-37972,2147679,2014,2014,0,Horizontal,Encana Oil & Gas Inc,40.08917,-104.75618,Blowout Preventer,NA,Disconnected,Human Error,Drilling Waste,Drilling Fluids and Cement,84,No,No,CO
+05-123-36477,2147691,2014,2013,1,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.12962,-104.754904,Separator,NA,Gasket,Equipment Failure,Crude Oil,Unknown,84,No,No,CO
+05-123-37286,2147717,2014,2013,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.36224,-104.37071,Separator,NA,Valve - Froze,Environmental Conditions,Crude Oil,Unknown,1680,No,Yes,CO
+05-123-32426,2147718,2014,2011,3,Horizontal,Caerus Washco LLC,40.50863,-104.18487,Tank,NA,Valve - Froze,Environmental Conditions,Saltwater,Unknown,1050,No,Yes,CO
+05-123-37700,2147729,2014,2013,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.39123,-104.42193,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,882,No,No,CO
+05-123-37653,2147731,2014,2013,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.40541,-104.34272,Separator,NA,Rupture Disk,Human Error,Crude Oil,Unknown,546,No,No,CO
+05-123-38390,2147933,2014,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.016187,-104.884611,Tank,NA,Gasket,Equipment Failure,Saltwater,Recycled Water,882,No,Yes,CO
+05-123-38940,2147982,2014,2014,0,Horizontal,Encana Oil & Gas Inc,40.08923,-104.75618,Pump,NA,Rubber Boot,Equipment Failure,Drilling Waste,Drilling Mud,252,No,No,CO
+05-123-36339,2148347,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.218592,-104.750124,Flowline,Leak,Fitting,Equipment Failure,Drilling Waste,Drilling Fluids,1512,No,Yes,CO
+05-123-37577,2148534,2014,2013,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.35036,-104.37943,Historic Impacts,NA,Tank,Unknown,Saltwater,Unknown,NA,No,No,CO
+05-123-31181,2213053,2011,2010,0,Horizontal,EOG Resources Inc,40.916642,-104.411869,Tank,NA,Valve,Human Error,Crude Oil,Unknown,1260,No,Yes,CO
+05-123-31181,2213054,2011,2010,0,Horizontal,EOG Resources Inc,40.916642,-104.411869,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,840,No,Yes,CO
+05-123-30574,2213055,2011,2009,1,Horizontal,EOG Resources Inc,40.95349,-104.384172,Pump,NA,Valve,Human Error,Crude Oil,Unknown,210,No,Yes,CO
+05-123-32649,2213227,2011,2011,0,Horizontal,Noble Energy Inc,40.47107,-104.62175,Pump,NA,Valve,Equipment Failure,Hydraulic Fracture Solution,Slickwater,210,No,No,CO
+05-123-33551,2214642,2011,2011,0,Horizontal,Noble Energy Inc,40.27983,-104.77192,Shaker,NA,Power Failure,Human Error,Drilling Waste,Drilling Mud,4200,No,No,CO
+05-123-33324,2215310,2011,2011,0,Horizontal,Noble Energy Inc,40.46333,-104.35605,Blowout Preventer,NA,Unknown,Human Error,Oil & Hydraulic Fracture Solution,Slickwater,1008,No,No,CO
+05-123-33110,2215323,2011,2011,0,Horizontal,Ironhorse Resources LLC,40.92962,-104.631048,Wellhead,NA,Vandalism,Human Error,Oil & Saltwater,Unknown,4410,No,Yes,CO
+05-123-33826,2215748,2011,2011,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.029109,-104.641771,Transport,NA,In Transit,Human Error,Drilling Waste,Drilling Mud,42,No,No,CO
+05-123-31925,2222467,2012,2011,0,Horizontal,EOG Resources Inc,40.989161,-104.354394,Pump,NA,Gasket - Froze,Environmental Conditions,Crude Oil,Unknown,1260,No,Yes,CO
+05-123-33441,2222906,2012,2011,0,Horizontal,Noble Energy Inc,40.29162,-104.50912,Flowline,Leak,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,2100,No,No,CO
+05-123-33581,2223105,2012,2011,1,Horizontal,Ironhorse Resources LLC,40.75489,-104.72685,Tank,NA,Valve,Equipment Failure,Crude Oil,Unknown,798,No,Yes,CO
+05-123-34452,2223325,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.190205,-104.760468,Tank,Overflow,Unknown,Human Error,Drilling Waste,Drilling Mud,630,No,No,CO
+05-123-34049,2223565,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.008,-104.910306,Flowline,Leak,Unknown,Human Error,Drilling Waste,Drilling Mud,630,No,No,CO
+05-123-34869,2223625,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.130086,-104.75626,Tank,NA,Valve,Equipment Failure,Drilling Waste,Drilling Mud,420,No,Yes,CO
+05-123-34783,2224386,2012,2012,0,Horizontal,Noble Energy Inc,40.37601,-104.39204,Separator,NA,Rupture Disk,Equipment Failure,Hydraulic Fracture Solution,Slickwater,6930,No,Yes,CO
+05-123-34956,2224704,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.201654,-104.737315,Drill Rig,NA,Fitting,Equipment Failure,Drilling Waste,Drilling Mud,210,No,No,CO
+05-123-34827,2224808,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.129812,-104.760969,Transport,Leak,Loading/Unloading,Human Error,Drilling Waste,Drill Cuttings,840,No,No,CO
+05-123-34827,2224810,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.129812,-104.760969,Tank,Leak,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,420,No,No,CO
+05-123-35258,2224943,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.175943,-104.70171,Tank,Overflow,Line Plugged,Equipment Failure,Drilling Waste,Drilling Mud,462,No,No,CO
+05-123-34729,2229143,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.175955,-104.779674,Blowout Preventer,NA,Well Kick,Equipment Failure,Drilling Waste,Drilling Mud,420,No,No,CO
+05-123-32648,2229472,2012,2011,1,Horizontal,Noble Energy Inc,40.47515,-104.63728,Wellhead,NA,Plug Failed,Equipment Failure,Oil & Hydraulic Fracture Solution,KCL Water,882,No,No,CO
+05-123-34730,2229716,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.175952,-104.77989,Flowline,Leak,Unknown,Human Error,Drilling Waste,Drilling Mud,420,No,No,CO
+05-123-34857,2230026,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.174926,-104.76584,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Flowback,420,No,Yes,CO
+05-123-35452,2230140,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.158583,-104.63731,Shaker,Overflow,Unknown,Human Error,Drilling Waste,Drilling Mud,2100,No,No,CO
+05-123-33067,2230354,2012,2012,0,Horizontal,Noble Energy Inc,40.75995,-103.88066,Oil Dump,NA,Fire,Equipment Failure,Unknown,Unknown,NA,No,No,CO
+05-123-34287,2231218,2012,2011,1,Horizontal,Noble Energy Inc,40.33335,-104.57157,Oil Dump,NA,Unknown,Equipment Failure,Crude Oil,Unknown,420,No,Yes,CO
+05-123-35659,2231246,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.146826,-104.667172,Wellhead,NA,Pump,Human Error,Drilling Waste,Drilling Mud,630,No,No,CO
+05-123-36141,2231247,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.162112,-104.667911,Flowline,Leak,Line Plugged,Human Error,Drilling Waste,Drilling Mud,6300,No,No,CO
+05-123-35608,2231271,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.147276,-104.669899,Tank,Leak,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,630,No,No,CO
+05-123-33418,2231306,2012,2011,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.43489,-104.30264,Tank,NA,Valve,Human Error,Crude Oil,Unknown,840,No,Yes,CO
+05-123-35385,2231366,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.14134,-104.771788,Flowline,Leak,Froze,Environmental Conditions,Saltwater,Unknown,8946,No,Yes,CO
+05-123-35771,2231394,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.146787,-104.660772,Tank,Overflow,Unknown,Human Error,Drilling Waste,Drilling Mud,840,No,No,CO
+05-123-35917,2231463,2012,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.153699,-104.685742,Drill Rig,NA,Well Kick - Lost Circulation,Environmental Conditions,Drilling Waste,Drilling Mud,336,No,No,CO
+05-123-36124,2231531,2012,2012,0,Horizontal,Whiting Oil & Gas Corp,40.808747,-103.834514,Tank,Overflow,Unknown,Human Error,Drilling Waste,Drilling Mud,1260,No,No,CO
+05-123-32457,2231599,2013,2010,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.43917,-104.27911,Tank,NA,Valve,Human Error,Crude Oil,Unknown,840,No,Yes,CO
+05-123-35736,2231603,2013,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.161367,-104.701917,Shaker,NA,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,630,No,No,CO
+05-123-34161,2231657,2013,2011,1,Horizontal,Red Hawk Petroleum LLC,40.624397,-104.242449,Heater Treater,NA,Fire Tube,Equipment Failure,Oil & Saltwater,Unknown,420,No,No,CO
+05-123-35794,2231721,2013,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.173836,-104.64164,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,1260,No,Yes,CO
+05-123-34877,2231723,2013,2012,0,Horizontal,Whiting Oil & Gas Corp,40.920424,-103.734509,Flowline,Leak,Fitting - Froze,Environmental Conditions,Oil & Saltwater,Unknown,13272,No,No,CO
+05-123-34797,2231725,2013,2012,0,Horizontal,Noble Energy Inc,40.46345,-104.677622,Drill Rig,NA,Well Kick,Human Error,Oil & Saltwater,Unknown,441,No,Yes,CO
+05-123-35673,2231726,2013,2012,0,Horizontal,Noble Energy Inc,40.49125,-104.37457,Tank,Overflow,Froze,Environmental Conditions,Saltwater,Flowback,840,No,Yes,CO
+05-123-35918,2231930,2013,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.153917,-104.696174,Drill Rig,NA,Well Kick,Equipment Failure,Drilling Waste,Drilling Mud,210,No,No,CO
+05-123-33361,2231979,2013,2012,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.40549,-104.30233,Stuffing Box,NA,Rubbers,Equipment Failure,Crude Oil,Unknown,840,No,No,CO
+05-123-35770,2232262,2013,2012,0,Horizontal,Noble Energy Inc,40.38922,-104.64102,Tank,NA,Switch,Equipment Failure,Crude Oil,Unknown,2730,No,Yes,CO
+05-123-35876,2232523,2013,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.15379,-104.680209,Wellhead,NA,Valve,Equipment Failure,Hydraulic Fracture Solution,Slickwater,924,No,No,CO
+05-123-36549,2232573,2013,2013,0,Horizontal,Noble Energy Inc,40.717367,-104.069998,Tank,NA,Valve,Human Error,Saltwater,Unknown,10500,No,Yes,CO
+05-123-35610,2232719,2013,2012,1,Horizontal,Bonanza Creek Energy Operating Co LLC,40.37734,-104.34293,Tank,NA,Valve,Human Error,Crude Oil,Unknown,13062,No,No,CO
+05-123-35088,2232761,2013,2012,0,Horizontal,Noble Energy Inc,40.36852,-104.79243,Separator,NA,Float,Equipment Failure,Crude Oil,Unknown,420,No,Yes,CO
+05-123-35182,2232878,2013,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.202175,-104.805963,Transport,NA,In Transit,Human Error,Saltwater,Unknown,84,No,No,CO
+05-123-37098,2232913,2013,2013,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.37735,-104.34285,Pump,NA,Valve,Human Error,Drilling Waste,Drilling Mud,630,No,No,CO
+05-123-37147,2232972,2013,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.117389,-104.733589,Shaker,NA,Power Failure,Equipment Failure,Drilling Waste,Drilling Mud,294,No,No,CO
+05-123-30695,2521177,2010,2009,1,Horizontal,Noble Energy Inc,40.55091,-104.5052,Tank,Overflow,Unanticipated Volume,Environmental Conditions,Crude Oil,Unknown,336,No,Yes,CO
+05-123-30904,2522901,2010,2010,0,Horizontal,Noble Energy Inc,40.44637,-104.37316,Tank,Overflow,Unknown,Human Error,Saltwater,Flowback,1050,No,No,CO
+05-123-32244,2522946,2010,2010,0,Horizontal,Noble Energy Inc,40.33028,-104.62003,Wellhead,Leak,Unknown,Equipment Failure,Hydraulic Fracture Solution,Unknown,1008,No,No,CO
+05-123-32595,2524070,2011,2011,0,Horizontal,Noble Energy Inc,40.46775,-104.62174,Flowline,Leak,Unknown,Equipment Failure,Drilling Waste,Drilling Mud,630,No,No,CO
+05-123-30749,2607969,2010,2010,0,Horizontal,EOG Resources Inc,40.91635,-104.430636,Transport,NA,In Transit,Human Error,Saltwater,Flowback,NA,No,Yes,CO
+05-123-33686,200315129,2011,2011,0,Horizontal,EOG Resources Inc,41.000833,-104.324389,Pit,Overflow,Heavy Rain,Environmental Conditions,Unknown,Unknown,42,No,No,CO
+05-123-36184,200377294,2013,2012,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.173421,-104.676962,Unknown,NA,Unknown,Unknown,Unknown,Unknown,NA,No,No,CO
+05-123-36329,400599114,2014,2014,0,Horizontal,Noble Energy Inc,40.308676,-104.638725,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,378,No,No,CO
+05-123-37906,400600005,2014,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.158138,-104.878815,Transport,Overflow,Loading/Unloading,Human Error,Saltwater,Unknown,126,No,No,CO
+05-123-37663,400603458,2014,2014,0,Horizontal,Encana Oil & Gas Inc,40.20205,-104.99933,Drill Rig,Leak,Disconnected,Unknown,Drilling Waste,Unknown,126,No,Yes,CO
+05-123-38352,400604390,2014,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.012494,-104.884152,Transport,Leak,Loading/Unloading,Human Error,Saltwater,Unknown,4200,No,Yes,CO
+05-123-37777,400617323,2014,2014,0,Horizontal,Encana Oil & Gas Inc,40.16811,-104.91495,Tank,Overflow,Valve,Human Error,Drilling Waste,Drilling Mud,2226,No,No,CO
+05-123-37661,400618637,2014,2014,0,Horizontal,Encana Oil & Gas Inc,40.202,-104.99934,Tank,Leak,Seal,Equipment Failure,Drilling Waste,Drilling Mud,420,No,No,CO
+05-123-37847,400621190,2014,2013,0,Horizontal,Whiting Oil & Gas Corp,40.830272,-103.863322,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,714,No,No,CO
+05-123-38390,400627302,2014,2013,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.016187,-104.884611,Tank,Leak,Gasket,Equipment Failure,Saltwater,Recycled Water,882,No,Yes,CO
+05-123-35697,400632508,2014,2012,2,Horizontal,Bonanza Creek Energy Operating Co LLC,40.33579,-104.41249,Stuffing Box,Leak,Seal,Equipment Failure,Crude Oil,Unknown,42,No,No,CO
+05-123-37760,400642326,2014,2013,0,Horizontal,Encana Oil & Gas Inc,40.114899,-104.746642,Manifold,Leak,Gasket,Equipment Failure,Saltwater,Flowback,126,No,No,CO
+05-123-38418,400649470,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.012965,-104.872993,Hydrovac Truck,Leak,Seal,Equipment Failure,Saltwater,Flowback,420,No,Yes,CO
+05-123-39474,400663452,2014,2014,0,Horizontal,Noble Energy Inc,40.32778,-104.791,Well Casing,Leak,Valve,Human Error,Drilling Waste,Unknown,630,No,Yes,CO
+05-123-39286,400671609,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.41194,-104.22273,Flowline,Leak,Unknown,Equipment Failure,Flush Water,Unknown,4200,No,No,CO
+05-123-39479,400674257,2014,2014,0,Horizontal,Noble Energy Inc,40.32772,-104.791,Flowline,NA,Wrong Location,Human Error,Drilling Waste,Unknown,840,No,No,CO
+05-123-39930,400677318,2014,2014,0,Horizontal,Red Hawk Petroleum LLC,40.59773,-104.06296,Manifold,NA,Valve,Human Error,Drilling Waste,Drilling Mud,4326,No,Yes,CO
+05-123-39517,400678280,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.378678,-104.38874,Flowline,Leak,Abrasian,Equipment Failure,Hydraulic Fracture Solution,Unknown,168,No,No,CO
+05-123-33361,400682458,2014,2012,2,Horizontal,Bonanza Creek Energy Operating Co LLC,40.40549,-104.30233,Stuffing Box,Leak,Seal,Equipment Failure,Crude Oil,Unknown,42,No,No,CO
+05-123-39003,400687769,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.36203,-104.34234,Wellbore,Overflow,Wrong Tank,Human Error,Saltwater,Unknown,168,No,No,CO
+05-123-37755,400692940,2014,2013,0,Horizontal,Barret Bill Corp,40.382954,-104.22256,Tank,Overflow,Level Switch Bypassed,Human Error,Crude Oil,Unknown,1260,No,No,CO
+05-123-39151,400694601,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.086167,-104.768263,Tank,Overflow,Valve,Human Error,Drilling Waste,Drilling Fluids,1260,No,Yes,CO
+05-123-39595,400696927,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.059855,-104.710705,Shaker,Overflow,Power Failure,Equipment Failure,Drilling Waste,Drilling Mud,210,No,Yes,CO
+05-123-39320,400697803,2014,2014,0,Horizontal,Great Western Oil & Gas LLC,40.243694,-104.978164,Well Cellar,Overflow,Compressor Plugged,Equipment Failure,Drilling Waste,Unknown,105,No,No,CO
+05-123-34098,400711909,2014,2013,1,Horizontal,Carrizo Niobrara LLC,40.63923,-104.18806,Transport,Leak,Wellhead Damaged,Human Error,Oil & Saltwater,Unknown,420,No,No,CO
+05-123-40386,400723129,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.40539,-104.39007,Drill Rig,Leak,Valve,Equipment Failure,Drilling Waste,Unknown,63,No,No,CO
+05-123-32455,400734840,2014,2011,3,Horizontal,Bonanza Creek Energy Operating Co LLC,40.43603,-104.27853,Flowline,Leak,Froze,Environmental Conditions,Crude Oil,Unknown,84,No,No,CO
+05-123-39389,400736973,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.39006,-104.16502,Tank,Overflow,Line Plugged,Equipment Failure,Drilling Waste,Drilling Mud,134.4,No,Yes,CO
+05-123-39329,400739305,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.119203,-104.865358,Transport,NA,Loading/Unloading,Human Error,Saltwater,Recycled Water,3108,No,Yes,CO
+05-123-40547,400742302,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.153757,-104.710647,Wellhead,NA,Wellbore Plugged - Mud Boot Formed,Equipment Failure,Drilling Waste,Drilling Mud,1344,No,No,CO
+05-123-39533,400743367,2014,2014,0,Horizontal,Whiting Oil & Gas Corp,40.830272,-103.863742,Transport,NA,Unknown,Unknown,Drilling Waste,Unknown,420,No,No,CO
+05-123-38929,400746741,2014,2014,0,Horizontal,Great Western Oil & Gas LLC,40.537464,-104.703486,Tank,Leak,Valve,Human Error,Drilling Waste,Unknown,1050,No,No,CO
+05-123-35250,400746797,2014,2012,2,Horizontal,Bonanza Creek Energy Operating Co LLC,40.538783,-104.367166,Wellhead,Leak,Power Failure,Equipment Failure,Drilling Waste,Unknown,126,No,No,CO
+05-123-37776,400749608,2014,2014,0,Horizontal,PDC Energy Inc,40.37835,-104.61062,Wellhead,NA,Valve,Equipment Failure,Oil & Saltwater,Flowback,1176,No,No,CO
+05-123-37453,400755834,2014,2014,0,Horizontal,Noble Energy Inc,40.77851,-103.86135,Manifold,Overflow,Valve,Human Error,Saltwater,Recycled Water,3192,No,Yes,CO
+05-123-40789,400756545,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.161711,-104.634185,Well Cellar,Overflow,Power Failure,Equipment Failure,Drilling Waste,Drilling Mud,701.4,No,Yes,CO
+05-123-39558,400759421,2014,2014,0,Horizontal,Noble Energy Inc,40.33248,-104.81301,Tank,NA,Valve,Human Error,Crude Oil,Unknown,42,No,No,CO
+05-123-38950,400761722,2014,2014,0,Horizontal,Kerr-McGee Oil & Gas Onshore LP,40.100998,-104.88253,Manifold,Leak,Valve,Human Error,Saltwater,Flowback,672,No,Yes,CO
+05-123-38695,400762046,2014,2014,0,Horizontal,Great Western Oil & Gas LLC,40.529683,-104.471103,Flowline,Leak,Froze,Environmental Conditions,Crude Oil,Unknown,420,No,Yes,CO
+05-081-07783,2147164,2013,2013,0,Horizontal,SWEPI LP,40.281014,-107.661369,Tank,NA,Nipple,Equipment Failure,Drilling Waste,Drilling Mud,294,No,Yes,CO
+05-123-37506,2147274,2013,2013,0,Horizontal,Whiting Oil & Gas Corp,40.845279,-103.754508,Flowline,Leak,Valve,Human Error,Oil & Saltwater,Unknown,420,No,Yes,CO
+05-077-09708,2214256,2011,2010,1,Vertical,Piceance Energy LLC,39.260542,-107.748756,Lubricator,NA,Seal,Equipment Failure,Hydraulic Fracture Solution,Unknown,840,No,Yes,CO
+05-077-08963,2214305,2011,2006,5,Directional,Encana Oil & Gas Inc,39.3399,-108.16055,Tank,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,2898,No,Yes,CO
+05-045-20792,2215747,2011,2011,0,Horizontal,Encana Oil & Gas Inc,39.382358,-108.170385,Flowline,Leak,Disconnected,Human Error,Drilling Waste,Drilling Mud,336,No,Yes,CO
+05-077-09661,2215762,2011,2010,1,Horizontal,Encana Oil & Gas Inc,39.355448,-108.114516,Tank,Leak,Weld,Equipment Failure,Saltwater,Unknown,420,No,Yes,CO
+05-045-20325,2221267,2011,2011,0,Horizontal,Encana Oil & Gas Inc,39.368648,-108.099265,Pump,NA,Fitting,Equipment Failure,Saltwater,Unknown,420,No,Yes,CO
+05-123-31973,2232414,2013,2010,2,Horizontal,EOG Resources Inc,40.957836,-104.446381,Transport,Overflow,Loading/Unloading,Human Error,Crude Oil,Unknown,252,No,No,CO
+05-077-09663,2523058,2010,2010,0,Horizontal,Encana Oil & Gas Inc,39.355395,-108.114513,Pump,Leak,Unknown,Equipment Failure,Saltwater,Unknown,1890,No,Yes,CO
+05-057-06515,400631757,2014,2013,0,Horizontal,EOG Resources Inc,40.644586,-106.394469,Transport,Leak,Loading/Unloading,Equipment Failure,Crude Oil,Unknown,42,No,Yes,CO
+05-123-34561,400691986,2014,2011,2,Horizontal,Whiting Oil & Gas Corp,40.7881,-103.94798,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,630,No,Yes,CO
+05-123-35322,400717544,2014,2012,2,Horizontal,Bonanza Creek Energy Operating Co LLC,40.553273,-104.310665,Stuffing Box,Leak,Seal,Equipment Failure,Crude Oil,Unknown,126,No,No,CO
+05-123-39358,400723156,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.33564,-104.34319,Well Cellar,Overflow,Pump,Equipment Failure,Drilling Waste,Drilling Mud,231,No,Yes,CO
+05-123-39641,400733837,2014,2014,0,Horizontal,Noble Energy Inc,40.4761,-104.35573,Drill Rig,Leak,Hammer Union,Equipment Failure,Drilling Waste,Drilling Mud,4200,No,Yes,CO
+05-123-39288,400760999,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.41194,-104.22281,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,210,No,No,CO
+05-123-37338,400762378,2014,2014,0,Horizontal,Bonanza Creek Energy Operating Co LLC,40.37719,-104.34311,Flowline,Leak,Froze,Environmental Conditions,Saltwater,Flowback,210,No,No,CO

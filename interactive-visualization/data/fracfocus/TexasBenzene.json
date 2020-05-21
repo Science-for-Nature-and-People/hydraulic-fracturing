@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 24641, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 68.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.03912494127501, 31.857028911595954 ] } },
+{ "type": "Feature", "id": 24643, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 44.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.17367995023218, 31.638511936188809 ] } },
+{ "type": "Feature", "id": 24644, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 52.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.22618805056717, 31.074376243734203 ] } },
+{ "type": "Feature", "id": 24645, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 43.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.08449004826737, 31.842346089206014 ] } },
+{ "type": "Feature", "id": 24646, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 51.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.04058857637801, 31.773735339895982 ] } },
+{ "type": "Feature", "id": 24647, "properties": { "state": "Texas", "endyear": 2014.000000, "casvol": 43.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.07982053166715, 31.768456356349898 ] } },
+{ "type": "Feature", "id": 24648, "properties": { "state": "Texas", "endyear": 2014.000000, "casvol": 44.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.18718429534771, 31.640104852484402 ] } },
+{ "type": "Feature", "id": 24649, "properties": { "state": "Texas", "endyear": 2014.000000, "casvol": 43.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.18046616028518, 31.618824501545113 ] } },
+{ "type": "Feature", "id": 46557, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 70.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.045, 31.76111 ] } }
+]
+}

@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 7714, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.511710266208482, 36.146613102044462 ] } },
+{ "type": "Feature", "id": 9466, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.142927628196787, 36.230775888071037 ] } },
+{ "type": "Feature", "id": 9475, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.465557735058027, 36.074160984761932 ] } },
+{ "type": "Feature", "id": 9521, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.620986481034095, 36.145868513576715 ] } },
+{ "type": "Feature", "id": 9529, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.230469374061158, 36.276123119905179 ] } },
+{ "type": "Feature", "id": 9530, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.231429341096359, 36.273152566794714 ] } },
+{ "type": "Feature", "id": 9557, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 6.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.413589482041687, 35.998605643182756 ] } },
+{ "type": "Feature", "id": 11116, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.030210612363589, 36.073353437507578 ] } },
+{ "type": "Feature", "id": 11137, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.465645627858891, 36.074225541088417 ] } },
+{ "type": "Feature", "id": 11138, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.01502029686381, 36.37626059933622 ] } },
+{ "type": "Feature", "id": 11490, "properties": { "state": "Oklahoma", "endyear": 2011.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.420770410040532, 36.071682770706786 ] } },
+{ "type": "Feature", "id": 11558, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.492275097282516, 36.070954802865707 ] } },
+{ "type": "Feature", "id": 11568, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.383818420758629, 36.071553741599828 ] } },
+{ "type": "Feature", "id": 11572, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.661868925007468, 36.884167396659102 ] } },
+{ "type": "Feature", "id": 11581, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.465721630281607, 36.07428153790844 ] } },
+{ "type": "Feature", "id": 11582, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.465821632653601, 36.074241536150581 ] } },
+{ "type": "Feature", "id": 11618, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.375772528210078, 36.070943687014868 ] } },
+{ "type": "Feature", "id": 11682, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.386419490306253, 36.071553673465687 ] } },
+{ "type": "Feature", "id": 11686, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.383818420758629, 36.071553741599828 ] } }
+]
+}

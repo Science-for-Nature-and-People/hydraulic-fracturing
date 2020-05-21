@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 12125, "properties": { "state": "Pennsylvania", "endyear": 2013.000000, "casvol": 11.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.307794412209276, 39.909251376518284 ] } },
+{ "type": "Feature", "id": 12129, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.299919309936044, 39.906465341130144 ] } },
+{ "type": "Feature", "id": 12130, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.30002530829907, 39.906591339606102 ] } },
+{ "type": "Feature", "id": 12131, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.300080312460352, 39.906509342165535 ] } },
+{ "type": "Feature", "id": 12132, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.301869458053915, 39.903538432538184 ] } },
+{ "type": "Feature", "id": 12133, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.301762447845803, 39.903760426111027 ] } },
+{ "type": "Feature", "id": 12134, "properties": { "state": "Pennsylvania", "endyear": 2014.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.301965466798293, 39.903351438028437 ] } },
+{ "type": "Feature", "id": 12135, "properties": { "state": "Pennsylvania", "endyear": 2013.000000, "casvol": 15.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.336984778104124, 40.036396119094952 ] } },
+{ "type": "Feature", "id": 12136, "properties": { "state": "Pennsylvania", "endyear": 2013.000000, "casvol": 123.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.337047779180452, 40.036471118714914 ] } }
+]
+}

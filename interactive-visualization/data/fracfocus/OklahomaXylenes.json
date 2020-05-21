@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 6991, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 9.000000 }, "geometry": { "type": "Point", "coordinates": [ -96.913507238857079, 36.347194376969561 ] } },
+{ "type": "Feature", "id": 6992, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 12.000000 }, "geometry": { "type": "Point", "coordinates": [ -96.913834244326225, 36.347130367947983 ] } },
+{ "type": "Feature", "id": 7135, "properties": { "state": "Oklahoma", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.862069961050793, 35.057885716794878 ] } },
+{ "type": "Feature", "id": 7136, "properties": { "state": "Oklahoma", "endyear": 2015.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.850509726330174, 35.058525832710046 ] } },
+{ "type": "Feature", "id": 7259, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.721045253302165, 34.956469389689175 ] } },
+{ "type": "Feature", "id": 7260, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.90173145347606, 35.116284225704973 ] } },
+{ "type": "Feature", "id": 7267, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.844929611351631, 35.05868589135877 ] } },
+{ "type": "Feature", "id": 10391, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.652949860707466, 34.754705239603737 ] } },
+{ "type": "Feature", "id": 10397, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.812648051920846, 34.986727672256819 ] } },
+{ "type": "Feature", "id": 10398, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.780426954853567, 34.963228625412768 ] } },
+{ "type": "Feature", "id": 10801, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -96.230426185672144, 34.53385241644056 ] } },
+{ "type": "Feature", "id": 10802, "properties": { "state": "Oklahoma", "endyear": 2012.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.507892020230116, 35.971713052879537 ] } },
+{ "type": "Feature", "id": 10803, "properties": { "state": "Oklahoma", "endyear": 2012.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.50972220937355, 35.982912664584802 ] } },
+{ "type": "Feature", "id": 10804, "properties": { "state": "Oklahoma", "endyear": 2013.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.185108989010459, 36.721285128189329 ] } },
+{ "type": "Feature", "id": 11202, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -98.983117261780009, 35.646298452578762 ] } },
+{ "type": "Feature", "id": 11215, "properties": { "state": "Oklahoma", "endyear": 2012.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.777795516149226, 34.88677860364831 ] } },
+{ "type": "Feature", "id": 11352, "properties": { "state": "Oklahoma", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.675247877958412, 35.269793405048475 ] } }
+]
+}
