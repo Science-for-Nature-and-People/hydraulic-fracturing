@@ -5,27 +5,27 @@
    		<meta http-equiv="X-UA-Compatible" content="IE=edge">
    		<meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <link rel="shortcut icon" href="../NCEAS/img/SNAPP.png">
+        <link rel="shortcut icon" href="~/img/SNAPP.png">
 
-        <link rel="stylesheet" href="../NCEAS/css/cssStyle.css">
-        <link rel="stylesheet" href="../NCEAS/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../NCEAS/scripts/leaflet.css" />
+        <link rel="stylesheet" href="css/cssStyle.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="scripts/leaflet.css" />
         
-                <script type="text/javascript" src="../NCEAS/scripts/d3.v3.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/wordcloud.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/d3.layout.cloud.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/gviz-api.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/geojson.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/leaflet.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/jquery.csv-0.71.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/gviz-api.js"></script>
+                <script type="text/javascript" src="scripts/d3.v3.js"></script>
+        <script type="text/javascript" src="scripts/wordcloud.js"></script>
+        <script type="text/javascript" src="scripts/d3.layout.cloud.js"></script>
+        <script type="text/javascript" src="scripts/gviz-api.js"></script>
+        <script type="text/javascript" src="scripts/geojson.js"></script>
+        <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="scripts/leaflet.js"></script>
+        <script type="text/javascript" src="scripts/jquery.csv-0.71.js"></script>
+        <script type="text/javascript" src="scripts/gviz-api.js"></script>
         <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
         
         <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
         <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
-        <script type="text/javascript" ,="" src="../NCEAS/scripts/dygraph-combined-dev.js"></script>
+        <script type="text/javascript" ,="" src="scripts/dygraph-combined-dev.js"></script>
 
 <style type="text/css">
             tab1 { padding-left: 2em; }
@@ -72,7 +72,7 @@ var filterData;
     </div>
     <div class="col-sm-3">
         <br>
-        <a href = "http://snappartnership.net/"> <img src="../NCEAS/img/Snapp-Acronym-Color.png" style="width: 200px; height: 60px; display: inline-block"> </a>
+        <a href = "http://snappartnership.net/"> <img src="img/Snapp-Acronym-Color.png" style="width: 200px; height: 60px; display: inline-block"> </a>
     </div>
 </div>
 
@@ -340,7 +340,7 @@ var spillStyle = {
 
 //var cospills = new L.LayerGroup();
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/"+mapState+"spills.json");
+var cospills = $.getJSON("data/"+mapState+"spills.json");
 cospills.then(function(data) {
 
     var coSpills = L.geoJson(data, {
@@ -541,19 +541,19 @@ drawMap();
 
 <script type="text/javascript">
     /*document.getElementById("btn1").onclick = function () {
-        location.href = "../NCEAS/spills_nceas.html";
+        location.href = "spills_nceas.html";
     };*/
 
      document.getElementById("btn2").onclick = function () {
-        location.href = "../NCEAS/spills_materials.html";
+        location.href = "spills_materials.html";
     };
 
     document.getElementById("btn3").onclick = function () {
-        location.href = "../NCEAS/fracfocus.html";
+        location.href = "fracfocus.html";
     };
 
      /*document.getElementById("btn4").onclick = function () {
-        location.href = "../NCEAS/spills_nceas.html";
+        location.href = "spills_nceas.html";
     };*/
 </script>
 
@@ -585,9 +585,9 @@ drawMap();
 </div> <!--internal footer div-->  
 
 <div class="col-sm-3" id="footer">
-    <a href = "https://nicholasinstitute.duke.edu"> <img src="../NCEAS/img/logo.jpg" style="width: 200px; height: 78px; display: inline-block"> </a> 
+    <a href = "https://nicholasinstitute.duke.edu"> <img src="img/logo.jpg" style="width: 200px; height: 78px; display: inline-block"> </a> 
     <br><br><br>
-     <a href = "http://www.nature.org"> <img src="../NCEAS/img/logo-nature.png" style="width: 200px; height: 80px; display: inline-block"> </a>
+     <a href = "http://www.nature.org"> <img src="img/logo-nature.png" style="width: 200px; height: 80px; display: inline-block"> </a>
 </div> <!-- footer div-->
 
 
@@ -597,16 +597,16 @@ drawMap();
 </div> <!-- footer div-->
 
 
-        <script src="../NCEAS/scripts/bootstrap.min.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/AddOverlays.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/MapData.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/whattoFilter.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/AnnualSpillRate.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/LifeYearSpillRates.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/CreateBoxplots.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/CreatePathway.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/CreateWordCloud.js"></script>
-        <script type="text/javascript" src="../NCEAS/scripts/CausalMechanism.js"></script>
+        <script src="scripts/bootstrap.min.js"></script>
+        <script type="text/javascript" src="scripts/AddOverlays.js"></script>
+        <script type="text/javascript" src="scripts/MapData.js"></script>
+        <script type="text/javascript" src="scripts/whattoFilter.js"></script>
+        <script type="text/javascript" src="scripts/AnnualSpillRate.js"></script>
+        <script type="text/javascript" src="scripts/LifeYearSpillRates.js"></script>
+        <script type="text/javascript" src="scripts/CreateBoxplots.js"></script>
+        <script type="text/javascript" src="scripts/CreatePathway.js"></script>
+        <script type="text/javascript" src="scripts/CreateWordCloud.js"></script>
+        <script type="text/javascript" src="scripts/CausalMechanism.js"></script>
 
     </body>
 </html>
