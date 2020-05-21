@@ -1,0 +1,36 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 6322, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 230.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.332109335504427, 40.00463059544483 ] } },
+{ "type": "Feature", "id": 6383, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 66.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.214984371433204, 39.919772116333704 ] } },
+{ "type": "Feature", "id": 6384, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 95.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.214947859141645, 39.919818396101185 ] } },
+{ "type": "Feature", "id": 6385, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 89.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.158580937168097, 39.892660190405898 ] } },
+{ "type": "Feature", "id": 6386, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 71.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.145549504814952, 40.032807157653586 ] } },
+{ "type": "Feature", "id": 6387, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 71.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.145676792815649, 40.032690568590695 ] } },
+{ "type": "Feature", "id": 6394, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 58.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.23969705981041, 40.174871187802729 ] } },
+{ "type": "Feature", "id": 6395, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 83.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.23974266163701, 40.174892437404964 ] } },
+{ "type": "Feature", "id": 6396, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 85.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.158566396795862, 39.892621470825169 ] } },
+{ "type": "Feature", "id": 6397, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 57.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.170433040604749, 39.889498440850794 ] } },
+{ "type": "Feature", "id": 6398, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 62.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.170134025656125, 39.889445442788556 ] } },
+{ "type": "Feature", "id": 6403, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 70.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.073375477489463, 40.178596522566743 ] } },
+{ "type": "Feature", "id": 6405, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 156.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.05449859717767, 40.178557582027949 ] } },
+{ "type": "Feature", "id": 6406, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 122.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.073396478978012, 40.178517523548457 ] } },
+{ "type": "Feature", "id": 6411, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 60.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.074185227585602, 40.068678976526016 ] } },
+{ "type": "Feature", "id": 6412, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 72.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.074238230341265, 40.068678976314963 ] } },
+{ "type": "Feature", "id": 6413, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 101.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.07429223314243, 40.068679976086671 ] } },
+{ "type": "Feature", "id": 6414, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 50.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.073229831021493, 40.178545883692884 ] } },
+{ "type": "Feature", "id": 6419, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 73.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.138779871164914, 40.039031097182956 ] } },
+{ "type": "Feature", "id": 6420, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 64.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.138833874040813, 40.039032096942641 ] } },
+{ "type": "Feature", "id": 6431, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 60.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.162653374880676, 40.203362932780344 ] } },
+{ "type": "Feature", "id": 6432, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 60.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.162502367264437, 40.203432932343389 ] } },
+{ "type": "Feature", "id": 6435, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 44.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.004249096255762, 39.913475025820304 ] } },
+{ "type": "Feature", "id": 6436, "properties": { "state": "Ohio", "endyear": 2014.000000, "casvol": 58.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.004502111484655, 39.913344025849469 ] } },
+{ "type": "Feature", "id": 6439, "properties": { "state": "Ohio", "endyear": 2015.000000, "casvol": 53.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.31092466491755, 40.128640118129503 ] } },
+{ "type": "Feature", "id": 6440, "properties": { "state": "Ohio", "endyear": 2015.000000, "casvol": 78.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.310926665616165, 40.128599118588568 ] } },
+{ "type": "Feature", "id": 6442, "properties": { "state": "Ohio", "endyear": 2015.000000, "casvol": 52.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.310928666314808, 40.128558119047632 ] } },
+{ "type": "Feature", "id": 6596, "properties": { "state": "Ohio", "endyear": 2015.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -81.042860722070273, 39.796312599784265 ] } },
+{ "type": "Feature", "id": 6600, "properties": { "state": "Ohio", "endyear": 2013.000000, "casvol": 22.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.89701491160109, 41.112114579959083 ] } }
+]
+}

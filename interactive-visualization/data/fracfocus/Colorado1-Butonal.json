@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 120, "properties": { "state": "Colorado", "endyear": 2013.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -106.426358, 40.596919 ] } },
+{ "type": "Feature", "id": 121, "properties": { "state": "Colorado", "endyear": 2013.000000, "casvol": 7.000000 }, "geometry": { "type": "Point", "coordinates": [ -106.415995, 40.596994 ] } },
+{ "type": "Feature", "id": 122, "properties": { "state": "Colorado", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -106.404461, 40.528361 ] } },
+{ "type": "Feature", "id": 123, "properties": { "state": "Colorado", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -106.397825, 40.627697 ] } },
+{ "type": "Feature", "id": 2169, "properties": { "state": "Colorado", "endyear": 2015.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.32466387802236, 40.318875097703398 ] } },
+{ "type": "Feature", "id": 2170, "properties": { "state": "Colorado", "endyear": 2015.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.32482488202703, 40.318875097578321 ] } },
+{ "type": "Feature", "id": 38225, "properties": { "state": "Colorado", "endyear": 2015.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.324103, 40.318894 ] } },
+{ "type": "Feature", "id": 38501, "properties": { "state": "Colorado", "endyear": 2013.000000, "casvol": 7.000000 }, "geometry": { "type": "Point", "coordinates": [ -104.564814, 39.654664 ] } }
+]
+}

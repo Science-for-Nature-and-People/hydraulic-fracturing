@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 35115, "properties": { "state": "West Virginia", "endyear": 2013.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.726571361226505, 39.626392537755414 ] } },
+{ "type": "Feature", "id": 35123, "properties": { "state": "West Virginia", "endyear": 2013.000000, "casvol": 36.000000 }, "geometry": { "type": "Point", "coordinates": [ -80.672911270205361, 39.509991710145101 ] } }
+]
+}

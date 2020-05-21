@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 614, "properties": { "state": "Arkansas", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -92.453831106194002, 35.390941286421892 ] } },
+{ "type": "Feature", "id": 783, "properties": { "state": "Arkansas", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -92.442220527762331, 35.54345167163163 ] } },
+{ "type": "Feature", "id": 784, "properties": { "state": "Arkansas", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -92.442232528352548, 35.543499671621994 ] } },
+{ "type": "Feature", "id": 785, "properties": { "state": "Arkansas", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -92.4422435289314, 35.543548671611646 ] } },
+{ "type": "Feature", "id": 786, "properties": { "state": "Arkansas", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -92.442254529510279, 35.543597671601326 ] } }
+]
+}

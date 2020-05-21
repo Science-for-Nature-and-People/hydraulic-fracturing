@@ -1,0 +1,36 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 5089, "properties": { "state": "North Dakota", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.49281554529681, 47.63885461357043 ] } },
+{ "type": "Feature", "id": 5276, "properties": { "state": "North Dakota", "endyear": 2013.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.3073057690153, 46.918760369107829 ] } },
+{ "type": "Feature", "id": 5289, "properties": { "state": "North Dakota", "endyear": 2013.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.30754577764705, 46.91876136985011 ] } },
+{ "type": "Feature", "id": 5309, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.14203871013899, 48.364672952437289 ] } },
+{ "type": "Feature", "id": 5544, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 7.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.21810394866773, 46.92049812635797 ] } },
+{ "type": "Feature", "id": 5719, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.39145294610422, 47.819744225401564 ] } },
+{ "type": "Feature", "id": 5720, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.39126113749479, 47.81969832311966 ] } },
+{ "type": "Feature", "id": 5721, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.39106932888245, 47.819652520839767 ] } },
+{ "type": "Feature", "id": 41750, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.42742920000001, 48.11002171 ] } },
+{ "type": "Feature", "id": 42067, "properties": { "state": "North Dakota", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.30039, 47.38008 ] } },
+{ "type": "Feature", "id": 42068, "properties": { "state": "North Dakota", "endyear": 2013.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.30279, 47.38806 ] } },
+{ "type": "Feature", "id": 42729, "properties": { "state": "North Dakota", "endyear": 2013.000000, "casvol": 8.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.5914531, 47.7597289 ] } },
+{ "type": "Feature", "id": 42742, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.6796452, 47.9424765 ] } },
+{ "type": "Feature", "id": 42745, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.7064944, 47.93635556 ] } },
+{ "type": "Feature", "id": 42746, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.7067, 47.93635556 ] } },
+{ "type": "Feature", "id": 42864, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.138818, 48.371946 ] } },
+{ "type": "Feature", "id": 42865, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.138633, 48.371947 ] } },
+{ "type": "Feature", "id": 42868, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.730099, 47.1966029 ] } },
+{ "type": "Feature", "id": 42871, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.2945869, 46.9352145 ] } },
+{ "type": "Feature", "id": 42877, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 4.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.168218, 46.8471263 ] } },
+{ "type": "Feature", "id": 42878, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 5.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.117965, 46.860784 ] } },
+{ "type": "Feature", "id": 42898, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 6.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.2210235, 46.8542515 ] } },
+{ "type": "Feature", "id": 43163, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.848478, 48.105172 ] } },
+{ "type": "Feature", "id": 43164, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.964167, 47.932664 ] } },
+{ "type": "Feature", "id": 43165, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.964372, 47.932664 ] } },
+{ "type": "Feature", "id": 43166, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.963964, 47.932664 ] } },
+{ "type": "Feature", "id": 43327, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 6.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.2210235, 46.8542515 ] } },
+{ "type": "Feature", "id": 43337, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.1198412, 48.3646313 ] } },
+{ "type": "Feature", "id": 43338, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 2.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.1185837, 48.37161778 ] } }
+]
+}

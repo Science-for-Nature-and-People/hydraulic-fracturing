@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 40423, "properties": { "state": "Michigan", "endyear": 2013.000000, "casvol": 41.000000 }, "geometry": { "type": "Point", "coordinates": [ -82.651463, 43.455685 ] } },
+{ "type": "Feature", "id": 40424, "properties": { "state": "Michigan", "endyear": 2013.000000, "casvol": 43.000000 }, "geometry": { "type": "Point", "coordinates": [ -85.192507, 44.800124 ] } },
+{ "type": "Feature", "id": 40425, "properties": { "state": "Michigan", "endyear": 2013.000000, "casvol": 48.000000 }, "geometry": { "type": "Point", "coordinates": [ -84.754972, 44.574892 ] } },
+{ "type": "Feature", "id": 40426, "properties": { "state": "Michigan", "endyear": 2013.000000, "casvol": 30.000000 }, "geometry": { "type": "Point", "coordinates": [ -85.016466, 42.891588 ] } }
+]
+}

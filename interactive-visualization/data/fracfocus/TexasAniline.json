@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 17353, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 25.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.27798809337008, 31.499386402167161 ] } },
+{ "type": "Feature", "id": 17354, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 28.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.28150024683379, 31.50212733574887 ] } },
+{ "type": "Feature", "id": 17355, "properties": { "state": "Texas", "endyear": 2013.000000, "casvol": 13.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.29508090231512, 31.512358106127294 ] } },
+{ "type": "Feature", "id": 17356, "properties": { "state": "Texas", "endyear": 2014.000000, "casvol": 22.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.28478340340321, 31.504480282327563 ] } },
+{ "type": "Feature", "id": 17357, "properties": { "state": "Texas", "endyear": 2014.000000, "casvol": 19.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.29818104890302, 31.514533057075262 ] } },
+{ "type": "Feature", "id": 17358, "properties": { "state": "Texas", "endyear": 2014.000000, "casvol": 3.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.30125319669017, 31.516841005680892 ] } },
+{ "type": "Feature", "id": 21615, "properties": { "state": "Texas", "endyear": 2012.000000, "casvol": 20.000000 }, "geometry": { "type": "Point", "coordinates": [ -97.760528019487069, 32.776671063318787 ] } },
+{ "type": "Feature", "id": 45622, "properties": { "state": "Texas", "endyear": 2014.000000, "casvol": 27.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.288686, 31.488253 ] } },
+{ "type": "Feature", "id": 45623, "properties": { "state": "Texas", "endyear": 2014.000000, "casvol": 33.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.298731, 31.495781 ] } }
+]
+}

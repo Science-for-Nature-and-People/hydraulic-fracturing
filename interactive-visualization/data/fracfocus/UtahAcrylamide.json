@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 49382, "properties": { "state": "Utah", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.776368, 39.912786 ] } },
+{ "type": "Feature", "id": 49383, "properties": { "state": "Utah", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.776367, 39.912786 ] } },
+{ "type": "Feature", "id": 49384, "properties": { "state": "Utah", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.776368, 39.912785 ] } },
+{ "type": "Feature", "id": 49385, "properties": { "state": "Utah", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.776369, 39.912786 ] } },
+{ "type": "Feature", "id": 49386, "properties": { "state": "Utah", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.776365, 39.912786 ] } },
+{ "type": "Feature", "id": 49387, "properties": { "state": "Utah", "endyear": 2014.000000, "casvol": 1.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.776368, 39.910786 ] } },
+{ "type": "Feature", "id": 49717, "properties": { "state": "Utah", "endyear": 2013.000000, "casvol": 18.000000 }, "geometry": { "type": "Point", "coordinates": [ -109.357242, 40.045069 ] } }
+]
+}

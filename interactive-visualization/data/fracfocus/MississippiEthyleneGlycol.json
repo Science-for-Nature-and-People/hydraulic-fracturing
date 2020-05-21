@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 3320, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 978.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.159808979593095, 31.19581878321674 ] } },
+{ "type": "Feature", "id": 3330, "properties": { "state": "Mississippi", "endyear": 2013.000000, "casvol": 169.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.627350195963928, 31.085091738183515 ] } },
+{ "type": "Feature", "id": 3336, "properties": { "state": "Mississippi", "endyear": 2013.000000, "casvol": 1098.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.719505892898482, 31.065424002920111 ] } },
+{ "type": "Feature", "id": 3337, "properties": { "state": "Mississippi", "endyear": 2013.000000, "casvol": 1602.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.721396267190585, 31.0487377096646 ] } },
+{ "type": "Feature", "id": 3338, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 349.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.653368875053275, 31.021268206282329 ] } },
+{ "type": "Feature", "id": 3339, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 1024.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.653368875053275, 31.021268206282329 ] } },
+{ "type": "Feature", "id": 3351, "properties": { "state": "Mississippi", "endyear": 2015.000000, "casvol": 6498.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.727760072517782, 31.020386128212337 ] } },
+{ "type": "Feature", "id": 3352, "properties": { "state": "Mississippi", "endyear": 2015.000000, "casvol": 3439.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.092596322729591, 31.145953485372864 ] } },
+{ "type": "Feature", "id": 3353, "properties": { "state": "Mississippi", "endyear": 2015.000000, "casvol": 1204.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.092595322674129, 31.146084382398477 ] } },
+{ "type": "Feature", "id": 3354, "properties": { "state": "Mississippi", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.653259973307215, 31.021270006391788 ] } },
+{ "type": "Feature", "id": 3355, "properties": { "state": "Mississippi", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.97154185508758, 31.063445724860845 ] } },
+{ "type": "Feature", "id": 3356, "properties": { "state": "Mississippi", "endyear": 2015.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.971541855159671, 31.063584722062178 ] } },
+{ "type": "Feature", "id": 3366, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 69.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.234008801520972, 31.156473287274014 ] } },
+{ "type": "Feature", "id": 3376, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 3852.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.232708723960428, 31.066385626703696 ] } },
+{ "type": "Feature", "id": 3377, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 25.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.197947911761801, 31.150203663638916 ] } },
+{ "type": "Feature", "id": 3379, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 5701.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.179427440372095, 31.078350548057887 ] } },
+{ "type": "Feature", "id": 3381, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 236.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.211318242845337, 31.156263430371823 ] } },
+{ "type": "Feature", "id": 3382, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 215.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.278106566626406, 31.02220714664664 ] } }
+]
+}

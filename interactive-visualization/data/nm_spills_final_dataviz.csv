@@ -1,0 +1,427 @@
+api_number,incident_id,year,spudyr,LifeYear,direction,operator,latitude,longitude,pathway,leak_over,pathway_detail,cause,material,material_detail,volume_gal,waterimpact,contained,state
+30-005-27972,nTO1426757435,2014,2010,4,Horizontal,Yates Petroleum Corp,33.0243073,-103.7675171,Wellhead,NA,Gauge,Equipment Failure,Saltwater,Unknown,252,No,Unknown,NM
+30-005-27999,nGRL1126631648,2011,2010,1,Horizontal,Legacy Reservers Operating LP,33.0177841,-103.8170776,Flowline,Leak,Unknown,Unknown,Saltwater,Unknown,1260,No,No,NM
+30-005-29033,nLWJ0920843400,2009,2008,1,Horizontal,Cimarex Energy Company,33.032383,-103.7826157,Separator,NA,Unknown,Equipment Failure,Crude Oil,Unknown,2730,No,Yes,NM
+30-005-29033,nLWJ1005453183,2009,2008,1,Horizontal,Cimarex Energy Company,33.032383,-103.7826157,Unknown,NA,Unknown,Equipment Failure,Crude Oil,Unknown,2730,No,Yes,NM
+30-005-29061,nGRL1010539051,2010,2009,0,Horizontal,Cimarex Energy Company,33.014183,-103.8193741,Tank,Leak,Unknown,Equipment Failure,Hydraulic Fracture Solution,Gelled Brine (Frac Fluid),3360,No,No,NM
+30-005-29062,nGRL1026741116,2010,2010,0,Horizontal,Cimarex Energy Company,33.0097733,-103.8193665,Wellhead,Leak,Corrosion,Equipment Failure,Crude Oil,Unknown,630,No,Unknown,NM
+30-005-29083,nTO1426827611,2014,2009,6,Horizontal,Yates Petroleum Corp,33.035099,-103.7843475,Tank,Overflow,Line Plugged,Equipment Failure,Crude Oil,Unknown,630,No,Unknown,NM
+30-005-64132,nKMW1101934205,2011,2010,0,Horizontal,Devon Energy Production Company,33.30678,-104.08358,Blowout,NA,Well Communication,Human Error,Drilling Waste,Unknown,96600,No,Yes,NM
+30-005-64132,nMLB1122137670,2011,2010,0,Horizontal,Devon Energy Production Company,33.30678,-104.08358,Storage Container,Leak,Unknown,Human Error,Hydraulic Fracture Solution,Acid,12600,No,Yes,NM
+30-015-33324,nJMW1228440835,2012,2004,8,Horizontal,Vanguard Operating LLC,32.1529045,-103.9530563,Pump,Leak,Nipple,Equipment Failure,Saltwater,Unknown,3864,No,Yes,NM
+30-015-33648,nJMW1402934481,2013,2004,9,Horizontal,OXY USA WTP Limited Partnership,32.3859367,-104.448761,Tank,Overflow,Pump,Equipment Failure,Oil & Saltwater,Unknown,2730,No,Yes,NM
+30-015-34438,nAB1432342160,2014,2006,8,Horizontal,COG Operating LLC,32.3115883,-103.9951782,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,1050,No,Yes,NM
+30-015-34438,nJMW1323548346,2013,2006,7,Horizontal,COG Operating LLC,32.3115883,-103.9951782,Pump,NA,Valve,Equipment Failure,Crude Oil,Unknown,1008,No,Yes,NM
+30-015-34438,nJMW1324847819,2013,2006,7,Horizontal,COG Operating LLC,32.3115883,-103.9951782,Wellhead,NA,Pumping Tee,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-35108,nMLB0903440404,2009,2008,1,Horizontal,Yates Petroleum Corp,32.2531052,-103.9654312,Pit,Leak,Liner,Unknown,Drilling Waste,Unknown,NA,No,Unknown,NM
+30-015-35623,nJMW1303829836,2013,2007,6,Horizontal,Vanguard Operating LLC,32.1450615,-103.9691086,Tank,Overflow,Pump,Equipment Failure,Crude Oil,Unknown,1638,No,No,NM
+30-015-35742,nMLB1209650453,2012,2008,4,Horizontal,OXY USA Inc,32.2672844,-103.9793549,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,1890,No,Unknown,NM
+30-015-35804,nMLB1131230023,2011,2010,2,Horizontal,Yates Petroleum Corp,32.6695061,-103.8980026,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,12390,No,Yes,NM
+30-015-35829,nKMW1107536284,2011,2008,3,Horizontal,Lime Rock Resources II-A LP,32.7646332,-104.3008041,Pump,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,1974,No,No,NM
+30-015-35829,nMLB1122854480,2011,2008,3,Horizontal,Lime Rock Resources II-A LP,32.7646332,-104.3008041,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,630,No,No,NM
+30-015-35831,nMLB1033435200,2010,2007,3,Horizontal,CHEVRON USA Inc,32.1675797,-104.0676498,Pump,NA,Unknown,Equipment Failure,Crude Oil,Unknown,1680,No,Unknown,NM
+30-015-36027,nKMW1111140740,2011,2008,3,Horizontal,Yates Petroleum Corp,32.9445953,-104.0534286,Tank,NA,Froze,Environmental Conditions,Saltwater,Unknown,4200,No,Yes,NM
+30-015-36033,nMLB1122348831,2011,2008,3,Horizontal,COG Operating LLC,32.7028923,-103.9994965,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,630,No,Yes,NM
+30-015-36100,nAB1435032750,2014,2008,7,Horizontal,Cimarex Energy Company,32.9424286,-104.0389709,Tank,NA,Valve,Equipment Failure,Oil & Saltwater,Unknown,3444,No,Yes,NM
+30-015-36305,nAB1501440160,2014,2008,6,Horizontal,Yates Petroleum Corp,32.1793976,-104.1375885,Wellhead,NA,Pump,Equipment Failure,Oil & Saltwater,Unknown,210,No,Unknown,NM
+30-015-36305,nMLB1122147865,2011,2008,3,Horizontal,Yates Petroleum Corp,32.1793976,-104.1375885,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,3150,No,Unknown,NM
+30-015-36368,nSEB0900630331,2008,2008,0,Horizontal,Yates Petroleum Corp,32.3401108,-103.7802048,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,58800,No,No,NM
+30-015-36372,nJMW1326036361,2013,2011,2,Horizontal,COG Operating LLC,32.1677322,-104.0935135,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,3360,No,Yes,NM
+30-015-36390,nJMW1331827039,2013,2008,5,Horizontal,Yates Petroleum Corp,32.944046,-104.0534286,Heater Treater,Leak,Gasket,Equipment Failure,Oil & Saltwater,Unknown,294,No,Yes,NM
+30-015-36421,nMLB0907950480,2009,2008,0,Horizontal,Yates Petroleum Corp,32.9211693,-104.1898499,Unknown,NA,Valve,Equipment Failure,Crude Oil,Unknown,1176,No,Unknown,NM
+30-015-36421,nMLB1030850419,2010,2008,2,Horizontal,Yates Petroleum Corp,32.9211693,-104.1898499,Tank,Leak,Unknown,Unknown,Oil & Saltwater,Unknown,840,No,Yes,NM
+30-015-36461,nKMW1109729911,2009,2008,1,Horizontal,Devon Energy Production Company,32.294426,-103.9730835,Flowline,Leak,Unknown,Human Error,Saltwater,Unknown,1260,No,No,NM
+30-015-36461,nSEB0830236670,2008,2008,0,Horizontal,Devon Energy Production Company,32.294426,-103.9730835,Flowline,Leak,Unknown,Human Error,Oil & Saltwater,Unknown,882,No,Unknown,NM
+30-015-36499,nMLB1122236644,2011,2008,3,Horizontal,Yates Petroleum Corp,32.200264,-104.1506424,Flowline,Leak,Fitting,Equipment Failure,Saltwater,Unknown,4200,No,No,NM
+30-015-36535,nMLB1215341006,2012,2008,4,Horizontal,COG Operating LLC,32.1647873,-103.944519,Heater Treater,Leak,Fire,Unknown,Saltwater,Unknown,126,No,Yes,NM
+30-015-36559,nJMW1312338061,2013,2009,4,Horizontal,COG Operating LLC,32.1511154,-104.0167618,Stuffing Box,Leak,Packing Failed,Equipment Failure,Oil & Saltwater,Unknown,756,No,Yes,NM
+30-015-36635,nJMW1224153124,2012,2008,4,Horizontal,BOPCO LP,32.123951,-103.8959351,Flowline,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,420,No,No,NM
+30-015-36722,nMLB1215334891,2012,2009,3,Horizontal,BOPCO LP,32.3426552,-103.8262634,Stuffing Box,NA,Unknown,Equipment Failure,Oil & Saltwater,Unknown,1260,No,No,NM
+30-015-36750,nHMP1412225422,2014,2009,5,Horizontal,COG Operating LLC,32.6233292,-103.8154907,Unknown,Leak,Vandalism,Human Error,Crude Oil,Unknown,5250,No,No,NM
+30-015-36776,nJMW1229051242,2012,2012,0,Horizontal,COG Operating LLC,32.1200523,-103.961937,Flowline,Leak,Fitting,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-36778,nMLB1114038361,2011,2008,2,Horizontal,Yates Petroleum Corp,32.1964722,-103.74646,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,5628,No,Yes,NM
+30-015-36778,nMLB1125551313,2011,2008,3,Horizontal,Yates Petroleum Corp,32.1964722,-103.74646,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,1974,No,Yes,NM
+30-015-36845,nJMW1324630653,2013,2011,2,Horizontal,Yates Petroleum Corp,32.962326,-104.0202637,Stuffing Box,Leak,Packing Failed,Equipment Failure,Oil & Saltwater,Unknown,210,No,No,NM
+30-015-36913,nAB1430948520,2014,2009,6,Horizontal,Yates Petroleum Corp,32.0952225,-104.0824661,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,21840,No,No,NM
+30-015-36913,nJMW1310637345,2013,2009,4,Horizontal,Yates Petroleum Corp,32.0952225,-104.0824661,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,4620,No,No,NM
+30-015-36913,nJMW1311355182,2013,2009,4,Horizontal,Yates Petroleum Corp,32.0952225,-104.0824661,Pump,Leak,Unknown,Equipment Failure,Saltwater,Unknown,840,No,Unknown,NM
+30-015-36913,nMLB1122146796,2011,2009,2,Horizontal,Yates Petroleum Corp,32.0952225,-104.0824661,Pump,Leak,Unknown,Equipment Failure,Saltwater,Unknown,27300,No,No,NM
+30-015-36932,nAB1430956690,2014,2009,6,Horizontal,COG Operating LLC,32.0997391,-104.013237,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,840,No,No,NM
+30-015-36998,nJMW1218048947,2012,2010,2,Horizontal,BOPCO LP,32.1532364,-103.8959351,Flowline,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,1050,No,No,NM
+30-015-37034,nKMW1103241386,2011,2009,2,Horizontal,COG Operating LLC,32.1207848,-104.099762,Tank,Overflow,Valve,Human Error,Crude Oil,Unknown,4620,No,Yes,NM
+30-015-37061,nJMW1326354450,2013,2010,3,Horizontal,Yates Petroleum Corp,32.8824806,-104.1911621,Heater Treater,Leak,Unknown,Equipment Failure,Saltwater,Unknown,420,No,Unknown,NM
+30-015-37064,nJMW1319929753,2013,2009,4,Horizontal,BOPCO LP,32.349144,-103.8386002,Flowline,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,336,No,No,NM
+30-015-37065,nJMW1328128519,2013,2012,2,Horizontal,Devon Energy Production Company,32.24071,-103.83624,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,420,No,No,NM
+30-015-37141,nMLB1210247392,2012,2009,3,Horizontal,COG Operating LLC,32.080101,-104.1018906,Heater Treater,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,5460,No,No,NM
+30-015-37144,nHMP1406924194,2014,2009,4,Horizontal,COG Operating LLC,32.6233215,-103.8239365,Heater Treater,Leak,Fire,Unknown,Oil & Saltwater,Unknown,2940,No,Unknown,NM
+30-015-37144,nMLB1031340286,2010,2009,1,Horizontal,COG Operating LLC,32.6233215,-103.8239365,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,420,No,Yes,NM
+30-015-37145,nMLB1131440213,2011,2010,1,Horizontal,COG Operating LLC,32.710434,-103.8208313,Tank,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,8400,No,Yes,NM
+30-015-37146,nJMW1403055003,2014,2010,3,Horizontal,COG Operating LLC,32.7104149,-103.8303299,Wellhead,NA,Pumping Tee,Equipment Failure,Crude Oil,Unknown,294,No,Unknown,NM
+30-015-37147,nAB1424536124,2014,2010,4,Horizontal,BOPCO LP,32.2258606,-103.8471069,Flowline,Leak,Valve,Equipment Failure,Crude Oil,Unknown,840,No,Yes,NM
+30-015-37164,nJMW1302241995,2012,2011,2,Horizontal,COG Operating LLC,32.1903343,-104.0333557,Tank,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,2100,No,Yes,NM
+30-015-37168,nAB1426849862,2014,2009,5,Horizontal,Yates Petroleum Corp,32.7596054,-104.0210037,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,210,No,Unknown,NM
+30-015-37194,nMLB1102540101,2010,2009,1,Horizontal,XTO Energy Inc,32.306778,-103.9280396,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,420,No,Unknown,NM
+30-015-37211,nMLB1129949056,2011,2011,0,Horizontal,Yates Petroleum Corp,32.6985283,-104.5104446,Flowline,Leak,Unknown,Unknown,Oil & Saltwater,Unknown,19530,No,Unknown,NM
+30-015-37220,nJMW1232052348,2012,2010,3,Horizontal,Devon Energy Production Company,32.8940582,-104.1905899,Transport,NA,Loading/Unloading,Human Error,Saltwater,Unknown,11970,No,Yes,NM
+30-015-37234,nHMP1412224328,2014,2009,4,Horizontal,COG Operating LLC,32.0186005,-104.1191635,Heater Treater,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,2100,No,Yes,NM
+30-015-37234,nJMW1228948228,2012,2009,3,Horizontal,COG Operating LLC,32.0186005,-104.1191635,Flowline,Leak,Fire,Unknown,Oil & Saltwater,Unknown,3570,No,Yes,NM
+30-015-37234,nJMW1234851101,2012,2009,3,Horizontal,COG Operating LLC,32.0186005,-104.1191635,Free Water Knockout,NA,Gasket,Equipment Failure,Oil & Saltwater,Unknown,1260,No,Yes,NM
+30-015-37234,nJMW1309539213,2013,2009,3,Horizontal,COG Operating LLC,32.0186005,-104.1191635,Free Water Knockout,NA,Gasket,Equipment Failure,Saltwater,Unknown,1680,No,Unknown,NM
+30-015-37234,nKMW1101931286,2011,2009,1,Horizontal,COG Operating LLC,32.0186005,-104.1191635,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,6300,No,Yes,NM
+30-015-37234,nMLB1035134439,2010,2009,1,Horizontal,COG Operating LLC,32.0186005,-104.1191635,Filter Pot,NA,Fitting,Human Error,Saltwater,Unknown,4914,No,Yes,NM
+30-015-37252,nAB1420648311,2014,2009,5,Horizontal,Yates Petroleum Corp,32.2432632,-103.9976425,Unknown,NA,Gauge,Equipment Failure,Oil & Saltwater,Unknown,630,No,Unknown,NM
+30-015-37256,nJMW1400247338,2013,2010,4,Horizontal,COG Operating LLC,32.0222282,-104.1191635,Free Water Knockout,NA,Gasket,Equipment Failure,Oil & Saltwater,Unknown,1680,No,No,NM
+30-015-37258,nAB1506434756,2014,2010,5,Horizontal,Devon Energy Production Company,32.6686211,-103.9012527,Tank,NA,Valve,Human Error,Saltwater,Unknown,252,No,Unknown,NM
+30-015-37260,nMLB1215255011,2012,2011,1,Horizontal,COG Operating LLC,32.1504173,-103.9001465,Tank,Overflow,Valve,Equipment Failure,Crude Oil,Unknown,5460,No,Yes,NM
+30-015-37371,nKMW1109628560,2011,2010,0,Horizontal,Devon Energy Production Company,32.294614,-103.973089,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,420,No,No,NM
+30-015-37407,nJMW1327531915,2013,2010,4,Horizontal,Yates Petroleum Corp,32.2398415,-103.9964981,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,630,No,No,NM
+30-015-37416,nJMW1221554747,2012,2011,1,Horizontal,COG Operating LLC,32.1099434,-104.0997009,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,6300,No,Yes,NM
+30-015-37416,nJMW1305352806,2013,2011,2,Horizontal,COG Operating LLC,32.1099434,-104.0997009,Free Water Knockout,Leak,Unknown,Equipment Failure,Saltwater,Unknown,756,No,Yes,NM
+30-015-37425,nHMP1420232194,2014,2010,4,Horizontal,COG Operating LLC,32.0515366,-104.1170883,Pump,NA,Unknown,Equipment Failure,Condensate & Saltwater,Unknown,NA,No,Yes,NM
+30-015-37426,nMLB1122437327,2011,2010,1,Horizontal,COG Operating LLC,32.0515251,-104.0828857,Free Water Knockout,Leak,Sight Glass,Equipment Failure,Saltwater,Unknown,3360,No,Yes,NM
+30-015-37465,nAB1429431624,2014,2010,4,Horizontal,COG Operating LLC,32.019516,-104.1159668,Tank,NA,Flood,Environmental Conditions,Oil & Saltwater,Unknown,17346,Yes,No,NM
+30-015-37465,nMLB1226546393,2012,2010,2,Horizontal,COG Operating LLC,32.019516,-104.1159668,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,3780,No,Yes,NM
+30-015-37480,nJMW1304234477,2013,2010,2,Horizontal,COG Operating LLC,32.109088,-104.0296402,Separator,NA,High Wind,Environmental Conditions,Oil & Saltwater,Unknown,9240,No,Yes,NM
+30-015-37497,nJMW1334328333,2013,2010,3,Horizontal,COG Operating LLC,32.0807419,-104.119072,Flowline,Leak,Valve,Equipment Failure,Saltwater,Unknown,4200,No,No,NM
+30-015-37497,nMLB1208053839,2012,2010,1,Horizontal,COG Operating LLC,32.0807419,-104.119072,Flowline,Leak,Fire,Unknown,Saltwater,Unknown,840,No,No,NM
+30-015-37547,nJMW1309541502,2013,2010,3,Horizontal,COG Operating LLC,32.0486679,-104.2026672,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,252,No,Yes,NM
+30-015-37547,nJMW1319653044,2013,2010,3,Horizontal,COG Operating LLC,32.0486679,-104.2026672,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,3360,No,Yes,NM
+30-015-37548,nJMW1312340607,2013,2010,3,Horizontal,COG Operating LLC,32.0653343,-104.0503311,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,1512,No,Yes,NM
+30-015-37551,nAB1423751598,2014,2011,3,Horizontal,Mewbourne Oil Company,32.0922127,-103.7391739,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,73500,No,No,NM
+30-015-37551,nHMP1414933630,2014,2011,3,Horizontal,Mewbourne Oil Company,32.0922127,-103.7391739,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,6300,No,No,NM
+30-015-37551,nJMW1319650906,2013,2011,2,Horizontal,Mewbourne Oil Company,32.0922127,-103.7391739,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,10500,No,No,NM
+30-015-37552,nJMW1312742172,2013,2010,3,Horizontal,Yates Petroleum Corp,32.0809784,-104.3224487,Pump,NA,Unknown,Equipment Failure,Saltwater,Unknown,15120,No,No,NM
+30-015-37552,nKMW1110234177,2011,2010,1,Horizontal,Yates Petroleum Corp,32.0809784,-104.3224487,Unknown,NA,Valve,Equipment Failure,Saltwater,Unknown,1470,No,Yes,NM
+30-015-37552,nMLB1223549251,2011,2010,1,Horizontal,Yates Petroleum Corp,32.0809784,-104.3224487,Free Water Knockout,NA,Valve - Froze,Environmental Conditions,Saltwater,Unknown,1260,No,Yes,NM
+30-015-37555,nMLB1204153894,2012,2010,2,Horizontal,Yates Petroleum Corp,32.1537743,-104.1707687,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,462,No,Yes,NM
+30-015-37555,nMLB1204747359,2012,2010,2,Horizontal,Yates Petroleum Corp,32.1537743,-104.1707687,Flowline,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,1890,No,No,NM
+30-015-37556,nAB1426551694,2014,2012,2,Horizontal,Yates Petroleum Corp,32.3999519,-103.7406387,Blowout,NA,Stuffing Box,Equipment Failure,Oil & Saltwater,Unknown,2940,No,No,NM
+30-015-37590,nHMP1413432969,2014,2012,2,Horizontal,EOG Resources Inc,32.1514415,-103.9514549,Heater Treater,Leak,Valve,Equipment Failure,Crude Oil,Unknown,1890,No,Unknown,NM
+30-015-37614,nJMW1305630303,2013,2010,3,Horizontal,COG Operating LLC,32.062252,-103.9986572,Transport,NA,Loading/Unloading,Human Error,Saltwater,Unknown,840,No,Yes,NM
+30-015-37646,nHMP1419937403,2014,2012,2,Horizontal,BOPCO LP,32.1557388,-103.7840118,Pump,NA,Unknown,Human Error,Crude Oil,Unknown,1176,No,No,NM
+30-015-37678,nJMW1318452944,2013,2010,3,Horizontal,COG Operating LLC,32.0508652,-103.9814911,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-37678,nMLB1125628040,2011,2010,1,Horizontal,COG Operating LLC,32.0508652,-103.9814911,Tank,Leak,Vandalism,Human Error,Saltwater,Unknown,37380,No,Yes,NM
+30-015-37879,nJMW1319340874,2013,2010,3,Horizontal,EOG Resources Inc,32.107399,-103.9795151,Tank,Overflow,Power Outage,Equipment Failure,Saltwater,Unknown,5880,No,Yes,NM
+30-015-37879,nJMW1326048925,2013,2010,3,Horizontal,EOG Resources Inc,32.107399,-103.9795151,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,2940,No,Yes,NM
+30-015-37879,nMLB1031240514,2010,2010,0,Horizontal,EOG Resources Inc,32.107399,-103.9795151,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-37899,nJMW1328038365,2013,2010,3,Horizontal,Devon Energy Production Company,32.0639153,-103.7638779,Flowline,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,420,No,Unknown,NM
+30-015-37927,nJMW1318439398,2013,2010,3,Horizontal,COG Operating LLC,32.6177788,-104.4435654,Flare,NA,Fire,Unknown,Oil & Saltwater,Unknown,84,No,No,NM
+30-015-37927,nMLB1226549180,2012,2010,2,Horizontal,COG Operating LLC,32.6177788,-104.4435654,Flowline,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,7560,No,Yes,NM
+30-015-37931,nKMW1111131124,2011,2011,0,Horizontal,Yates Petroleum Corp,32.2464256,-104.0087891,Pump,Leak,Unknown,Equipment Failure,Drilling Waste,Unknown,840,No,Yes,NM
+30-015-37942,nHMP1413435475,2014,2010,4,Horizontal,Yates Petroleum Corp,32.0198936,-104.1410599,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,21000,No,No,NM
+30-015-37942,nHMP1415732350,2014,2010,4,Horizontal,Yates Petroleum Corp,32.0198936,-104.1410599,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,12600,No,No,NM
+30-015-37942,nJMW1400232920,2013,2010,3,Horizontal,Yates Petroleum Corp,32.0198936,-104.1410599,Wellhead,NA,Valve,Equipment Failure,Saltwater,Unknown,504,No,Yes,NM
+30-015-37948,nKMW1110148125,2011,2010,1,Horizontal,COG Operating LLC,32.3127403,-103.9975891,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,2940,No,No,NM
+30-015-37973,nMLB1203329834,2011,2010,1,Horizontal,COG Operating LLC,32.6305962,-104.4286957,Filter Pot,NA,Valve,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-37997,nHMP1412232021,2014,2010,4,Horizontal,Yates Petroleum Corp,32.6540985,-103.8807755,Tank,Overflow,High Wind,Environmental Conditions,Oil & Saltwater,Unknown,6384,No,Yes,NM
+30-015-37997,nMLB1122742820,2011,2010,1,Horizontal,Yates Petroleum Corp,32.6540985,-103.8807755,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,3150,No,Yes,NM
+30-015-38072,nJMW1305636263,2013,2012,1,Horizontal,COG Operating LLC,32.0770874,-104.0826111,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,8400,No,Unknown,NM
+30-015-38113,nHMP1410129629,2014,2010,3,Horizontal,BOPCO LP,32.304966,-103.8037643,Pump,NA,Fitting,Equipment Failure,Saltwater,Unknown,1050,No,No,NM
+30-015-38116,nAB1433049483,2014,2011,3,Horizontal,BOPCO LP,32.3124962,-103.7977982,Flowline,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,420,No,Yes,NM
+30-015-38169,nJMW1302350423,2013,2011,1,Horizontal,COG Operating LLC,32.0798111,-104.0815201,Pump,NA,Valve,Human Error,Crude Oil,Unknown,6846,No,Yes,NM
+30-015-38223,nHMP1408738739,2014,2011,3,Horizontal,Yates Petroleum Corp,32.0048676,-104.0496368,Tank,Overflow,Heater Treater,Equipment Failure,Crude Oil,Unknown,630,No,Yes,NM
+30-015-38223,nHMP1418430504,2014,2011,3,Horizontal,Yates Petroleum Corp,32.0048676,-104.0496368,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,1050,No,Yes,NM
+30-015-38223,nJMW1321849579,2013,2011,2,Horizontal,Yates Petroleum Corp,32.0048676,-104.0496368,Water Leg,Overflow,Power Outage,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-38242,nMLB1215941646,2012,2010,2,Horizontal,Devon Energy Production Company,32.1437645,-104.0031586,Wellhead,NA,Fitting,Equipment Failure,Oil & Saltwater,Unknown,504,No,No,NM
+30-015-38257,nHMP1406539248,2014,2010,3,Horizontal,COG Operating LLC,32.061676,-104.0999146,Flowline,Leak,Weld,Equipment Failure,Saltwater,Unknown,630,No,Unknown,NM
+30-015-38257,nMLB1208056604,2012,2010,1,Horizontal,COG Operating LLC,32.061676,-104.0999146,Flowline,Leak,Fitting,Equipment Failure,Saltwater,Unknown,630,No,No,NM
+30-015-38287,nHMP1411844251,2014,2011,3,Horizontal,OXY USA Inc,32.2820435,-103.9982758,Tank,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,2520,No,Yes,NM
+30-015-38287,nJMW1312328817,2013,2011,2,Horizontal,OXY USA Inc,32.2820435,-103.9982758,Tank,Overflow,Pump,Equipment Failure,Crude Oil,Unknown,5880,No,Unknown,NM
+30-015-38295,nHMP1416332467,2014,2011,3,Horizontal,COG Operating LLC,32.6105042,-103.8901062,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,1680,No,Yes,NM
+30-015-38295,nJMW1314937818,2013,2011,2,Horizontal,COG Operating LLC,32.6105042,-103.8901062,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,2814,No,Yes,NM
+30-015-38296,nMLB1121355059,2011,2010,1,Horizontal,Cimarex Energy Company,32.6522942,-103.8732529,Tank,NA,Valve,Equipment Failure,Crude Oil,Unknown,630,No,No,NM
+30-015-38314,nMLB1203332867,2011,2011,1,Horizontal,Devon Energy Production Company,32.7261,-103.81707,Tank,Overflow,Unknown,Unknown,Saltwater,Unknown,420,No,Yes,NM
+30-015-38316,nJMW1221441921,2012,2010,2,Horizontal,Yates Petroleum Corp,32.1208801,-104.0825958,Flowline,Leak,Vehicle Accident,Human Error,Saltwater,Unknown,21000,No,Yes,NM
+30-015-38338,nMLB1113050834,2011,2011,0,Horizontal,Devon Energy Production Company,32.650035,-104.104527,Tank,Overflow,Unknown,Human Error,Oil & Saltwater,Unknown,1092,No,Unknown,NM
+30-015-38366,nJMW1321937220,2013,2011,2,Horizontal,OXY USA Inc,32.2551537,-103.9796906,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,420,No,Unknown,NM
+30-015-38454,nMLB1205232067,2012,2011,1,Horizontal,Devon Energy Production Company,32.66317,-103.88352,Free Water Knockout,NA,Valve,Equipment Failure,Crude Oil,Unknown,840,No,Yes,NM
+30-015-38488,nHMP1406531419,2014,2011,3,Horizontal,COG Operating LLC,32.0195427,-104.1106415,Flowline,Leak,Weld,Equipment Failure,Saltwater,Unknown,504,No,Unknown,NM
+30-015-38488,nJMW1312749580,2013,2011,2,Horizontal,COG Operating LLC,32.0195427,-104.1106415,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,4200,No,No,NM
+30-015-38500,nJMW1326251610,2013,2011,2,Horizontal,COG Production LLC,32.0014343,-104.0137482,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-38522,nAB1433649950,2014,2011,3,Horizontal,Yates Petroleum Corp,32.0048637,-104.0497208,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-38522,nJMW1314852969,2013,2011,2,Horizontal,Yates Petroleum Corp,32.0048637,-104.0497208,Water Leg,NA,Pump,Equipment Failure,Saltwater,Unknown,1176,No,Yes,NM
+30-015-38532,nJMW1331739314,2013,2011,2,Horizontal,COG Production LLC,32.0014305,-104.0168457,Tank,Overflow,Valve,Unknown,Crude Oil,Unknown,5250,No,Unknown,NM
+30-015-38535,nJMW1229349116,2012,2011,1,Horizontal,Devon Energy Production Company,32.1661758,-103.7636108,Tank,Overflow,Power Outage,Equipment Failure,Saltwater,Unknown,630,No,No,NM
+30-015-38557,nMLB1204437755,2012,2011,1,Horizontal,Devon Energy Production Company,32.18027,-103.74168,Flowline,Leak,Fitting,Equipment Failure,Oil & Saltwater,Unknown,840,No,Unknown,NM
+30-015-38569,nAB1430728086,2014,2012,2,Horizontal,BC Operating Inc,32.734333,-104.3966675,Tank,Leak,Corrosion,Equipment Failure,Crude Oil,Unknown,294,No,Yes,NM
+30-015-38600,nMLB1122340260,2011,2011,0,Horizontal,Vanguard Operating LLC,32.1618652,-104.084259,Tank,Leak,Unknown,Equipment Failure,Hydraulic Fracture Solution,Acid,3990,No,Yes,NM
+30-015-38602,nAB1506437854,2014,2011,4,Horizontal,Devon Energy Production Company,32.26833,-103.72684,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,840,No,Yes,NM
+30-015-38637,nHMP1417837073,2014,2011,3,Horizontal,Mewbourne Oil Company,32.6434593,-104.4393692,Tank,Leak,Corrosion,Equipment Failure,Crude Oil,Unknown,840,No,Yes,NM
+30-015-38668,nAB1428137738,2014,2011,3,Horizontal,BOPCO LP,32.1509933,-103.8555832,Wellhead,NA,Fitting,Equipment Failure,Oil & Saltwater,Unknown,3234,No,No,NM
+30-015-38675,nJMW1224942822,2012,2012,0,Horizontal,Mewbourne Oil Company,32.268397,-104.0596848,Tank,Leak,Unknown,Equipment Failure,Saltwater,Unknown,5040,No,Yes,NM
+30-015-38948,nAB1429432526,2014,2011,3,Horizontal,COG Operating LLC,32.1073227,-104.1364059,Tank,NA,Flood,Environmental Conditions,Oil & Saltwater,Unknown,15960,Yes,No,NM
+30-015-38979,nHMP1416348099,2014,2011,3,Horizontal,Cimarex Energy Company,32.6960373,-103.9651947,Stuffing Box,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,546,No,Yes,NM
+30-015-38980,nAB1424649543,2014,2011,3,Horizontal,COG Operating LLC,32.066143,-104.0139236,Tank,Leak,Unknown,Unknown,Oil & Saltwater,Unknown,1596,No,Yes,NM
+30-015-38980,nJMW1303841712,2013,2011,2,Horizontal,COG Operating LLC,32.066143,-104.0139236,Pump,Leak,Nipple,Equipment Failure,Saltwater,Unknown,18900,No,Yes,NM
+30-015-38980,nJMW1314040088,2013,2011,2,Horizontal,COG Operating LLC,32.066143,-104.0139236,Filter Pot,NA,Valve,Human Error,Saltwater,Unknown,4200,No,Yes,NM
+30-015-38980,nMLB1122937897,2011,2011,0,Horizontal,COG Operating LLC,32.066143,-104.0139236,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,966,No,Yes,NM
+30-015-38984,nAB1430854045,2014,2012,2,Horizontal,Mewbourne Oil Company,32.7018013,-103.9532776,Tank,Leak,Vandalism,Human Error,Crude Oil,Unknown,4620,No,Yes,NM
+30-015-38988,nMLB1132039932,2011,2011,0,Horizontal,Marshall & Winston Inc,32.6321144,-104.4412231,Tank,NA,Unknown,Equipment Failure,Hydraulic Fracture Solution,Unknown,168,No,Unknown,NM
+30-015-38990,nJMW1321937948,2013,2011,2,Horizontal,Yates Petroleum Corp,32.7525749,-104.021453,Tank,Overflow,Unknown,Equipment Failure,Crude Oil,Unknown,294,No,Yes,NM
+30-015-38990,nMLB1204139894,2012,2011,0,Horizontal,Yates Petroleum Corp,32.7525749,-104.021453,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,1680,No,Yes,NM
+30-015-38990,nMLB1209754628,2012,2011,1,Horizontal,Yates Petroleum Corp,32.7525749,-104.021453,Tank,Overflow,Valve,Unknown,Crude Oil,Unknown,5124,No,Yes,NM
+30-015-39018,nAB1428137122,2014,2011,3,Horizontal,BOPCO LP,32.1818733,-103.8328629,Flowline,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,4998,No,Yes,NM
+30-015-39038,nHMP1417630538,2014,2011,3,Horizontal,COG Operating LLC,32.0515976,-104.0730057,Pump,Leak,Valve,Equipment Failure,Saltwater,Unknown,4200,No,Yes,NM
+30-015-39060,nAB1507736778,2014,2012,2,Horizontal,COG Operating LLC,32.0942116,-104.0996017,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,NA,No,Yes,NM
+30-015-39071,nJMW1225455843,2012,2011,1,Horizontal,Devon Energy Production Company,32.06667,-103.74289,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,840,No,No,NM
+30-015-39099,nHMP1406629354,2014,2011,3,Horizontal,EOG Resources Inc,32.0636963,-103.7985624,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,630,No,Unknown,NM
+30-015-39099,nHMP1408736178,2014,2011,3,Horizontal,EOG Resources Inc,32.0636963,-103.7985624,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,630,No,Unknown,NM
+30-015-39112,nAB1425529738,2014,2011,3,Horizontal,OXY USA Inc,32.669521,-104.068568,Tank,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,2940,No,Unknown,NM
+30-015-39151,nJMW1219549113,2012,2011,1,Horizontal,COG Operating LLC,32.6090431,-104.452919,Separator,NA,Gasket,Equipment Failure,Oil & Saltwater,Unknown,4200,No,Yes,NM
+30-015-39151,nJMW1331649742,2013,2011,2,Horizontal,COG Operating LLC,32.6090431,-104.452919,Heater Treater,Leak,Fire Tube,Equipment Failure,Oil & Saltwater,Unknown,630,No,Yes,NM
+30-015-39151,nJMW1334333986,2013,2011,2,Horizontal,COG Operating LLC,32.6090431,-104.452919,Heater Treater,Leak,Fire Tube,Equipment Failure,Oil & Saltwater,Unknown,630,No,Yes,NM
+30-015-39151,nJMW1402340623,2014,2011,2,Horizontal,COG Operating LLC,32.6090431,-104.452919,Heater Treater,Leak,Unknown,Equipment Failure,Saltwater,Unknown,420,No,Yes,NM
+30-015-39162,nAB1435732150,2014,2011,3,Horizontal,Devon Energy Production Company,32.06559803,-103.7470964,Separator,NA,Valve,Equipment Failure,Crude Oil,Unknown,1260,No,Yes,NM
+30-015-39164,nJMW1324938778,2013,2011,2,Horizontal,Cimarex Energy Company,32.6656647,-104.1045227,Blowout,NA,Unknown,Unknown,Oil & Saltwater,Unknown,2100,No,No,NM
+30-015-39171,nJMW1300851642,2012,2012,1,Horizontal,EOG Resources Inc,32.0636885,-103.803511,Separator,NA,Valve,Equipment Failure,Crude Oil,Unknown,420,No,No,NM
+30-015-39171,nJMW1301651993,2012,2012,1,Horizontal,EOG Resources Inc,32.0636885,-103.803511,Separator,NA,Valve,Equipment Failure,Crude Oil,Unknown,420,No,No,NM
+30-015-39220,nAB1435049621,2014,2011,3,Horizontal,OXY USA Inc,32.271114,-103.979573,Stuffing Box,Leak,Froze,Environmental Conditions,Crude Oil,Unknown,210,No,Yes,NM
+30-015-39227,nMLB1226548013,2012,2011,1,Horizontal,Cimarex Energy Company,32.1356926,-104.269577,Storage Container,Leak,Unknown,Human Error,Hydraulic Fracture Solution,Acid,420,No,Yes,NM
+30-015-39241,nAB1433751685,2014,2014,1,Horizontal,Yates Petroleum Corp,32.6193657,-104.0187912,Tank,NA,Valve,Equipment Failure,Crude Oil,Unknown,4830,No,Yes,NM
+30-015-39264,nJMW1314047263,2013,2012,1,Horizontal,COG Operating LLC,32.6106873,-104.4352951,Well Casing,NA,Valve,Human Error,Crude Oil,Unknown,1680,No,No,NM
+30-015-39294,nAB1435050931,2014,2011,3,Horizontal,BOPCO LP,32.2169647,-103.8418655,Flowline,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,336,No,No,NM
+30-015-39344,nMLB1130852870,2011,2011,0,Horizontal,BOPCO LP,32.1534081,-103.8493729,Tank,NA,Unknown,Human Error,Drilling Waste,Unknown,840,No,Unknown,NM
+30-015-39348,nJMW1310131572,2013,2011,1,Horizontal,Yates Petroleum Corp,32.8894043,-104.2591934,Tank,NA,High Wind,Environmental Conditions,Saltwater,Unknown,5040,No,Yes,NM
+30-015-39387,nJMW1335337210,2013,2011,2,Horizontal,COG Operating LLC,32.6104851,-103.8988647,Separator,NA,Gasket,Equipment Failure,Oil & Saltwater,Unknown,1050,No,Yes,NM
+30-015-39393,nJMW1319349423,2013,2011,2,Horizontal,Devon Energy Production Company,32.65179,-103.89844,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,1932,No,Unknown,NM
+30-015-39404,nJMW1234247553,2012,2012,0,Horizontal,COG Operating LLC,32.0941544,-104.1117859,Tank,NA,Valve,Human Error,Saltwater,Unknown,504,No,No,NM
+30-015-39404,nJMW1301648983,2012,2012,0,Horizontal,COG Operating LLC,32.0941544,-104.1117859,Tank,Overflow,Valve,Equipment Failure,Crude Oil,Unknown,6300,No,Yes,NM
+30-015-39437,nAB1425249077,2014,2012,2,Horizontal,OXY USA Inc,32.3680573,-103.7559509,Flowline,Leak,Unknown,Equipment Failure,Gasoline,Unknown,NA,No,Unknown,NM
+30-015-39458,nJMW1303853348,2013,2012,1,Horizontal,Mewbourne Oil Company,32.7243652,-103.9850769,Stuffing Box,Leak,Unknown,Unknown,Crude Oil,Unknown,420,No,Yes,NM
+30-015-39486,nJMW1326653626,2013,2012,1,Horizontal,BOPCO LP,32.208107,-103.8566818,Tank,Overflow,Unknown,Unknown,Saltwater,Unknown,2100,No,No,NM
+30-015-39508,nAB1435732889,2014,2011,3,Horizontal,BOPCO LP,32.1240044,-103.8539963,Flare,NA,Valve,Equipment Failure,Crude Oil,Unknown,336,No,No,NM
+30-015-39508,nJMW1323449477,2013,2011,2,Horizontal,BOPCO LP,32.1240044,-103.8539963,Transport,NA,Loading/Unloading,Human Error,Saltwater,Unknown,1764,No,Yes,NM
+30-015-39509,nMLB1300932604,2012,2012,1,Horizontal,CHEVRON USA Inc,32.928964,-104.154136,Stuffing Box,NA,Unknown,Equipment Failure,Crude Oil,Unknown,210,No,Unknown,NM
+30-015-39511,nHMP1414935465,2014,2012,2,Horizontal,Yates Petroleum Corp,32.6140633,-104.0187988,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,10920,No,Yes,NM
+30-015-39545,nHMP1410140947,2014,2011,2,Horizontal,Mewbourne Oil Company,32.5798683,-104.4997025,Heater Treater,Leak,Sight Glass,Equipment Failure,Oil & Saltwater,Unknown,3780,No,No,NM
+30-015-39585,nJMW1308640545,2013,2012,0,Horizontal,COG Operating LLC,32.1364784,-104.1343307,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,840,No,Yes,NM
+30-015-39673,nJMW1328031435,2013,2011,2,Horizontal,Yates Petroleum Corp,32.5534859,-104.2268219,Tank,Leak,Vandalism,Human Error,Oil & Saltwater,Unknown,7560,No,Unknown,NM
+30-015-39712,nJMW1335253463,2013,2011,2,Horizontal,COG Operating LLC,32.6804886,-103.8290176,Free Water Knockout,NA,Gasket,Equipment Failure,Crude Oil,Unknown,378,No,Unknown,NM
+30-015-39720,nJMW1401637206,2013,2013,1,Horizontal,COG Operating LLC,32.682972,-104.3817902,Separator,NA,Sight Glass,Equipment Failure,Oil & Saltwater,Unknown,378,No,Yes,NM
+30-015-39801,nHMP1409130181,2014,2014,0,Horizontal,Yates Petroleum Corp,32.6114807,-104.0192947,Blowout,NA,Unknown,Unknown,Saltwater,Unknown,3150,No,No,NM
+30-015-39815,nAB1433955125,2014,2012,3,Horizontal,COG Operating LLC,32.6943321,-104.4119949,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,4200,No,No,NM
+30-015-39815,nJMW1326238433,2013,2012,2,Horizontal,COG Operating LLC,32.6943321,-104.4119949,Heater Treater,Leak,Gasket,Equipment Failure,Crude Oil,Unknown,1260,No,Unknown,NM
+30-015-39830,nAB1426251591,2014,2014,0,Horizontal,Yates Petroleum Corp,32.4515038,-103.7238846,Pit,Overflow,Unknown,Unknown,Saltwater,Unknown,2730,No,Unknown,NM
+30-015-39831,nAB1428737173,2014,2012,2,Horizontal,OXY USA Inc,32.254528,-103.775629,Tank,Overflow,Unknown,Equipment Failure,Crude Oil,Unknown,5040,No,Yes,NM
+30-015-39839,nJMW1231137859,2012,2012,0,Horizontal,SM Energy Company,32.6110992,-104.053138,Flowline,Leak,Unknown,Human Error,Saltwater,Unknown,630,No,Unknown,NM
+30-015-39844,nJMW1301656219,2012,2012,1,Horizontal,CAZA Operating LLC,32.2825584,-104.1757355,Transport,NA,Loading/Unloading,Human Error,Oil & Saltwater,Unknown,2940,No,Unknown,NM
+30-015-39930,nHMP1411832156,2014,2012,1,Horizontal,BOPCO LP,32.1927986,-103.7801666,Flare,NA,Unknown,Human Error,Crude Oil,Unknown,420,No,No,NM
+30-015-39993,nMLB1211627407,2012,2012,0,Horizontal,Murchison Oil & Gas Inc,32.1521263,-104.2609253,Pit,Overflow,Heavy Rain ,Environmental Conditions,Drilling Waste,Unknown,210,No,No,NM
+30-015-39999,nJMW1309542382,2013,2012,1,Horizontal,COG Operating LLC,32.0488815,-104.1021042,Heater Treater,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-40050,nJMW1303940453,2013,2012,1,Horizontal,OXY USA WTP Limited Partnership,32.6994057,-103.9155121,Separator,NA,Valve,Equipment Failure,Crude Oil,Unknown,252,No,No,NM
+30-015-40050,nJMW1305641244,2013,2012,1,Horizontal,OXY USA WTP Limited Partnership,32.6994057,-103.9155121,Separator,NA,Valve,Equipment Failure,Crude Oil,Unknown,252,No,No,NM
+30-015-40058,nJMW1316554192,2013,2012,1,Horizontal,COG Operating LLC,32.6976662,-104.4332275,Flowline,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,630,No,Yes,NM
+30-015-40070,nJMW1225639143,2012,2012,0,Horizontal,OXY USA WTP Limited Partnership,32.102707,-103.159026,Tank,Leak,Corrosion,Equipment Failure,Oil & Saltwater,Unknown,4620,No,Unknown,NM
+30-015-40071,nJMW1330447653,2013,2012,1,Horizontal,OXY USA WTP Limited Partnership,32.32794,-104.10162,Tank,Overflow,Line Plugged,Equipment Failure,Crude Oil,Unknown,4620,No,Unknown,NM
+30-015-40127,nMLB1234825879,2012,2012,0,Horizontal,Yates Petroleum Corp,32.4589272,-103.7239838,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,1680,No,Yes,NM
+30-015-40155,nHMP1410122419,2014,2012,2,Horizontal,BOPCO LP,32.1806602,-103.8538361,Wellhead,NA,Valve,Human Error,Oil & Saltwater,Unknown,840,No,No,NM
+30-015-40161,nAB1422327702,2014,2012,2,Horizontal,Yates Petroleum Corp,32.7272758,-104.3967056,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,630,No,Yes,NM
+30-015-40161,nJMW1300838151,2012,2012,0,Horizontal,Yates Petroleum Corp,32.7272758,-104.3967056,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,5040,No,Unknown,NM
+30-015-40161,nJMW1315048005,2013,2012,1,Horizontal,Yates Petroleum Corp,32.7272758,-104.3967056,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,630,No,Unknown,NM
+30-015-40253,nJMW1402941819,2014,2012,1,Horizontal,COG Operating LLC,32.6227303,-103.9164886,Wellhead,NA,Fitting,Equipment Failure,Oil & Saltwater,Unknown,840,No,Unknown,NM
+30-015-40261,nJMW1334342099,2013,2012,2,Horizontal,BOPCO LP,32.2096901,-103.8192291,Tank,Overflow,Unknown,Unknown,Oil & Saltwater,Unknown,3276,No,No,NM
+30-015-40287,nJMW1302430767,2013,2012,0,Horizontal,Mewbourne Oil Company,32.1858292,-104.0162964,Blowout,NA,Unknown,Equipment Failure,Crude Oil,Unknown,84,No,No,NM
+30-015-40301,nAB1422337133,2014,2013,1,Horizontal,Mewbourne Oil Company,32.6529655,-104.4329605,Well Casing,NA,Valve,Human Error,Oil & Saltwater,Unknown,1050,No,Yes,NM
+30-015-40358,nAB1427530587,2014,2012,2,Horizontal,COG Operating LLC,32.8538513,-104.0541229,Transport,NA,Loading/Unloading,Unknown,Crude Oil,Unknown,462,No,Yes,NM
+30-015-40385,nJMW1321251559,2013,2012,1,Horizontal,Devon Energy Production Company,32.1239395,-103.7380219,Flowline,Leak,Unknown,Human Error,Saltwater,Unknown,4200,No,Yes,NM
+30-015-40440,nAB1430851048,2014,2012,2,Horizontal,COG Operating LLC,32.1072426,-103.9446487,Tank,Leak,lightning,Environmental Conditions,Saltwater,Unknown,5040,No,Yes,NM
+30-015-40447,nAB1421036589,2014,2012,2,Horizontal,BOPCO LP,32.1519814,-103.8193283,Tank,NA,Unknown,Equipment Failure,Oil & Saltwater,Unknown,840,No,No,NM
+30-015-40447,nAB1421039130,2014,2012,2,Horizontal,BOPCO LP,32.1519814,-103.8193283,Unknown,NA,Valve,Equipment Failure,Crude Oil,Unknown,336,No,No,NM
+30-015-40447,nAB1432439096,2014,2012,2,Horizontal,BOPCO LP,32.1519814,-103.8193283,Flare,NA,Unknown,Equipment Failure,Crude Oil,Unknown,1092,No,No,NM
+30-015-40447,nAB1433050646,2014,2012,2,Horizontal,BOPCO LP,32.1519814,-103.8193283,Flare,NA,Unknown,Equipment Failure,Crude Oil,Unknown,4410,No,No,NM
+30-015-40468,nJMW1309854309,2013,2012,0,Horizontal,Apache Corp,32.8505211,-103.8999176,Blowout Preventer,Overflow,Unknown,Unknown,Saltwater,Unknown,420,No,Unknown,NM
+30-015-40518,nJMW1331940873,2013,2012,1,Horizontal,Devon Energy Production Company,32.54333,-104.17394,Flowline,Leak,Valve,Equipment Failure,Saltwater,Unknown,8400,No,No,NM
+30-015-40520,nHMP1407133956,2014,2012,1,Horizontal,BOPCO LP,32.2110901,-103.9058456,Transport,NA,Illegal Dumping,Human Error,Saltwater,Unknown,5460,No,Yes,NM
+30-015-40538,nAB1423249455,2014,2012,2,Horizontal,COG Production LLC,32.2237053,-103.7245255,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,2940,No,No,NM
+30-015-40538,nJMW1232155041,2012,2012,0,Horizontal,COG Production LLC,32.2237053,-103.7245255,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,3360,No,Yes,NM
+30-015-40583,nJMW1321836233,2013,2013,0,Horizontal,Devon Energy Production Company,32.63676,-104.07037,Tank,NA,Unknown,Unknown,Saltwater,Unknown,NA,No,Unknown,NM
+30-015-40693,nHMP1416430522,2014,2012,1,Horizontal,Devon Energy Production Company,32.51196,-104.16743,Tank,Leak,Unknown,Equipment Failure,Saltwater,Unknown,210,No,Yes,NM
+30-015-40710,nAB1421832563,2014,2013,1,Horizontal,BOPCO LP,32.1130447,-103.9149399,Free Water Knockout,NA,Gasket,Equipment Failure,Oil & Saltwater,Unknown,17640,No,No,NM
+30-015-40786,nJMW1308633738,2013,2013,0,Horizontal,Devon Energy Production Company,32.4395447,-103.7625122,Tank,Leak,Unknown,Equipment Failure,Saltwater,Unknown,14700,No,No,NM
+30-015-40814,nJMW1324632667,2013,2013,0,Horizontal,COG Operating LLC,32.6976433,-104.4286118,Well Communication,NA,Unknown,Human Error,Hydraulic Fracture Solution,Unknown,98280,No,Yes,NM
+30-015-40816,nAB1433650924,2014,2012,2,Horizontal,COG Production LLC,32.035183,-104.0792542,Heater Treater,Leak,Gasket,Equipment Failure,Oil & Saltwater,Unknown,3990,No,Yes,NM
+30-015-40925,nHMP1407641879,2014,2013,1,Horizontal,COG Operating LLC,32.6687469,-104.3944321,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,2100,No,Yes,NM
+30-015-40946,nAB1425926900,2014,2013,2,Horizontal,COG Production LLC,32.0352135,-104.0392075,Tank,Leak,Nipple,Equipment Failure,Oil & Saltwater,Unknown,10626,No,Yes,NM
+30-015-40962,nHMP1409135761,2014,2013,0,Horizontal,Yates Petroleum Corp,32.6804466,-103.8669128,Flowline,Leak,Valve,Human Error,Crude Oil,Unknown,420,No,Yes,NM
+30-015-41073,nJMW1400249936,2013,2013,1,Horizontal,OXY USA Inc,32.19446,-103.9873491,Tank,NA,Valve,Human Error,Crude Oil,Unknown,630,No,Yes,NM
+30-015-41090,nHMP1419945153,2014,2013,1,Horizontal,Devon Energy Production Company,32.2104,-104.193602,Unknown,NA,Valve,Equipment Failure,Saltwater,Unknown,630,No,Unknown,NM
+30-015-41094,nAB1421328179,2014,2013,1,Horizontal,COG Operating LLC,32.1668892,-104.1299591,Separator,Leak,Gasket,Equipment Failure,Oil & Saltwater,Unknown,504,No,No,NM
+30-015-41106,nHMP1408631594,2014,2013,0,Horizontal,Devon Energy Production Company,32.6502686,-103.8478317,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,840,No,No,NM
+30-015-41124,nAB1424127656,2014,2013,1,Horizontal,Mewbourne Oil Company,32.1523514,-104.1021347,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,27300,No,No,NM
+30-015-41124,nAB1428950747,2014,2013,1,Horizontal,Mewbourne Oil Company,32.1523514,-104.1021347,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,18060,No,No,NM
+30-015-41129,nHMP1408441789,2014,2013,1,Horizontal,COG Operating LLC,32.0343208,-104.3346329,Tank,NA,Valve,Human Error,Saltwater,Unknown,6300,No,Yes,NM
+30-015-41136,nJMW1400340759,2013,2013,0,Horizontal,BOPCO LP,32.1974754,-103.7724075,Pump,NA,Flange,Equipment Failure,Saltwater,Unknown,7560,No,No,NM
+30-015-41158,nAB1432450261,2014,2013,1,Horizontal,Yates Petroleum Corp,32.0657921,-104.2532959,Tank,Overflow,Power Outage,Equipment Failure,Saltwater,Unknown,3360,No,Yes,NM
+30-015-41158,nJMW1323448295,2013,2013,0,Horizontal,Yates Petroleum Corp,32.0657921,-104.2532959,Tank,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,420,No,Yes,NM
+30-015-41159,nJMW1325447866,2013,2013,0,Horizontal,Devon Energy Production Company,32.6445856,-103.8492635,Tank,Leak,Unknown,Equipment Failure,Hydraulic Fracture Solution,Acid,7014,No,No,NM
+30-015-41185,nJMW1333031416,2013,2013,0,Horizontal,BOPCO LP,32.1357918,-103.8252029,Flowline,Leak,Fitting,Equipment Failure,Saltwater,Unknown,2730,No,No,NM
+30-015-41185,nJMW1402855518,2014,2013,0,Horizontal,BOPCO LP,32.1357918,-103.8252029,Flare,NA,Valve,Equipment Failure,Oil & Saltwater,Unknown,1470,No,No,NM
+30-015-41246,nAB1428139099,2014,2013,1,Horizontal,BOPCO LP,32.1792526,-103.8703461,Flare,NA,Vessel,Equipment Failure,Crude Oil,Unknown,210,No,No,NM
+30-015-41247,nAB1434939612,2014,2013,1,Horizontal,Yates Petroleum Corp,32.7094269,-103.9845886,Tank,NA,High Wind,Environmental Conditions,Saltwater,Unknown,6300,No,Yes,NM
+30-015-41247,nHMP1417841745,2014,2013,1,Horizontal,Yates Petroleum Corp,32.7094269,-103.9845886,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,798,No,Yes,NM
+30-015-41281,nHMP1406527038,2014,2013,0,Horizontal,BOPCO LP,32.2138481,-103.9200058,Pump,Leak,Unknown,Unknown,Saltwater,Unknown,1890,No,No,NM
+30-015-41283,nAB1435729198,2014,2013,2,Horizontal,COG Operating LLC,32.0361938,-104.2317047,Tank,Overflow,Unknown,Equipment Failure,Crude Oil,Unknown,630,No,Yes,NM
+30-015-41344,nHMP1416349902,2014,2014,0,Horizontal,Occidental Permian LTD,32.3299561,-103.8306274,Tank,Leak,Unknown,Human Error,Saltwater,Unknown,1890,No,No,NM
+30-015-41381,nAB1422341439,2014,2014,0,Horizontal,RKI Exploration & Production LLC,32.0489464,-103.8974533,Blender,NA,Valve,Equipment Failure,Hydraulic Fracture Solution,Gelled Brine (Frac Fluid),29400,No,No,NM
+30-015-41394,nAB1430856630,2014,2013,1,Horizontal,Mewbourne Oil Company,32.7101135,-103.9673691,Tank,Leak,Vandalism,Human Error,Crude Oil,Unknown,2940,No,Yes,NM
+30-015-41418,nJMW1334732534,2013,2013,0,Horizontal,Cimarex Energy Company,32.137111,-104.230089,Flowline,Leak,Fitting,Equipment Failure,Saltwater,Unknown,420,No,No,NM
+30-015-41442,nHMP1408449795,2014,2014,0,Horizontal,COG Operating LLC,32.0332832,-104.1192017,Tank,Leak,Fitting,Human Error,Saltwater,Unknown,4830,No,Yes,NM
+30-015-41442,nJMW1326040559,2013,2014,0,Horizontal,COG Operating LLC,32.0332832,-104.1192017,Pump,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,1050,No,Yes,NM
+30-015-41462,nAB1421242205,2014,2013,1,Horizontal,COG Operating LLC,32.6682816,-104.3772125,Flowline,Leak,Fitting,Equipment Failure,Oil & Saltwater,Unknown,3780,No,Unknown,NM
+30-015-41462,nHMP1408436341,2014,2013,0,Horizontal,COG Operating LLC,32.6682816,-104.3772125,Free Water Knockout,NA,Fitting,Equipment Failure,Crude Oil,Unknown,2310,No,Yes,NM
+30-015-41463,nAB1501442511,2014,2013,1,Horizontal,COG Operating LLC,32.6829224,-104.370895,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,4704,No,Yes,NM
+30-015-41488,nAB1425955901,2014,2013,1,Horizontal,OXY USA Inc,32.22530722,-103.9822222,Flare,NA,Compressor,Equipment Failure,Gasoline,Unknown,NA,No,Unknown,NM
+30-015-41488,nAB1434442192,2014,2013,0,Horizontal,OXY USA Inc,32.22530722,-103.9822222,Flare,NA,Unknown,Equipment Failure,Gasoline,Unknown,NA,No,Unknown,NM
+30-015-41508,nJMW1400348209,2013,2013,0,Horizontal,SM Energy Company,32.6231337,-104.0551282,Blowout Preventer,NA,Unknown,Equipment Failure,Crude Oil,Unknown,18480,No,No,NM
+30-015-41521,nJMW1328034788,2013,2013,0,Horizontal,COG Operating LLC,32.0927238,-104.1114349,Wellhead,NA,Fitting,Equipment Failure,Saltwater,Unknown,2100,No,No,NM
+30-015-41521,nJMW1334652230,2013,2013,0,Horizontal,COG Operating LLC,32.0927238,-104.1114349,Wellhead,NA,Fitting,Equipment Failure,Saltwater,Unknown,2100,No,No,NM
+30-015-41521,nJMW1335334951,2013,2013,0,Horizontal,COG Operating LLC,32.0927238,-104.1114349,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,1260,No,Yes,NM
+30-015-41544,nHMP1409224400,2013,2013,0,Horizontal,Burnett Oil Company Inc,32.8263664,-103.9351654,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,1050,No,Unknown,NM
+30-015-41554,nAB1425952396,2014,2013,1,Horizontal,BOPCO LP,32.1235085,-103.8409348,Flowline,Leak,Weld,Equipment Failure,Saltwater,Unknown,16128,No,No,NM
+30-015-41557,nAB1432250434,2014,2013,1,Horizontal,OXY USA Inc,32.26718722,-103.9840525,Stuffing Box,NA,Unknown,Equipment Failure,Crude Oil,Unknown,420,No,Yes,NM
+30-015-41557,nHMP1412133862,2014,2013,1,Horizontal,OXY USA Inc,32.26718722,-103.9840525,Flowline,Leak,Unknown,Equipment Failure,Oil & Saltwater,Unknown,8400,No,Unknown,NM
+30-015-41624,nAB1428154809,2014,2014,1,Horizontal,Devon Energy Production Company,32.6382446,-103.890892,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,1470,No,Unknown,NM
+30-015-41633,nHMP1406939926,2014,2013,0,Horizontal,COG Operating LLC,32.0492134,-104.0901337,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,6510,No,Yes,NM
+30-015-41641,nHMP1408523814,2014,2013,0,Horizontal,COG Operating LLC,32.0794449,-104.1072235,Tank,Overflow,Pump,Equipment Failure,Oil & Saltwater,Unknown,1764,No,Yes,NM
+30-015-41641,nHMP1409041462,2014,2013,0,Horizontal,COG Operating LLC,32.0794449,-104.1072235,Flowline,Leak,Valve,Human Error,Saltwater,Unknown,1260,No,Unknown,NM
+30-015-41642,nHMP1407146471,2014,2013,0,Horizontal,COG Operating LLC,32.0927048,-104.1156998,Pump,Leak,Fitting,Equipment Failure,Saltwater,Unknown,756,No,Unknown,NM
+30-015-41779,nAB1423756686,2014,2014,1,Horizontal,COG Operating LLC,32.063797,-104.1248322,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,4284,No,No,NM
+30-015-41781,nHMP1420230933,2014,2013,1,Horizontal,Mewbourne Oil Company,32.5855179,-104.0891571,Separator,Leak,Sight Glass,Equipment Failure,Crude Oil,Unknown,210,No,No,NM
+30-015-41786,nAB1433649200,2014,2014,1,Horizontal,Yates Petroleum Corp,32.6406097,-104.4980164,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-015-41788,nAB1421241224,2014,2014,0,Horizontal,COG Operating LLC,32.0783997,-104.1288605,Tank,Leak,Fire,Unknown,Saltwater,Unknown,NA,No,Yes,NM
+30-015-41791,nHMP1415024377,2014,2014,0,Horizontal,Cimarex Energy Company,32.170182,-103.503761,Pump,Leak,Unknown,Equipment Failure,Drilling Waste,Unknown,3360,No,Yes,NM
+30-015-42007,nAB1421930575,2014,2014,0,Horizontal,BOPCO LP,32.4578056,-103.8795547,Tank,Overflow,Fitting,Unknown,Oil & Saltwater,Unknown,378,No,No,NM
+30-015-42008,nAB1432355958,2014,2014,0,Horizontal,BOPCO LP,32.4578056,-103.8797836,Heater Treater,Leak,Gasket,Equipment Failure,Oil & Saltwater,Unknown,2688,No,No,NM
+30-015-42015,nAB1501254630,2014,2014,1,Horizontal,COG Operating LLC,32.859504,-103.831591,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,840,No,No,NM
+30-015-42029,nAB1423031875,2014,2014,0,Horizontal,COG Operating LLC,32.2109604,-104.1431046,Tank,Leak,Gasket,Equipment Failure,Oil & Saltwater,Unknown,7350,No,Yes,NM
+30-015-42033,nAB1424733253,2014,2014,0,Horizontal,Devon Energy Production Company,32.6539879,-103.8990784,Tank,Overflow,Unknown,Human Error,Drilling Waste,Unknown,336,No,Unknown,NM
+30-015-42063,nAB1429334642,2014,2014,0,Horizontal,OXY USA Inc,32.1938133,-103.9803619,Flowline,Leak,Unknown,Unknown,Hydraulic Fracture Solution,Gelled Brine (Frac Fluid),3150,No,Yes,NM
+30-015-42071,nAB1432826765,2014,2014,0,Horizontal,Devon Energy Production Company,32.1814537,-103.7447433,Pit,NA,Unknown,Human Error,Drilling Waste,Unknown,504,No,Unknown,NM
+30-015-42071,nAB1432841786,2014,2014,0,Horizontal,Devon Energy Production Company,32.1814537,-103.7447433,Flowline,Leak,Corrosion,Equipment Failure,Natural Gas Liquids,Unknown,84,No,Unknown,NM
+30-015-42076,nAB1425128333,2014,2014,0,Horizontal,Devon Energy Production Company,32.6466408,-103.8479309,Storage Container,Leak,Unknown,Equipment Failure,Hydraulic Fracture Solution,Acid,2940,No,Yes,NM
+30-015-42089,nAB1420930472,2014,2014,0,Horizontal,Mewbourne Oil Company,32.2240982,-104.2529984,Tank,Leak,Nipple,Equipment Failure,Oil & Saltwater,Unknown,15120,No,Yes,NM
+30-015-42089,nAB1423227481,2014,2014,0,Horizontal,Mewbourne Oil Company,32.2240982,-104.2529984,Separator,NA,Unknown,Unknown,Oil & Saltwater,Unknown,3360,No,No,NM
+30-015-42111,nAB1426628081,2014,2014,0,Horizontal,BOPCO LP,32.165844,-103.7679062,Flowline,Leak,Unknown,Human Error,Saltwater,Unknown,630,No,No,NM
+30-015-42123,nAB1431639646,2014,2014,0,Horizontal,CONOCOPHILLIPS Company,32.0008698,-103.7733765,Pump,NA,Unknown,Equipment Failure,Hydraulic Fracture Solution,Unknown,840,No,Yes,NM
+30-015-42126,nAB1432937763,2014,2014,0,Horizontal,Devon Energy Production Company,32.1516495,-103.7611237,Storage Container,Leak,Unknown,Equipment Failure,Hydraulic Fracture Solution,Acid,5460,No,Yes,NM
+30-015-42126,nAB1512454101,2014,2014,0,Horizontal,Devon Energy Production Company,32.1516495,-103.7611237,Unknown,NA,Unknown,Equipment Failure,Saltwater,Unknown,NA,No,Unknown,NM
+30-015-42140,nAB1435357246,2014,2014,1,Horizontal,Apache Corp,32.8588791,-103.864418,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,8400,No,No,NM
+30-015-42145,nAB1428134622,2014,2013,1,Horizontal,BOPCO LP,32.3540649,-103.8268051,Unknown,NA,Fitting,Equipment Failure,Oil & Saltwater,Unknown,1596,No,No,NM
+30-015-42158,nAB1432442278,2014,2014,0,Horizontal,BOPCO LP,32.1237793,-103.8969879,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,2898,No,Yes,NM
+30-015-42224,nAB1434450914,2014,2014,0,Horizontal,Devon Energy Production Company,32.3464088,-104.3243713,Heater Treater,Leak,Valve,Equipment Failure,Saltwater,Unknown,252,No,Yes,NM
+30-015-42287,nAB1422641434,2014,2014,0,Horizontal,RKI Exploration & Production LLC,32.0207672,-103.966301,Transport,NA,Illegal Dumping,Human Error,Saltwater,Unknown,10920,No,No,NM
+30-015-42333,nAB1431643048,2014,2014,1,Horizontal,Mewbourne Oil Company,32.4125938,-104.4156799,Unknown,Leak,Valve - Cow,Environmental Conditions,Crude Oil,Unknown,3234,No,Yes,NM
+30-015-42374,nAB1424633443,2014,2014,0,Horizontal,BOPCO LP,32.2114754,-103.8544388,Flowline,Leak,Fitting,Equipment Failure,Saltwater,Unknown,16800,No,No,NM
+30-015-42376,nHMP1416331258,2014,2014,0,Horizontal,BOPCO LP,32.3807793,-103.8817902,Tank,NA,Unknown,Human Error,Saltwater,Unknown,630,No,Yes,NM
+30-015-42393,nAB1432357675,2014,2014,0,Horizontal,BOPCO LP,32.209034,-103.8463745,Blowout Preventer,NA,Unknown,Equipment Failure,Oil & Saltwater,Unknown,1932,No,No,NM
+30-015-42496,nAB1431855525,2014,2014,0,Horizontal,BOPCO LP,32.165844,-103.7680359,Tank,Leak,Fire,Unknown,Crude Oil,Unknown,12474,No,Yes,NM
+30-015-42630,nAB1435036006,2014,2014,0,Horizontal,BOPCO LP,32.0880165,-103.7939911,Tank,NA,Unknown,Human Error,Saltwater,Unknown,3780,No,Yes,NM
+30-025-34440,nTO1417833544,2014,1998,16,Horizontal,Devon Energy Production Company,32.3889961,-103.4941711,Tank,Leak,lightning,Environmental Conditions,Saltwater,Unknown,10920,No,Yes,NM
+30-025-37175,nGRL0835835773,2008,2005,4,Horizontal,Resolute Natural Resources Company LLC,33.0640373,-103.1692505,Flowline,Leak,Unknown,Unknown,Oil & Saltwater,Unknown,13650,No,Unknown,NM
+30-025-38606,nGRL1103430316,2010,2008,3,Horizontal,Cimarex Energy Company,33.0234413,-103.1520004,Tank,Leak,Valve - Cow,Environmental Conditions,Crude Oil,Unknown,5544,No,Unknown,NM
+30-025-39289,nGRL1233942777,2012,2011,2,Horizontal,COG Operating LLC,32.6886063,-103.7948914,Heater Treater,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-025-39560,nTO1431647649,2014,2009,5,Horizontal,EOG Resources Inc,32.1949272,-103.5274124,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,30240,No,No,NM
+30-025-39623,nSAD1326256192,2013,2010,3,Horizontal,Cimarex Energy Company,32.6466522,-103.6920547,Stuffing Box,NA,Polish Rod,Equipment Failure,Crude Oil,Unknown,126,No,No,NM
+30-025-39660,nTO1422336509,2014,2010,4,Horizontal,Yates Petroleum Corp,32.0931969,-103.7037125,Flowline,Leak,Weld,Equipment Failure,Saltwater,Unknown,1680,No,Unknown,NM
+30-025-39893,nTO1414330264,2014,2010,3,Horizontal,Devon Energy Production Company,32.2543602,-103.5734558,Flowline,Leak,Unknown,Human Error,Saltwater,Unknown,2100,No,No,NM
+30-025-39960,nGRL1231239819,2012,2010,2,Horizontal,COG Operating LLC,32.6704407,-103.7862625,Filter Pot,NA,Unknown,Equipment Failure,Saltwater,Unknown,3360,No,Yes,NM
+30-025-39960,nTO1421233728,2014,2010,4,Horizontal,COG Operating LLC,32.6704407,-103.7862625,Separator,NA,Fire Tube,Equipment Failure,Saltwater,Unknown,2814,No,Unknown,NM
+30-025-40035,nTO1425926117,2014,2011,3,Horizontal,COG Operating LLC,32.680809,-103.5117722,Flowline,Leak,Unknown,Human Error,Crude Oil,Unknown,2940,No,Yes,NM
+30-025-40047,nSAD1402255331,2014,2013,1,Horizontal,Devon Energy Production Company,32.1525841,-103.7080307,Transport,NA,Loading/Unloading,Human Error,Saltwater,Unknown,420,No,Unknown,NM
+30-025-40179,nGRL1230034462,2012,2011,1,Horizontal,COG Operating LLC,32.4000893,-103.6263199,Flowline,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,420,No,No,NM
+30-025-40189,nSAD1326256905,2012,2012,0,Horizontal,EOG Resources Inc,32.151371,-103.4990616,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,840,No,No,NM
+30-025-40193,nTO1419029688,2014,2011,3,Horizontal,COG Operating LLC,32.6482697,-103.7958755,Unknown,NA,Valve,Equipment Failure,Saltwater,Unknown,630,No,Yes,NM
+30-025-40255,nGRL1218454296,2012,2012,0,Horizontal,Cimarex Energy Company,32.6226501,-103.7649612,Flowline,Leak,Corrosion,Equipment Failure,Crude Oil,Unknown,840,No,No,NM
+30-025-40260,nTO1421336966,2014,2011,3,Horizontal,COG Operating LLC,32.6396141,-103.7981644,Tank,Leak,lightning,Environmental Conditions,Saltwater,Unknown,4200,No,Yes,NM
+30-025-40302,nTO1415652865,2014,2012,2,Horizontal,COG Operating LLC,32.5168495,-103.5184784,Filter Pot,NA,Valve,Human Error,Saltwater,Unknown,1554,No,Yes,NM
+30-025-40389,nTO1432553976,2014,2014,0,Horizontal,Devon Energy Production Company,32.6520462,-103.6548004,Shaker,NA,Motor,Equipment Failure,Drilling Waste,Unknown,294,No,Unknown,NM
+30-025-40408,nGRL1326133841,2013,2012,1,Horizontal,Yates Petroleum Corp,32.1527519,-103.6442108,Tank,NA,Unknown,Unknown,Crude Oil,Unknown,7560,No,Yes,NM
+30-025-40414,nTO1419836835,2014,2012,2,Horizontal,CONOCOPHILLIPS Company,32.0497971,-103.6863708,Tank,Overflow,Unknown,Unknown,Saltwater,Unknown,1344,No,Unknown,NM
+30-025-40472,nSAD1411541300,2014,2013,1,Horizontal,Yates Petroleum Corp,32.5364494,-103.4858093,Unknown,NA,Valve,Human Error,Crude Oil,Unknown,3360,No,Yes,NM
+30-025-40489,nGRL1305848107,2012,2012,0,Horizontal,Yates Petroleum Corp,32.2675819,-103.5964584,Shaker,NA,Unknown,Unknown,Saltwater,Unknown,840,No,Unknown,NM
+30-025-40517,nTO1434429856,2014,2012,2,Horizontal,Yates Petroleum Corp,32.5511169,-103.4461823,Flowline,Leak,Froze,Environmental Conditions,Crude Oil,Unknown,420,No,Unknown,NM
+30-025-40532,nTO1429748421,2014,2012,2,Horizontal,Cimarex Energy Company,32.2530899,-103.600708,Tank,Overflow,Pump,Equipment Failure,Crude Oil,Unknown,672,No,Yes,NM
+30-025-40558,nSAD1412252264,2014,2012,1,Horizontal,Yates Petroleum Corp,32.1240692,-103.4300308,Well Casing,NA,Valve,Equipment Failure,Oil & Saltwater,Unknown,630,No,Unknown,NM
+30-025-40583,nTO1414739530,2014,2012,2,Horizontal,Devon Energy Production Company,32.1729851,-103.6903076,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,8610,No,Unknown,NM
+30-025-40583,nTO1414928380,2014,2012,2,Horizontal,Devon Energy Production Company,32.1729851,-103.6903076,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,8610,No,Yes,NM
+30-025-40617,nTO1415737328,2014,2013,1,Horizontal,COG Operating LLC,32.5286751,-103.4868546,Heater Treater,Leak,Gasket,Equipment Failure,Saltwater,Unknown,2520,No,Yes,NM
+30-025-40617,nTO1418953144,2014,2013,1,Horizontal,COG Operating LLC,32.5286751,-103.4868546,Tank,Leak,lightning,Environmental Conditions,Saltwater,Unknown,2520,No,Yes,NM
+30-025-40676,nTO1418956668,2014,2012,2,Horizontal,Devon Energy Production Company,32.7266121,-103.499527,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,546,No,Unknown,NM
+30-025-40676,nTO1434553064,2014,2012,2,Horizontal,Devon Energy Production Company,32.7266121,-103.499527,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,798,No,Unknown,NM
+30-025-40681,nTO1417835298,2014,2013,1,Horizontal,Devon Energy Production Company,32.4724922,-103.4898071,Pump,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,840,No,Unknown,NM
+30-025-40681,nTO1417835965,2014,2013,1,Horizontal,Devon Energy Production Company,32.4724922,-103.4898071,Transport,NA,Loading/Unloading,Human Error,Saltwater,Unknown,504,No,Unknown,NM
+30-025-40681,nTO1424743640,2014,2013,1,Horizontal,Devon Energy Production Company,32.4724922,-103.4898071,Pump,Leak,Unknown,Equipment Failure,Crude Oil,Unknown,840,No,Unknown,NM
+30-025-40700,nTO1421339361,2014,2012,2,Horizontal,Cimarex Energy Company,32.2386055,-103.6223907,Separator,NA,Gasket,Equipment Failure,Crude Oil,Unknown,3360,No,Yes,NM
+30-025-40708,nTO1414727065,2014,2012,1,Horizontal,Devon Energy Production Company,32.826355,-103.7293777,Pump,Leak,Packing Failed,Equipment Failure,Saltwater,Unknown,630,No,Unknown,NM
+30-025-40708,nTO1414927893,2014,2012,2,Horizontal,Devon Energy Production Company,32.826355,-103.7293777,Pump,NA,Unknown,Equipment Failure,Saltwater,Unknown,630,No,Unknown,NM
+30-025-40731,nTO1432253685,2014,2012,2,Horizontal,Mewbourne Oil Company,32.7114525,-103.7756271,Heater Treater,Leak,Gasket,Equipment Failure,Saltwater,Unknown,840,No,No,NM
+30-025-40841,nTO1421627977,2014,2013,1,Horizontal,Cimarex Energy Company,32.6682091,-103.5246124,Heater Treater,Leak,Gasket,Equipment Failure,Crude Oil,Unknown,11340,No,No,NM
+30-025-40857,nTO1434354362,2014,2013,1,Horizontal,COG Production LLC,32.2985497,-103.5699921,Tank,Overflow,Valve,Equipment Failure,Saltwater,Unknown,1008,No,Yes,NM
+30-025-40864,nTO1428829925,2014,2013,1,Horizontal,Yates Petroleum Corp,32.2243881,-103.5831146,Wellhead,NA,Fitting,Equipment Failure,Saltwater,Unknown,462,No,Yes,NM
+30-025-40891,nTO1427939918,2014,2013,2,Horizontal,Yates Petroleum Corp,32.2678909,-103.6009903,Stuffing Box,NA,Unknown,Equipment Failure,Saltwater,Unknown,2520,No,Unknown,NM
+30-025-40950,nTO1423026423,2014,2013,1,Horizontal,COG Operating LLC,32.5002747,-103.5581589,Heater Treater,Leak,Gasket,Equipment Failure,Crude Oil,Unknown,1260,No,Yes,NM
+30-025-41024,nTO1419057472,2014,2013,1,Horizontal,Devon Energy Production Company,32.1964722,-103.6176224,Transport,NA,Loading/Unloading,Equipment Failure,Saltwater,Unknown,210,No,Unknown,NM
+30-025-41024,nTO1419531901,2014,2013,1,Horizontal,Devon Energy Production Company,32.1964722,-103.6176224,Transport,NA,Loading/Unloading,Equipment Failure,Saltwater,Unknown,210,No,Unknown,NM
+30-025-41054,nTO1419041914,2014,2013,1,Horizontal,Yates Petroleum Corp,32.2671738,-103.592392,Tank,Overflow,Pump,Equipment Failure,Saltwater,Unknown,5460,No,Yes,NM
+30-025-41080,nTO1426941788,2014,2013,1,Horizontal,COG Operating LLC,32.4652519,-103.5866699,Flowline,Leak,Unknown,Human Error,Saltwater,Unknown,5334,No,Unknown,NM
+30-025-41080,nTO1434433356,2014,2013,2,Horizontal,COG Operating LLC,32.4652519,-103.5866699,Heater Treater,Leak,Unknown,Equipment Failure,Saltwater,Unknown,420,No,Yes,NM
+30-025-41083,nTO1421955934,2014,2013,1,Horizontal,OXY USA Inc,32.0060043,-103.4482346,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,2100,No,Unknown,NM
+30-025-41138,nTO1424526180,2014,2013,1,Horizontal,Murchison Oil & Gas Inc,32.196434,-103.5804062,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,2100,No,Unknown,NM
+30-025-41174,nTO1418941914,2014,2013,1,Horizontal,Cimarex Energy Company,32.2694321,-103.6176071,Tank,NA,Unknown,Human Error,Crude Oil,Unknown,420,No,Yes,NM
+30-025-41249,nTO1435029870,2014,2013,1,Horizontal,EOG Resources Inc,32.1028328,-103.5027618,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,2100,No,Unknown,NM
+30-025-41302,nGRL1413438172,2014,2014,0,Horizontal,Devon Energy Production Company,32.2544632,-103.5537567,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,1260,No,Unknown,NM
+30-025-41302,nTO1418955309,2014,2014,0,Horizontal,Devon Energy Production Company,32.2544632,-103.5537567,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,1260,No,Unknown,NM
+30-025-41313,nTO1428353661,2014,2013,1,Horizontal,CAZA Operating LLC,32.2819786,-103.4941788,Pump,NA,Valve,Equipment Failure,Saltwater,Unknown,4200,No,No,NM
+30-025-41346,nTO1434252950,2014,2014,1,Horizontal,COG Operating LLC,32.7399597,-103.5836868,Free Water Knockout,NA,Froze,Environmental Conditions,Crude Oil,Unknown,4200,No,Unknown,NM
+30-025-41364,nTO1423729763,2014,2014,0,Horizontal,BC Operating Inc,32.4420929,-103.5529404,Shaker,NA,Unknown,Human Error,Saltwater,Unknown,1680,No,Unknown,NM
+30-025-41450,nTO1430728488,2014,2014,1,Horizontal,GMT Exploration Company LLC,32.3555107,-103.431076,Transport,NA,Loading/Unloading,Human Error,Crude Oil,Unknown,1680,No,No,NM
+30-025-41509,nTO1421952242,2014,2014,0,Horizontal,CONOCOPHILLIPS Company,32.0189018,-103.6914749,Pit,Leak,Liner,Equipment Failure,Saltwater,Unknown,840,No,Yes,NM
+30-025-41516,nTO1417636911,2014,2014,0,Horizontal,Devon Energy Production Company,32.1964722,-103.6089478,Tank,Overflow,Unknown,Human Error,Saltwater,Unknown,1260,No,Yes,NM
+30-025-41614,nTO1419030269,2014,2014,0,Horizontal,Matador Production Company,32.7278938,-103.5797653,Sand Trap,NA,Valve,Equipment Failure,Drilling Waste,Unknown,8400,No,Unknown,NM
+30-025-41625,nTO1431629657,2014,2014,0,Horizontal,Devon Energy Production Company,32.2544518,-103.5474319,Blowout,NA,Unknown,Unknown,Drilling Waste,Unknown,588,No,Unknown,NM
+30-025-41627,nSAD1413436037,2014,2014,0,Horizontal,CHEVRON USA Inc,32.2824974,-103.5281677,Flowline,Leak,Fitting,Equipment Failure,Hydraulic Fracture Solution,Unknown,294,No,Unknown,NM
+30-025-41642,nTO1432841496,2014,2014,0,Horizontal,Yates Petroleum Corp,32.1813965,-103.5756836,Flowline,Leak,Froze,Environmental Conditions,Saltwater,Unknown,252,No,Yes,NM
+30-025-41655,nTO1426037274,2014,2014,0,Horizontal,Yates Petroleum Corp,32.1812286,-103.5844574,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,21000,No,Unknown,NM
+30-025-41706,nTO1431831520,2014,2014,0,Horizontal,CONOCOPHILLIPS Company,32.0493546,-103.6723938,Tank,Overflow,Unknown,Human Error,Drilling Waste,Unknown,630,No,Unknown,NM
+30-039-27699,nCS1432151260,2014,2004,10,Horizontal,WPX Energy Production LLC,36.880806,-107.4111328,Pump,NA,Unknown,Equipment Failure,Saltwater,Unknown,4200,No,No,NM
+30-039-29483,nBP0627834925,2006,2006,0,Horizontal,CONOCOPHILLIPS Company,36.8556709,-107.4525986,Tank,NA,Valve,Human Error,Saltwater,Unknown,1680,No,Unknown,NM
+30-039-29576,nBP1027140000,2010,2005,5,Horizontal,WPX Energy Production LLC,36.908783,-107.4117584,Tank,NA,Valve,Human Error,Saltwater,Unknown,252,No,Unknown,NM
+30-039-29576,nBP1027140247,2010,2005,5,Horizontal,WPX Energy Production LLC,36.908783,-107.4117584,Tank,Leak,Unknown,Unknown,Saltwater,Unknown,840,No,Unknown,NM
+30-039-29795,nBP0633240003,2006,2006,0,Horizontal,Devon Energy Production Company,36.806366,-107.5933685,Unknown,NA,Unknown,Equipment Failure,Saltwater,Unknown,NA,No,Unknown,NM
+30-039-29801,nBP0726036950,2007,2007,0,Horizontal,WPX Energy Production LLC,36.8994598,-107.2418518,Pit,Leak,Liner,Equipment Failure,Saltwater,Unknown,1050,No,Unknown,NM
+30-039-29851,nBP0626256550,2006,2006,0,Horizontal,WPX Energy Production LLC,36.8818665,-107.4725952,Pit,Overflow,Unknown,Unknown,Saltwater,Unknown,126,Yes,No,NM
+30-039-29851,nBP0632554251,2006,2006,0,Horizontal,WPX Energy Production LLC,36.8818665,-107.4725952,Unknown,NA,Unknown,Equipment Failure,Saltwater,Unknown,126,No,Unknown,NM
+30-039-29908,nBP0623429218,2006,2006,0,Horizontal,WPX Energy Production LLC,36.8721428,-107.2656555,Pit,Leak,Heavy Rain ,Environmental Conditions,Drilling Waste,Unknown,1050,No,Unknown,NM
+30-039-29920,nBP0726048769,2007,2007,0,Horizontal,WPX Energy Production LLC,36.9276123,-107.4474335,Tank,Leak,Weld,Equipment Failure,Saltwater,Unknown,840,No,Unknown,NM
+30-039-30193,nRMD0924649475,2009,2007,2,Horizontal,CONOCOPHILLIPS Company,36.6611099,-107.6110458,Tank,Overflow,Unknown,Equipment Failure,Condensate,Unknown,1050,No,Unknown,NM
+30-039-30200,nRMD0929649696,2008,2007,1,Horizontal,CONOCOPHILLIPS Company,36.6511345,-107.5749664,Tank,Overflow,Unknown,Equipment Failure,Condensate,Unknown,1050,No,Unknown,NM
+30-039-30257,nRMD1010238344,2010,2007,3,Horizontal,CONOCOPHILLIPS Company,36.605587,-107.5192947,Tank,Overflow,Unknown,Equipment Failure,Condensate & Saltwater,Unknown,714,No,Unknown,NM
+30-039-30266,nRMD0928126447,2009,2008,1,Horizontal,Burlingtong Resources Oil & Gas Company LP,36.5780067,-107.2494965,Separator,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,NA,No,Unknown,NM
+30-039-30375,nJK1205957063,2008,2007,0,Horizontal,CONOCOPHILLIPS Company,36.6146545,-107.5838165,Tank,NA,Valve,Equipment Failure,Hydraulic Fracture Solution,Unknown,7560,No,Unknown,NM
+30-039-30377,nRMD0928242067,2008,2008,0,Horizontal,Burlingtong Resources Oil & Gas Company LP,36.62583,-107.26783,Pit,Leak,Liner,Equipment Failure,Drilling Waste,Unknown,21000,No,Unknown,NM
+30-039-30586,nCTP0920347945,2009,2009,0,Horizontal,Burlingtong Resources Oil & Gas Company LP,36.5926552,-107.4287415,Pit,Overflow,Unknown,Human Error,Drilling Waste,Unknown,420,No,Unknown,NM
+30-039-30713,nRMD1000748372,2009,2009,0,Horizontal,Burlingtong Resources Oil & Gas Company LP,36.7560997,-107.5537186,Pit,Leak,Liner,Equipment Failure,Freshwater,Unknown,8400,No,Unknown,NM
+30-039-31105,nJK1229734139,2012,2012,0,Horizontal,Burlingtong Resources Oil & Gas Company LP,36.5562897,-107.2602615,Flowline,Leak,Unknown,Equipment Failure,Drilling Waste,Unknown,210,No,Unknown,NM
+30-039-31105,nJK1229735356,2012,2012,0,Horizontal,Burlingtong Resources Oil & Gas Company LP,36.5562897,-107.2602615,Flowline,Leak,Unknown,Equipment Failure,Drilling Waste,Unknown,210,No,Unknown,NM
+30-039-31173,nCS1501349249,2013,2013,0,Horizontal,WPX Energy Production LLC,36.2428131,-107.5352173,Flowline,Leak,Unknown,Equipment Failure,Drilling Waste,Unknown,4200,No,Unknown,NM
+30-039-31173,nJK1325436597,2013,2013,0,Horizontal,WPX Energy Production LLC,36.2428131,-107.5352173,Flare,NA,Unknown,Unknown,Crude Oil,Unknown,10,No,Unknown,NM
+30-039-31207,nCS1500854295,2014,2014,0,Horizontal,WPX Energy Production LLC,36.2293549,-107.534317,Tank,NA,Valve,Human Error,Saltwater,Flowback,2520,No,Unknown,NM
+30-039-31224,nCS1508235627,2014,2014,1,Horizontal,WPX Energy Production LLC,36.2297935,-107.5187912,Tank,NA,Valve,Human Error,Saltwater,Unknown,3360,No,Unknown,NM
+30-043-21127,nBP1329148089,2013,2013,0,Horizontal,ENCANA Oil and Gas Inc,36.1878,-107.48297,Separator,NA,Valve,Equipment Failure,Saltwater,Unknown,1050,No,Unknown,NM
+30-043-21136,nCS1432547761,2014,2014,0,Horizontal,WPX Energy Production LLC,36.2132988,-107.5173569,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,630,No,Unknown,NM
+30-043-21139,nCS1425131272,2014,2013,1,Horizontal,WPX Energy Production LLC,36.2074242,-107.5172806,Tank,NA,Unknown,Human Error,Crude Oil,Unknown,294,No,Unknown,NM
+30-043-21147,nCS1426948950,2014,2013,1,Horizontal,WPX Energy Production LLC,36.16114,-107.43182,Tank,Overflow,Unknown,Human Error,Crude Oil,Unknown,84,No,Unknown,NM
+30-043-21149,nJK1329654156,2013,2013,0,Horizontal,WPX Energy Production LLC,36.16973,-107.42988,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,210,No,Unknown,NM
+30-043-21151,nJK1333053739,2013,2013,0,Horizontal,ENCANA Oil and Gas Inc,36.1915817,-107.4638443,Generator,NA,Unknown,Human Error,Diesel,Unknown,15,No,Unknown,NM
+30-045-35315,nJK1325440340,2013,2012,2,Horizontal,ENCANA Oil and Gas Inc,36.26553,-107.91146,Stuffing Box,NA,Unknown,Equipment Failure,Crude Oil,Unknown,630,No,Unknown,NM
+30-045-35320,nJK1225055848,2012,2012,0,Horizontal,ENCANA Oil and Gas Inc,36.82573,-108.32455,Blowout,NA,Unknown,Unknown,Crude Oil,Unknown,210,No,No,NM
+30-045-35322,nJK1303027463,2013,2012,0,Horizontal,ENCANA Oil and Gas Inc,36.29788,-107.73258,Tank,Overflow,Separator,Equipment Failure,Oil & Saltwater,Unknown,NA,No,Yes,NM
+30-045-35467,nJK1416929497,2013,2013,0,Horizontal,ENCANA Oil and Gas Inc,36.291358,-107.730626,Tank,Overflow,Unknown,Unknown,Crude Oil,Unknown,840,No,Yes,NM
+30-045-35496,nCS1426954827,2014,2013,0,Horizontal,WPX Energy Production LLC,36.24645,-107.67867,Tank,NA,Valve,Equipment Failure,Saltwater,Unknown,12600,No,Unknown,NM
+30-045-35521,nCS1503741454,2014,2014,0,Horizontal,ENCANA Oil and Gas Inc,36.2647362,-107.7139893,Flowline,Leak,Swedge,Equipment Failure,Crude Oil,Unknown,840,No,Unknown,NM
+30-045-30582,nJK1206651737,2010,2002,9,Horizontal,CONOCOPHILLIPS Company,36.9617538,-108.0447006,Tank,Leak,Corrosion,Equipment Failure,Saltwater,Unknown,756,No,Yes,NM
+30-045-32192,nDGF0509735917,2005,2005,0,Horizontal,WPX Energy Production LLC,36.8983421,-107.4785156,Unknown,NA,Vandalism,Human Error,Diesel,Unknown,30,No,Unknown,NM
+30-045-32975,nJK1122141910,2011,2005,5,Horizontal,CONOCOPHILLIPS Company,36.9341278,-107.6173553,Pump,Leak,Unknown,Equipment Failure,Saltwater,Unknown,5166,No,Yes,NM
+30-045-33029,nDGF0536157008,2005,2005,0,Horizontal,CONOCOPHILLIPS Company,36.9784546,-107.5979156,Flowline,Leak,Unknown,Equipment Failure,Saltwater,Unknown,3150,No,Unknown,NM
+30-015-37860,nMLB1129950667,2011,2010,1,Horizontal,Mewbourne Oil Company,32.6223679,-104.0209274,Tank,NA,Valve,Human Error,Crude Oil,Unknown,630,No,Yes,NM
+30-045-32975,nJK1133949619,2011,2005,5,Horizontal,CONOCOPHILLIPS Company,36.9341278,-107.6173553,Pump,Leak,Unknown,Equipment Failure,Saltwater,Unknown,5166,No,Unknown,NM

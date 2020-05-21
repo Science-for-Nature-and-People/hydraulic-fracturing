@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 5472, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 15.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.31971066363496, 47.742238787694717 ] } },
+{ "type": "Feature", "id": 5473, "properties": { "state": "North Dakota", "endyear": 2014.000000, "casvol": 15.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.31989067317785, 47.742174788481172 ] } },
+{ "type": "Feature", "id": 41968, "properties": { "state": "North Dakota", "endyear": 2015.000000, "casvol": 112.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.3475724, 47.8915171 ] } },
+{ "type": "Feature", "id": 41969, "properties": { "state": "North Dakota", "endyear": 2015.000000, "casvol": 85.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.30873, 47.9339 ] } },
+{ "type": "Feature", "id": 41970, "properties": { "state": "North Dakota", "endyear": 2015.000000, "casvol": 65.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.2998599, 47.99372426 ] } },
+{ "type": "Feature", "id": 41971, "properties": { "state": "North Dakota", "endyear": 2015.000000, "casvol": 110.000000 }, "geometry": { "type": "Point", "coordinates": [ -103.3000436, 47.93372503 ] } },
+{ "type": "Feature", "id": 42064, "properties": { "state": "North Dakota", "endyear": 2013.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -102.586547, 47.669911 ] } }
+]
+}

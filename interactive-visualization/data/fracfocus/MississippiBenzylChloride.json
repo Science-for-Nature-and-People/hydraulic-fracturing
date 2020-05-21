@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 3325, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.511295262440981, 32.644447730346364 ] } },
+{ "type": "Feature", "id": 3326, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -90.516775354351125, 32.644877674872959 ] } },
+{ "type": "Feature", "id": 3368, "properties": { "state": "Mississippi", "endyear": 2014.000000, "casvol": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ -91.317081210074676, 31.064205534928778 ] } }
+]
+}

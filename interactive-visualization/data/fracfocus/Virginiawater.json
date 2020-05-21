@@ -1,0 +1,36 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "id": 34861, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.044000 }, "geometry": { "type": "Point", "coordinates": [ -82.191549065192021, 37.130482825876015 ] } },
+{ "type": "Feature", "id": 34862, "properties": { "state": "Virginia", "endyear": 2012.000000, "Mgal": 0.041000 }, "geometry": { "type": "Point", "coordinates": [ -82.415599968851339, 37.037114805768923 ] } },
+{ "type": "Feature", "id": 34863, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.043000 }, "geometry": { "type": "Point", "coordinates": [ -82.186280487790185, 37.219656260099306 ] } },
+{ "type": "Feature", "id": 34864, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.054000 }, "geometry": { "type": "Point", "coordinates": [ -82.240306426000231, 37.228587091229357 ] } },
+{ "type": "Feature", "id": 34865, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.038000 }, "geometry": { "type": "Point", "coordinates": [ -82.194223892986741, 37.217536177283755 ] } },
+{ "type": "Feature", "id": 34866, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.046000 }, "geometry": { "type": "Point", "coordinates": [ -82.17710297765386, 37.216790274246627 ] } },
+{ "type": "Feature", "id": 34867, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.043000 }, "geometry": { "type": "Point", "coordinates": [ -82.149142592447546, 37.229264617454838 ] } },
+{ "type": "Feature", "id": 34868, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.034000 }, "geometry": { "type": "Point", "coordinates": [ -82.179974111383231, 37.214417220287764 ] } },
+{ "type": "Feature", "id": 49788, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.047000 }, "geometry": { "type": "Point", "coordinates": [ -82.51074, 37.035779 ] } },
+{ "type": "Feature", "id": 49789, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.051000 }, "geometry": { "type": "Point", "coordinates": [ -82.522653, 37.016933 ] } },
+{ "type": "Feature", "id": 49790, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.042000 }, "geometry": { "type": "Point", "coordinates": [ -82.150963, 37.233292 ] } },
+{ "type": "Feature", "id": 49791, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.041000 }, "geometry": { "type": "Point", "coordinates": [ -82.175474, 37.230898 ] } },
+{ "type": "Feature", "id": 49792, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.039000 }, "geometry": { "type": "Point", "coordinates": [ -82.165291, 37.23694 ] } },
+{ "type": "Feature", "id": 49793, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.039000 }, "geometry": { "type": "Point", "coordinates": [ -82.240125, 37.07854 ] } },
+{ "type": "Feature", "id": 49794, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.042000 }, "geometry": { "type": "Point", "coordinates": [ -82.159685, 37.234185 ] } },
+{ "type": "Feature", "id": 49795, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.045000 }, "geometry": { "type": "Point", "coordinates": [ -82.504047, 37.031665 ] } },
+{ "type": "Feature", "id": 49796, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.046000 }, "geometry": { "type": "Point", "coordinates": [ -82.248038, 37.082569 ] } },
+{ "type": "Feature", "id": 49797, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 11.063000 }, "geometry": { "type": "Point", "coordinates": [ -82.079074, 37.04717 ] } },
+{ "type": "Feature", "id": 49798, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.055000 }, "geometry": { "type": "Point", "coordinates": [ -82.46394, 37.100195 ] } },
+{ "type": "Feature", "id": 49799, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.127000 }, "geometry": { "type": "Point", "coordinates": [ -82.085462, 37.046541 ] } },
+{ "type": "Feature", "id": 49800, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.047000 }, "geometry": { "type": "Point", "coordinates": [ -82.229337, 37.057788 ] } },
+{ "type": "Feature", "id": 49801, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.076000 }, "geometry": { "type": "Point", "coordinates": [ -82.476257, 37.063027 ] } },
+{ "type": "Feature", "id": 49802, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.043000 }, "geometry": { "type": "Point", "coordinates": [ -82.516112, 37.011782 ] } },
+{ "type": "Feature", "id": 49803, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.055000 }, "geometry": { "type": "Point", "coordinates": [ -82.49264, 37.058166 ] } },
+{ "type": "Feature", "id": 49804, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.040000 }, "geometry": { "type": "Point", "coordinates": [ -82.507995, 37.015691 ] } },
+{ "type": "Feature", "id": 49805, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.063000 }, "geometry": { "type": "Point", "coordinates": [ -82.252769, 37.049033 ] } },
+{ "type": "Feature", "id": 49806, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.040000 }, "geometry": { "type": "Point", "coordinates": [ -82.429157, 37.036133 ] } },
+{ "type": "Feature", "id": 49807, "properties": { "state": "Virginia", "endyear": 2014.000000, "Mgal": 0.062000 }, "geometry": { "type": "Point", "coordinates": [ -82.184503, 37.01164 ] } },
+{ "type": "Feature", "id": 49808, "properties": { "state": "Virginia", "endyear": 2013.000000, "Mgal": 0.026000 }, "geometry": { "type": "Point", "coordinates": [ -82.213896, 37.346489 ] } }
+]
+}
