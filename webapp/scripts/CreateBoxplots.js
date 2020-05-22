@@ -35,7 +35,7 @@ var selection = document.boxplot.boxplotList;
 
 //Load data
 //function createBoxplot(mapState){
-  //var spills = $.get("../NCEAS/data/" + mapState + "_spills_final_dataviz.csv", function(csvString){
+  //var spills = $.get("../webapp/data/" + mapState + "_spills_final_dataviz.csv", function(csvString){
   //var objectsData = $.csv.toObjects(csvString);
 
 function createBoxplot(filterData, mapState){

@@ -27,7 +27,7 @@ if (mapChemical=="water"){
     // filter data based on what is selected
     var counter=0;
 
-    var cospills = $.getJSON("../NCEAS/data/fracfocus/" + mapState + mapChemical + ".json");
+    var cospills = $.getJSON("../webapp/data/fracfocus/" + mapState + mapChemical + ".json");
     cospills.then(function(data) {
         var coSpills = L.geoJson(data, {
            style: style,
@@ -72,7 +72,7 @@ function style(feature) {
         // filter data based on what is selected
         var counter=0;
 
-        var cospills = $.getJSON("../NCEAS/data/fracfocus/" + mapState + mapChemical + ".json");
+        var cospills = $.getJSON("../webapp/data/fracfocus/" + mapState + mapChemical + ".json");
         cospills.then(function(data) {
             var coSpills = L.geoJson(data, {
                style: style,
@@ -123,7 +123,7 @@ function getColor(d) {
 // filter data based on what is selected
 var counter=0;
 
-var cospills = $.getJSON("../NCEAS/data/fracfocus/" + mapState + mapChemical + ".json");
+var cospills = $.getJSON("../webapp/data/fracfocus/" + mapState + mapChemical + ".json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -170,7 +170,7 @@ function style(feature) {
 // filter data based on what is selected
 var counter=0;
 
-var cospills = $.getJSON("../NCEAS/data/fracfocus/" + mapState + mapChemical + ".json");
+var cospills = $.getJSON("../webapp/data/fracfocus/" + mapState + mapChemical + ".json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {

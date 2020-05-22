@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+   		<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="shortcut icon" href="img/SNAPP.png">
+
+        <link rel="stylesheet" href="css/cssStyle.css">
+        
+        <script  src="https://code.jquery.com/jquery-3.5.0.min.js"  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        charset="" crossorigin=""></script>     
+
+        <link href="https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css" rel="stylesheet"/>
+
+
+        <script type="text/javascript" src="scripts/d3.v3.js"></script>
+        <script type="text/javascript" src="scripts/wordcloud.js"></script>
+        <script type="text/javascript" src="scripts/d3.layout.cloud.js"></script>
+        <script type="text/javascript" src="scripts/gviz-api.js"></script>
+        <script type="text/javascript" src="scripts/geojson.js"></script>
+        <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script type="text/javascript" ,="" src="scripts/dygraph-combined-dev.js"></script>
+
+<style type="text/css">
+            tab1 { padding-left: 2em; }
+
+            .nav-tabs > li.active > a,
+            .nav-tabs > li.active > a:hover,
+            .nav-tabs > li.active > a:focus{
+                color: #AED6F1;
+                background-color: #5D6D7E;  
+            } 
+
+</style>
+			
+		<title> NCEAS | Spills Data Visualization </title>
+
+<script type = "text/javascript">
+
+/*Set global variables*/
+//var counter=0;
+var mapState = "All";
+var mapPathway = "All";
+var mapSpillYear = "All";
+var mapSpudYr = "All";
+var mapLifeYear = "All";
+var mapCause = "All";
+var mapVolume = "All";
+var plotThisBox = "Cause";
+var filterData;
+</script>
+</head>
+
+<body>
+<div class="page-header" style="text-align: left; padding-top: 0px; margin-top: 0px;">
+    <div class="col-sm-9">
+        <h2>Visualizing Spills Data from Unconventional Oil and Gas Activity</h2>
+    </div>
+    <div class="col-sm-3">
+        <br>
+        <a href = "http://snappartnership.net/"> <img src="img/Snapp-Acronym-Color.png" style="width: 200px; height: 60px; display: inline-block"> </a>
+    </div>
+</div>
+
+<div class="col-sm-10 col-md-offset-1" >
+     <p style="font-family: verdana; font-size: 15px;">The dashboard displays spills data from unconventional oil and gas wells located in four states. Users are able to filter spills based on selections in the left panel. The map and charts in the panel to the right update with the selection. Click on the tab of interest to see where spills occurred and explore rates, volumes, and pathways. Pathways refer to where the spill occurred &#8212 such as tanks and flowlines. The focus of this dashboard is to show how spill frequency, volume, and pathways vary with the age of the well and the underlying cause of the spill (human error, equipment failure or environmental conditions).
+
+     <br><br>
+
+     This work was made possible by an interdisciplinary <a href="http://snappartnership.net/groups/hydraulic-fracturing/">SNAPP working group </a> focused on hydraulic fracturing.</p> 
+      <hr>
+</div> <!-- Introduction div-->
+
+<div class="container-fluid" style= "border: 0;"> <!--panel to filter and map divs-->
+     <div class="row" style="padding-top: 0px">
+<!-- ###################################### START CONTROL PANEL  ############################ -->
+        <div class="col-sm-3" style="height: 850px; " >
+            <br><br><br><br>
+           <div class="container-fluid" style= "background-color: #E5E7E9;">
+            <h4 style="text-align: center"><strong> Make a selection: </strong></h4>
+
+        <form name = "state" style="color: black; padding-left: 5px;">
+            <td><b>State: </b></td>
+            <br>
+            <input name="stateList"  onclick="setState(this.value)" value="All" type="radio" checked> All <br>
+            <input name="stateList"  onclick="setState(this.value)" value="co" type="radio"> Colorado <br>
+            <input name="stateList"  onclick="setState(this.value)" value="nm"  type="radio"> New Mexico <br>
+            <input name="stateList"  onclick="setState(this.value)" value="nd"  type="radio"> North Dakota <br>
+            <input name="stateList"  onclick="setState(this.value)" value="pa" type="radio"> Pennsylvania <br>
+        </form>
+
+        <br>
+
+        <form style="color: black">
+         <br>
+        <td><b>Spud Year (year well is drilled): </b></td>
+        <td><select name="spudyrLayer" id="spudyrLayer" onchange="setSpudYear(this);">
+            <option selected = "selected" value="All"> All Years </option>
+            <option value="2014"> 2014 </option>            <option value="2013"> 2013 </option>
+            <option value="2012"> 2012 </option>            <option value="2011"> 2011 </option>
+            <option value="2010"> 2010 </option>            <option value="2009"> 2009 </option>
+            <option value="2008"> 2008 </option>            <option value="2007"> 2007 </option>
+            <option value="2006"> 2006 </option>            <option value="2005"> 2005 </option>
+            <option value="2004"> 2004 </option>            <option value="2003"> 2003 </option>
+            <option value="2002"> 2002 </option>            <option value="2001"> 2001 </option>
+            <option value="2000"> 2000 </option>            <option value="1999"> 1999 </option>
+            <option value="1998"> 1998 </option>            <option value="1997"> 1997 </option>
+            <option value="1996"> 1996 </option>            <option value="1995"> 1995 </option>
+        </select></td>  
+</form>
+
+    <br>
+
+ <form style="color: black">
+         <br>
+        <td><b>Spill Year: </b></td>
+        <td><select name="spillyrLayer" id="spillyrLayer" onchange="setSpillYear(this);">
+            <option selected = "selected" value="All"> All Years </option>
+            <option value="2014"> 2014 </option>            <option value="2013"> 2013 </option>
+            <option value="2012"> 2012 </option>            <option value="2011"> 2011 </option>
+            <option value="2010"> 2010 </option>            <option value="2009"> 2009 </option>
+            <option value="2008"> 2008 </option>            <option value="2007"> 2007 </option>
+            <option value="2006"> 2006 </option>            <option value="2005"> 2005 </option>
+        </select></td>  
+</form>
+
+<br>
+
+ <form style="color: black">
+         <br>
+        <td><b>Life Year of Well at Spill: </b></td>
+        <td><select name="lifeyearLayer" id="lifeyearLayer" onchange="setLifeYear(this);">
+            <option selected = "selected" value="All"> All Years </option>
+            <option value="0"> 0 </option>            <option value="1"> 1 </option>
+            <option value="2"> 2 </option>            <option value="3"> 3 </option>
+            <option value="4"> 4 </option>            <option value="5"> 5 </option>
+            <option value="6"> 6 </option>            <option value="7"> 7 </option>
+            <option value="8"> 8 </option>            <option value="9"> 9 </option>
+            <option value="10"> 10 </option>            <option value="11"> 11 </option>
+            <option value="12"> 12 </option>            <option value="13"> 13 </option>
+            <option value="14"> 14 </option>            <option value="15"> 15 </option>
+            <option value="16"> 16 </option>            <option value="17"> 17 </option>
+            <option value="18"> 18 </option>            <option value="19"> 19 </option>
+        </select></td>  
+</form>
+
+    <br>
+
+ <form style="color: black">
+         <br>
+        <td><b>Spill Volume (gallons): </b></td>
+        <td><select name="volumeLayer" id="volumeLayer" onchange="setVolume(this);">
+            <option selected = "selected" value="All"> All Volumes </option>
+            <option value="100"> more than 100 </option>            
+            <option value="500"> more than 500 </option>
+            <option value="1000"> more than 1,000 </option>          
+            <option value="5000"> more than 5,000 </option>          
+            <option value="10000"> more than 10,000 </option>       
+            <option value="25000"> more than 25,000 </option>
+        </select></td>  
+</form>
+<br>
+
+ <form style="color: black">
+         <br>
+        <td><b>Pathway: </b></td>
+        <td><select name="pathwayLayer" id="pathwayLayer" onchange="setPathway(this);">
+            <option selected = "selected" value="All"> All Pathways </option>
+            <option value="Blowout"> Blowout </option>
+            <option value="Blowout Preventer"> Blowout Preventer </option>
+            <option value="Drill Rig"> Drill Rig </option>            
+            <option value="Flowline"> Flowline </option>
+            <option value="Free Water Knockout"> Free Water Knockout </option>            
+            <option value="Heater Treater"> Heater Treater </option>
+            <option value="Pit"> Pit </option>
+            <option value="Pump"> Pump </option>
+            <option value="Separator"> Separator </option>
+            <option value="Shaker"> Shaker </option>
+            <option value="Storage Container"> Storage Container </option>
+            <option value="Stuffing Box"> Stuffing Box </option>
+            <option value="Tank"> Tank </option> 
+            <option value="Transport"> Transport </option>
+            <option value="Unknown"> Unknown </option>
+            <option value="Well Casing"> Well Casing </option>
+            <option value="Well Communication"> Well Communication </option>
+            <option value="Wellhead"> Wellhead </option>
+            </select></td>  
+</form>
+
+<br>
+ <form style="color: black">
+         <br>
+        <td><b>Causal Mechanism: </b></td>
+        <td><select name="causeLayer" id="causeLayer" onchange="setCause(this);">
+            <option selected = "selected" value="All"> All Causes </option>
+            <option value="Equipment Failure"> Equipment Failure </option>
+            <option value="Human Error"> Human Error </option>
+            <option value="Environmental Conditions"> Environmental Conditions </option>            
+            <option value="Unknown"> Unknown </option>            
+            </select></td>  
+</form>
+<br>
+    </div> <!-- end Div container gray-->
+</div> <!--column of  for selecting spills data-->
+<!-- ###################################### END CONTROL PANEL  ############################ -->
+
+
+<script>
+//################################################################################################
+//                      FUNCTION TO GRAB SELECTION AND SEND TO MAP                             ??
+function setState(target) {
+    var selection = document.state.stateList;
+
+    for (i=0; i<selection.length; i++)
+        if (selection[i].checked==true)
+        mapState = selection[i].value; 
+   // console.log(mapState);
+    whattoFilter(mapPathway, mapSpillYear, mapSpudYr, mapLifeYear, mapVolume, mapCause);
+    //createTrace();
+    createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
+    return mapState;
+} //end setPathway
+
+
+//Function to grab pathway
+function setPathway(target) {
+    mapPathway = document.getElementById('pathwayLayer').value; 
+    console.log(mapPathway);
+    whattoFilter(mapPathway, mapSpillYear, mapSpudYr, mapLifeYear, mapVolume, mapCause);
+    createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
+    return mapPathway;
+} //end setPathway
+
+//Function to grab pathway
+function setSpillYear(target) {
+    mapSpillYear = document.getElementById('spillyrLayer').value; //getElementById did not work, but Name does work
+    whattoFilter(mapPathway, mapSpillYear, mapSpudYr, mapLifeYear, mapVolume, mapCause);
+    createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
+    return mapSpillYear;
+} //end setSpillYear
+
+function setSpudYear(target) {
+    mapSpudYr = document.getElementById('spudyrLayer').value; //
+    //console.log(mapSpudYr)
+    whattoFilter(mapPathway, mapSpillYear, mapSpudYr, mapLifeYear, mapVolume, mapCause);
+    createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
+    return mapSpudYr;
+} //end setPathway
+
+function setLifeYear(target) {
+    mapLifeYear = document.getElementById('lifeyearLayer').value; //
+    //console.log(mapSpudYr)
+    whattoFilter(mapPathway, mapSpillYear, mapSpudYr, mapLifeYear, mapVolume, mapCause);
+    createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
+    return mapLifeYear;
+} //end setPathway
+
+function setVolume(target) {
+    mapVolume = document.getElementById('volumeLayer').value; //
+   // console.log(mapVolume);
+    whattoFilter(mapPathway, mapSpillYear, mapSpudYr, mapLifeYear, mapVolume, mapCause);
+    createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
+    return mapVolume;
+} //end setPathway
+
+function setCause(target) {
+    mapCause = document.getElementById('causeLayer').value; //
+    whattoFilter(mapPathway, mapSpillYear, mapSpudYr, mapLifeYear, mapVolume, mapCause);
+    createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
+    return mapCause;
+} //end setCause
+
+$(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
+//        console.log("I'm clicked")
+        createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
+        //mapComment(counter);
+    });
+
+//################################################################################################
+</script>
+
+<div class="col-sm-9 col-md" id="content" style="height: 550px; padding: 5px;">  <!--border: 2px solid black"-->
+        <ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+            <li class="active"><a href="#mapdata" data-toggle="tab">Map of Spills</a></li>
+            <li><a href="#spillrates" data-toggle="tab">Spill Rate Charts</a></li>
+            <li><a href="#spillvolume" data-toggle="tab">Volume Charts</a></li>
+            <li><a href="#pathway" data-toggle="tab">Pathway Charts</a></li>
+        </ul>
+
+
+<div id="my-tab-content" class="tab-content">
+ 
+<!-- ###################################### MAP PANEL  ############################ -->
+    <div class="tab-pane active" id="mapdata">
+         <div class="col-sm-12"> 
+            <p style="font-family: verdana; font-size: 15px; padding-top: -40px;"><span style="color: #3BB9FF;"><em>Map of spills</em></span> displays the location of unconventional oil and gas spills. Click on a spill for more information. Click on the map overlay icon in the upper right corner of the map to see all unconventional wells, shale plays and tight plays.</p>
+         </div> 
+    <div id="map" class="custom-popup" style="height: 550px;">
+        <!-- ###################################### START MAP  ############################ -->
+<script type="text/javascript">
+var geojsonLayer = new L.FeatureGroup();
+var map = new L.map('map');
+
+function drawMap(){
+var mapboxTiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      //id: 'mapbox/light-v10',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoibXN0aW5lIiwiYSI6ImNqcDBlczI5NTA0cngza3BqOGZnZTJzeHAifQ.WNmjGHST7llr04EtSefKow'
+    });
+
+  map.addLayer(mapboxTiles)
+    .setView([39.5, -98.4], 4); //center of US, zoom
+  map.options.minZoom=4;
+  map.options.maxZoom=14;
+
+
+//load in spills data
+var spillStyle = {
+        radius: 3,
+        fillOpacity: 0.8,
+        fillColor: "red",
+        color: "black",
+        weight: 1
+    };
+
+//var cospills = new L.LayerGroup();
+var counter = 0;
+var cospills = $.getJSON("data/"+mapState+"spills.json");
+cospills.then(function(data) {
+
+    var coSpills = L.geoJson(data, {
+       /* filter: function(feature, layer) {
+            return feature.properties.pathway==mapPathway & feature.properties.year==mapSpillYear;
+        }, //end L.geoJson
+       */
+                pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, spillStyle);
+        },//end pointtoLayer
+     onEachFeature: function(feature,layer){
+                layer.bindPopup ("API: " +feature.properties.api_number +
+                   "<br>"+"Wellbore: "+feature.properties.direction +
+                    "<br>"+"Spill Year: "+ feature.properties.year +
+                    "<br>"+"Spud Year: "+ feature.properties.spudyr + 
+                    "<br>"+"Volume: "+ feature.properties.volume_gal + " gal" +
+                    "<br>"+"Pathway: "+ feature.properties.pathway +
+                    "<br>"+"Cause: "+ feature.properties.cause + 
+                    "<br>"+"Water Impact: "+ feature.properties.waterimpact)
+                counter++;
+                }//end onEachFeature
+    });//end var geoJson
+    geojsonLayer.addLayer(coSpills);
+    //console.log(coSpills);
+    map.addLayer(geojsonLayer);
+    
+//console.log(counter);
+addOverlays(map);   
+mapComment(counter);
+});//end .getJSON
+
+}
+drawMap();
+ </script>
+<!-- ###################################### END MAP  ############################ -->
+    </div><!--end maps tab-->
+    <div class="col-sm-12 col-md" id="commentSelect" style="font-size: 22px; padding: 1px;"> <!--border: 2px solid black"-->
+</div> <!--end row-->
+</div><!--end map tab-->
+
+
+
+<!-- ###################################### SPILL RATES TAB ############################ -->
+        <div class="tab-pane" id="spillrates">
+         <div class="col-sm-12"> 
+            <p style="font-family: verdana; font-size: 15px; padding-top: -40px;"><span style="color: #3BB9FF;"><em>Annual Spill Rate</em></span> shows the spill rate for each calendar year (red line) and the cumulative number of wells (black line).
+            <br><br>
+            <span style="color: #3BB9FF;"><em>Spill Rate by Life Year</em></span> shows the rate of spills based on the age of the well. Younger wells &#8212 drilling, fracturing, and highest production &#8212 have more spills than more mature wells.</p>
+    </div> 
+     <div class="col-sm-6" style="padding: 5px;">
+         <div class="panel panel-primary" style ="padding: 3px;">
+           <div class="panel-heading">
+              <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                    <stronger>Annual Spill Rate</stronger></h3>
+            </div> <!--panel heading primary-->
+          <div id="annualrate" style="height: 400px; margin-left: 0px; padding: 0px; margin-bottom: 0px">
+        </div> <!--annualrate graph-->
+        </div> <!--panel-primary-->
+    </div> <!--col-sm-6-->
+
+    <div class="col-sm-6" style="padding: 5px;">
+    <div class="panel panel-primary" style= "padding: 3px;">
+         <div class="panel-heading">
+           <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                    <stronger>Spill Rate by Life Year</stronger></h3>
+            </div> <!--panel heading primary-->
+          <div id="lifeyearrate" style="height: 400px; margin-left: 0px; padding: 0px; margin-bottom: 0px">
+        </div> <!--lifeyearrate-->
+        </div> <!-- end primary panel-->
+    </div> <!--end div 2 columns-->
+     <div class="col-sm-12 col-md" id="commentSelect" style="font-size: 22px; padding: 1px;"> <!--border: 2px solid black"-->
+    </div> <!--end row-->
+   </div><!--end spill rates tab-->
+
+
+
+<!-- ###################################### SPILL VOLUME TAB ############################ -->
+    <div class="tab-pane" id="spillvolume" style = "padding: 0px;">
+        <div class="col-sm-12"> 
+           <p style="font-family: verdana; font-size: 15px">
+            <span style="color: #3BB9FF;"><em>Boxplot of Spills</em></span> presents the volume of reported spills based on plot selection. You can zoom in or out (select autoscale symbol in topright of the chart). Hover over a box plot to see volumes at selected quantiles. Points to the left are individual spills.</p> 
+        </div> 
+    <div class="col-sm-12">
+         <div class="panel panel-primary" style="margin: -10px; padding: 3px;">
+           <div class="panel-heading">
+           <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                    <stronger>Boxplot of Spills</stronger></h3>
+            </div> <!--panel heading primary-->
+        
+       <div id="selectBox">
+            <form name = "boxplot" style="color: black; font-size: 15px; padding-left: 5px">
+            <td><b>Plot: </b></td><tab1></tab1>
+            <input name="boxplotList" onclick="createTrace(this.value)" value="Cause" type="radio" checked> Causal Mechanism   
+            <tab1></tab1>
+            <input name="boxplotList" onclick="createTrace(this.value)" value="Pathway" type="radio"> Common Pathways
+            <tab1></tab1>
+            <input name="boxplotList" onclick="createTrace(this.value)" value="LessPathway" type="radio"> Less Common Pathways
+             <tab1></tab1>
+            <input name="boxplotList" onclick="createTrace(this.value)" value="LifeYear" type="radio"> Life Year
+             <tab1></tab1>
+            <input name="boxplotList" onclick="createTrace(this.value)" value="SpillYear" type="radio"> Spill Year
+             <tab1></tab1>
+            <input name="boxplotList" onclick="createTrace(this.value)" value="SpudYear" type="radio"> Spud Year
+        </form>
+        </div> <!--end selectbox-->
+
+        <div id="volumeBoxplot" style="height: 400px; margin-left: 0px; padding: 0px; margin-top: 0px">
+        </div> <!--boxplot-->
+
+        </div> <!-- end primary panel-->
+    </div> <!--end div 1 columns-->
+    <div class="col-sm-12">
+        <p style="font-family: verdana; font-size: 15px">This chart shows which causes and pathways tend to result in smaller or larger spills. States with higher reporting thresholds for spills (Colorado and New Mexico) tend to have larger volumes than states with a smaller reporting threshold (North Dakota and Pennsylvania).</p>
+    </div>
+   </div><!--end spill rates tab-->
+
+
+<!-- ###################################### PATHWAY TAB ############################ -->
+     <div class="tab-pane" id="pathway">
+     <div class="col-sm-12" style = "padding-top: 0px; margin-top: -10px;"> 
+         <p style="font-family: verdana; font-size: 15px">
+            <span style="color: #3BB9FF;"><em>Spills by Pathway</em></span> shows the percent of spills by pathway (hover over chart).
+            <br><br>
+            <span style="color: #3BB9FF;"><em>Pathway Details</em></span> shows more details about spills with more frequent events having larger text. For example, select the "Tank" pathway shows valves to be the most common problem. "Unknown" may not show up because it is so common (text size is too large).  
+            <br><br>  
+            <span style="color: #3BB9FF;"><em>Causal Mechanism</em></span> shows the cause behind a spill: equipment failure, human error, environmental conditions, and unknown.</p>
+     </div> 
+
+        <div class="col-sm-6" style = "padding-top: 1px; padding-bottom: 1px; padding-right: 5px; margin-top: -10px;">
+         <div class="panel panel-primary" style = "padding-top: 1px; padding-bottom: 1px;">
+           <div class="panel-heading">
+              <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                  <stronger>Spills by Pathway</stronger></h3>
+            </div>
+            <div id="pathwayPie" style="text-align: center; height: 320px; margin: 0px;">
+        </div> <!--spills by pathway graph-->
+        </div> <!--panel-primary-->
+        <strong><div id="path_text" style="width:100%;text-align:center; padding: 0px; background-color: #EBEDEF"></div></strong>
+    </div> <!--col-sm-6-->
+
+    <div class="col-sm-6" style = "padding-top: 1px; padding-bottom: 1px; padding-left: 5px; margin-top: -10px;">
+    <div class="panel panel-primary" style = "padding-top: 1px; padding-bottom: 1px;">
+         <div class="panel-heading">
+              <h3 class="panel-title" style="text-align: center; font-size: 16px; padding-bottom: 1px">
+                  <stronger>Pathway Details</stronger></h3>
+            </div>
+            <div id="cloudWord" style="height: 320px; position: relative; padding: 0px; width: 100%;
+            ">
+        </div> <!--cloud-->
+        </div> 
+        <div id="details" style="width:100%;text-align:center; padding: 0px; margin-top: -20px; background-color: #EBEDEF; font-size: 18px;"></div>
+    </div> <!-- end primary panel-->
+
+    <div class="col-sm-12" style = "padding-top: 0px; padding-bottom: 1px; margin-top: 0px"> 
+     <div class="panel panel-primary" style = "padding-top: 1px; padding-bottom: 1px;">
+         <div class="panel-heading">
+              <h3 class="panel-title" style="text-align: center; font-size: 16px">
+                  <stronger>Causal Mechanism</stronger></h3>
+            </div>
+            <div id="causeMech" style="height: 150px; position: relative; padding: 0px; width: 100% font-size: 15px; color: black;"></div> <!--causeMech-->
+        </div> 
+    </div> 
+    </div> <!--end div 2 columns-->
+   </div><!--end pathway tab-->
+   </div> <!--end my-tab-content div-->
+ 
+</div> <!--end col-sm-9 col-md--> 
+  </div> <!--end row div-->
+ </div> <!--end fluid container-->
+
+
+<hr>
+
+<!-- page selection buttons -->
+<div class="row" style="padding-top: 0px">
+    <div class="col-md-6" style="text-align: center; padding-top: 0px;">
+<!--            <button type="button" id="btn1" class="btn btn-danger btn-lg">Pathway Analysis</button>-->
+            <br>
+                <p style="text-align: left; padding-left: 10px; font-size: 15px;"><em><b><span style="color: darkblue;">Materials Spilled</span></b></em> explores what is spilled and whether the spill impacted water.<br><br>
+                <em><b><span style="color: darkorange; ">FracFocus Data</span></b></em> shows the volumes of EPA regulated chemicals used for hydraulic fracturing.</p>    
+    </div>
+
+    <div class="col-md-3" style="text-align: center;">
+        <br>
+        <button type="button" id="btn2" class="btn btn-primary btn-lg">Materials Spilled</button>
+    </div>
+
+    <div class="col-md-3" style="text-align: center">
+        <br>
+        <button type="button" id="btn3" class="btn btn-warning btn-lg">FracFocus Data</button>
+    </div>
+    <!--<div class="col-md-3" style="text-align: center">
+        <button type="button" id="btn4" class="btn btn-success btn-lg">More information</button>
+    </div>-->
+</div> <!-- End row div-->
+
+
+<script type="text/javascript">
+    /*document.getElementById("btn1").onclick = function () {
+        location.href = "spills.html";
+    };*/
+
+     document.getElementById("btn2").onclick = function () {
+        location.href = "spills_materials.html";
+    };
+
+    document.getElementById("btn3").onclick = function () {
+        location.href = "fracfocus.html";
+    };
+
+     /*document.getElementById("btn4").onclick = function () {
+        location.href = "spills.html";
+    };*/
+</script>
+
+
+<br>
+<div class="row" style="background-color: #E5E7E9; padding-top: 10px;">
+    <div class="col-sm-9" id="internal_footer" style="color: black; font-size: 16px;">
+        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People Partnership (SNAPP) looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a></p>
+
+        <br><br>
+
+        <p style="padding-left: 20px;"><b>Participants with the spills project:</b><br>
+            <ul>
+                <li> <a href="https://nicholasinstitute.duke.edu/people/lauren-patterson">Lauren Patterson</a>, 
+                <a href="http://hls.harvard.edu/faculty/directory/11376/Konschnik">Kate Konschnik</a>, 
+                <a href="http://www.law.fsu.edu/our-faculty/profiles/hwiseman">Hannah Wiseman, </a>
+                <a href="http://www.nature.org/science-in-action/our-scientists/our-scientists-joe-fargione.xml">Joe Fargione</a>, 
+                <a href="http://www.lsc.usgs.gov/?q=narb-kelly-maloney">Kelly Maloney</a>,
+                <a href="http://www.nature.org/newsfeatures/pressreleases/media/nature-conservancy-experts-conservation-lands-joe-kiesecker.xml">Joe Kiesecker</a>,
+                <a href="http://www.beg.utexas.edu/personnel_ext.php?id=63"> Jean-Philippe Nicot</a>,
+                <a href="http://www.nature.org/science-in-action/our-scientists/nature-conservancy-experts-conservation-lands-sharon-baruch-mordo.xml"> Sharon Baruch-Mordo</a>,
+                <a href="https://uca.edu/biology/facultystaff/sally-entrekin-ph-d/"> Sally Entrekin</a>,
+                <a href="http://www.nature.org/science-in-action/leading-with-science/anne-trainor.xml"> Anne Trainor</a>, and
+                <a href="https://environment.yale.edu/profile/saiers/"> James Saiers</a>
+            </li>
+            </ul>
+        </p>
+
+        
+</div> <!--internal footer div-->  
+
+<div class="col-sm-3" id="footer">
+    <a href = "https://nicholasinstitute.duke.edu"> <img src="img/logo.jpg" style="width: 200px; height: 78px; display: inline-block"> </a> 
+    <br><br><br>
+     <a href = "http://www.nature.org"> <img src="img/logo-nature.png" style="width: 200px; height: 80px; display: inline-block"> </a>
+</div> <!-- footer div-->
+
+
+
+<div class="col-sm-3" style="padding-left: 5em;"></div> <!-- footer div-->
+
+        <script type="text/javascript" src="scripts/AddOverlays.js"></script>
+        <script type="text/javascript" src="scripts/MapData.js"></script>
+        <script type="text/javascript" src="scripts/whattoFilter.js"></script>
+        <script type="text/javascript" src="scripts/AnnualSpillRate.js"></script>
+        <script type="text/javascript" src="scripts/LifeYearSpillRates.js"></script>
+        <script type="text/javascript" src="scripts/CreateBoxplots.js"></script>
+        <script type="text/javascript" src="scripts/CreatePathway.js"></script>
+        <script type="text/javascript" src="scripts/CreateWordCloud.js"></script>
+        <script type="text/javascript" src="scripts/CausalMechanism.js"></script>
+
+    </body>
+</html>

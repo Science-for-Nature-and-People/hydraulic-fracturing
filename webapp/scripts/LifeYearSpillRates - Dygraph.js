@@ -2,7 +2,7 @@
 function createLifeYearRate() {
 g2 = new Dygraph(
     document.getElementById("lifeyearrate"),
-    "../NCEAS/data/lifeyearrates.csv",
+    "../webapp/data/lifeyearrates.csv",
    
     //options
     {

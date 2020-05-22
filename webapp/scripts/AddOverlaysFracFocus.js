@@ -1,23 +1,6 @@
 // Create overlay layers ###################################################################
 //Load Coal Power Plants
 function addOverlays(map){
-var wellStyle = {
-		radius: 3,
-		fillOpacity: 0.2,
-		fillColor: "lightgray",
-		color: "black",
-		weight: 2
-	};
-
-var co_wells = new L.LayerGroup();
-$.getJSON("../NCEAS/data/Allwells.json", function(data) {
-	var plants = L.geoJson(data, {
-		pointToLayer: function(feature, latlng) {
-			return L.circleMarker(latlng, wellStyle);
-		} // end pointtoLayer
-	}).addTo(co_wells);//end L.geoJson
-}); //end get Json coal plants	
-
 
 //Add shale play
 var shaleStyle = {
@@ -29,7 +12,7 @@ var shaleStyle = {
 
 
 var shaleJson = new L.FeatureGroup();
-$.getJSON("../NCEAS/data/shaleplay.json", function(data) {
+$.getJSON("../webapp/data/shaleplay.json", function(data) {
     var geojson = L.geoJson(data, {
      style: shaleStyle,
      onEachFeature: function(feature,layer){
@@ -49,7 +32,7 @@ var tightStyle = {
         };
 
 var tightJson = new L.FeatureGroup();
-$.getJSON("../NCEAS/data/tightplay.json", function(data) {
+$.getJSON("../webapp/data/tightplay.json", function(data) {
     var geojson = L.geoJson(data, {
      style: tightStyle,
      onEachFeature: function(feature,layer){
@@ -63,7 +46,6 @@ $.getJSON("../NCEAS/data/tightplay.json", function(data) {
 L.control.layers({
 	}, 
 	{
-		"Unconventional Wells": co_wells,
 		"Shale Plays" : shaleJson,
 		"Tight Plays" : tightJson
 	},{collapsed: true, position: 'topright'}).addTo(map);

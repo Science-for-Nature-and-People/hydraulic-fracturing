@@ -15,7 +15,7 @@ var spillStyle = {
 // filter data based on what is selected
 var counter=0;
 
-var cospills = $.getJSON("../NCEAS/data/" + mapState + "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState + "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         pointToLayer: function (feature, latlng) {
@@ -55,7 +55,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -98,7 +98,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -141,7 +141,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter=0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -186,7 +186,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -227,7 +227,7 @@ var spillStyle = {        radius: 5,
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -268,7 +268,7 @@ var spillStyle = {        radius: 5,
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -310,7 +310,7 @@ var spillStyle = {        radius: 5,
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -357,7 +357,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -400,7 +400,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -443,7 +443,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter=0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -487,7 +487,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -531,7 +531,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -574,7 +574,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -618,7 +618,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -663,7 +663,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {
@@ -705,7 +705,7 @@ var spillStyle = {
 
 // filter data based on what is selected
 var counter = 0;
-var cospills = $.getJSON("../NCEAS/data/" + mapState+ "spills.json");
+var cospills = $.getJSON("../webapp/data/" + mapState+ "spills.json");
 cospills.then(function(data) {
     var coSpills = L.geoJson(data, {
         filter: function(feature, layer) {

@@ -8,23 +8,29 @@
        <link rel="shortcut icon" href="img/SNAPP.png">
 
         <link rel="stylesheet" href="css/cssStyle.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="scripts/leaflet.css" />
+
+        <script  src="https://code.jquery.com/jquery-3.5.0.min.js"  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
         
-                <script type="text/javascript" src="scripts/d3.v3.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        charset="" crossorigin=""></script>     
+
+        <link href="https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css" rel="stylesheet"/>
+        
+        <script type="text/javascript" src="scripts/d3.v3.js"></script>
         <script type="text/javascript" src="scripts/wordcloud.js"></script>
         <script type="text/javascript" src="scripts/d3.layout.cloud.js"></script>
         <script type="text/javascript" src="scripts/gviz-api.js"></script>
         <script type="text/javascript" src="scripts/geojson.js"></script>
-        <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" src="scripts/leaflet.js"></script>
-        <script type="text/javascript" src="scripts/jquery.csv-0.71.js"></script>
-        <script type="text/javascript" src="scripts/gviz-api.js"></script>
         <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
-        
-        <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
-        <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
         <script type="text/javascript" ,="" src="scripts/dygraph-combined-dev.js"></script>
 
 <style type="text/css">
@@ -67,8 +73,7 @@ var mapChemical = "water";
 
      <br><br>
     
-     <p style="font-family: verdana; font-size: 15px;">The panel on the left contains three drop down menus: state, year, and chemical constiuent. Chemicals found on either EPA list and reported as being present in more than 5 wells are in the drop-down menu. Click on a point to get more information.  Click on the map overlay icon in the upper right corner of the map to see outlines of shale and tight plays.
-  </p>
+     <p style="font-family: verdana; font-size: 15px;">The panel on the left contains three drop down menus: state, year, and chemical constiuent. Chemicals found on either EPA list and reported as being present in more than 5 wells are in the drop-down menu. Click on a point to get more information.  Click on the map overlay icon in the upper right corner of the map to see outlines of shale and tight plays. </p>
 </div> <!-- Introduction div-->
 
 <div class="container-fluid"> <!--panel to filter and map divs-->
@@ -148,7 +153,7 @@ var mapChemical = "water";
 <br><br>
 <h4 align="center"><b>Map Legend</b></h4>
 
-<canvas id="LgdCanvas" height=170  style = "margin-left: -30px; "></canvas>
+<canvas id="LgdCanvas" style = "margin-left: -30px; height: 170px;"></canvas>
     <script>
     function drawlegend(mapChemical){
         var lgdCanvas = document.getElementById('LgdCanvas');
@@ -160,7 +165,7 @@ var mapChemical = "water";
         if (mapChemical == "water"){
         //Draw max volume
         contextV.beginPath();
-            contextV.arc(80, 10, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 10, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#C0392B';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -168,7 +173,7 @@ var mapChemical = "water";
         contextV.fillText('>10 Mgal', 100, 14);
 
          contextV.beginPath();
-            contextV.arc(80, 35, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 35, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#E67E22';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -176,7 +181,7 @@ var mapChemical = "water";
         contextV.fillText('7.1-10 Mgal', 100, 39);
 
         contextV.beginPath();
-            contextV.arc(80, 60, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 60, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#F1C40F';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -184,7 +189,7 @@ var mapChemical = "water";
         contextV.fillText('4.1-7 Mgal', 100, 64);
 
         contextV.beginPath();
-            contextV.arc(80, 80, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 80, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#48C9B0';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -192,7 +197,7 @@ var mapChemical = "water";
         contextV.fillText('2.1-4 Mgal', 100, 89);
 
         contextV.beginPath();
-            contextV.arc(80, 110, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 110, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#3498DB';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -200,7 +205,7 @@ var mapChemical = "water";
         contextV.fillText('1.1-2 Mgal', 100, 114);
 
         contextV.beginPath();
-            contextV.arc(80, 135, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 135, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#1A5276  ';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -208,7 +213,7 @@ var mapChemical = "water";
         contextV.fillText('0.1-1 Mgal', 100, 139);
 
          contextV.beginPath();
-            contextV.arc(80, 160, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 160, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#ffffff';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -220,7 +225,7 @@ var mapChemical = "water";
  if (mapChemical != "water"){
         //Draw max volume
         contextV.beginPath();
-            contextV.arc(80, 10, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 10, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#C0392B';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -228,7 +233,7 @@ var mapChemical = "water";
         contextV.fillText('>5,000 gal', 100, 14);
 
          contextV.beginPath();
-            contextV.arc(80, 35, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 35, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#E67E22';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -236,7 +241,7 @@ var mapChemical = "water";
         contextV.fillText('1,001-5,000 gal', 100, 39);
 
         contextV.beginPath();
-            contextV.arc(80, 60, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 60, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#F1C40F';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -244,7 +249,7 @@ var mapChemical = "water";
         contextV.fillText('501-100 gal', 100, 64);
 
         contextV.beginPath();
-            contextV.arc(80, 85, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 85, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#48C9B0';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -252,7 +257,7 @@ var mapChemical = "water";
         contextV.fillText('101-500 gal', 100, 89);
 
         contextV.beginPath();
-            contextV.arc(80, 110, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 110, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#3498DB';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -260,7 +265,7 @@ var mapChemical = "water";
         contextV.fillText('51-101 gal', 100, 114);
 
          contextV.beginPath();
-            contextV.arc(80, 135, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 135, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#1A5276  ';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -268,7 +273,7 @@ var mapChemical = "water";
         contextV.fillText('11-51 gal', 100, 139);
 
          contextV.beginPath();
-            contextV.arc(80, 160, 5, 0, 2*Math.PI, false)
+            contextV.arc(80, 160, 5, 0, 2*Math.PI, false);
             contextV.fillStyle = '#ffffff';
             contextV.fill();
             contextV.strokeStyle="black";
@@ -288,7 +293,7 @@ var mapChemical = "water";
 
 
 <!-- ###################################### MAP PANEL  ############################ -->
-<div id="map" class='custom-popup'>
+<div id="map" class="custom-popup">
         <div class="col-sm-8 col-md-offset-1" id="map" style="height: 500px;">
 
 
@@ -326,12 +331,15 @@ function setConstituent(target) {
 <script type="text/javascript">
 
 function drawMap(){
-L.mapbox.accessToken = 'pk.eyJ1IjoibHBhdHRlcnNvbiIsImEiOiJjaWtrNWtrcDUwYTdrdHlqNzUxdGJzdm1mIn0.aDMjBGdT4DfUM5NdoALxLg';
-
-// Replace 'mapbox.streets' with your map id.
-var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
-    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
-});
+var mapboxTiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      //id: 'mapbox/light-v10',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoibXN0aW5lIiwiYSI6ImNqcDBlczI5NTA0cngza3BqOGZnZTJzeHAifQ.WNmjGHST7llr04EtSefKow'
+    });
 
   map.addLayer(mapboxTiles)
     .setView([39.5, -98.4], 4); //center of US
@@ -377,22 +385,6 @@ ffdata.then(function(data) {
     
     map.addLayer(geojsonLayer);
 
-
-//Legend
-/*var legend = L.control({position: 'bottomright'});
-    legend.onAdd = function (map) {
-    var div = L.DomUtil.create('div', 'info legend');
-    categories = ['>10 Mgal','8-10 Mgal','5-8 Mgal','2-5 Mgal','1-5 Mgal', '0-1 Mgal']
-    for (var i = 0; i < categories.length; i++) {
-        div.innerHTML +=
-            '<i style="background:' + getColor(categories[i]) + '"></i> ' +
-             (categories[i] ? categories[i] + '<br>' : '+');
-    }
-    return div;
-} // end legend
-*/
-//console.log(counter);
-//mapComment(counter);
 addOverlays(map);
 });//end .getJSON
 
@@ -413,7 +405,7 @@ drawMap();
 
 <hr>
 
- <h3 style="padding-top:0px;"><b>Methods: <span style="color: #D35400;">Calculating Chemical Volumes</b></span></h3>
+ <h3 style="padding-top:0px;"><b>Methods: <span style="color: #D35400;">Calculating Chemical Volumes</span></b></h3>
 
 <div class="col-md-12">
     <p style="font-family: verdana; font-size: 15px;"> Fracfocus data were cleaned by removing wells missing data, reporting 0 gallons, or reporting more than 30 million gallons of water used to fracture a well. Chemical CAS number and names were cleaned and standardized to correct for spelling errors and chemical naming inconsistencies. 
@@ -452,7 +444,7 @@ drawMap();
 
 <script type="text/javascript">
     document.getElementById("btn1").onclick = function () {
-        location.href = "spills_nceas.html";
+        location.href = "spills.html";
     };
 
      document.getElementById("btn2").onclick = function () {
@@ -484,8 +476,7 @@ drawMap();
      <a href = "http://www.nature.org"> <img src="img/logo-nature.png" style="width: 200px; height: 80px; display: inline-block"> </a>
 </div> <!-- footer div-->
 
-		<script src="scripts/bootstrap.min.js"></script>
-        <script type="text/javascript" src="scripts/AddOverlaysFracFocus.js"></script>
+		 <script type="text/javascript" src="scripts/AddOverlaysFracFocus.js"></script>
         <script type="text/javascript" src="scripts/fracfocustoFilter.js"></script>
         <script type="text/javascript" src="scripts/MapDataFracFocus.js"></script>
       

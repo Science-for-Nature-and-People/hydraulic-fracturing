@@ -16,7 +16,7 @@ var lifeYear = Object.keys(countLifeyr).map(function(k) {
 });
 //console.log(lifeYear)
 
-d3.csv("../NCEAS/data/lifeyearwells.csv", function (wellsData){
+d3.csv("../webapp/data/lifeyearwells.csv", function (wellsData){
    var wellDataMap = wellsData.filter(function(d, i){
 // filter dates
       if (d["State"] == mapState) { return d; }

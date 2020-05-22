@@ -8,24 +8,31 @@
         <link rel="shortcut icon" href="img/SNAPP.png">
 
         <link rel="stylesheet" href="css/cssStyle.css">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="scripts/leaflet.css" />
         
-                <script type="text/javascript" src="scripts/d3.v3.js"></script>
+        <script  src="https://code.jquery.com/jquery-3.5.0.min.js"  integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+        crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        charset="" crossorigin=""></script>     
+
+        <link href="https://api.mapbox.com/mapbox.js/v3.1.1/mapbox.css" rel="stylesheet"/>
+
+
+        <script type="text/javascript" src="scripts/d3.v3.js"></script>
         <script type="text/javascript" src="scripts/wordcloud.js"></script>
         <script type="text/javascript" src="scripts/d3.layout.cloud.js"></script>
         <script type="text/javascript" src="scripts/gviz-api.js"></script>
         <script type="text/javascript" src="scripts/geojson.js"></script>
-        <script type="text/javascript" src="scripts/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" src="scripts/leaflet.js"></script>
-        <script type="text/javascript" src="scripts/jquery.csv-0.71.js"></script>
-        <script type="text/javascript" src="scripts/gviz-api.js"></script>
         <script type="text/javascript" src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
-        
-        <script src='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.js'></script>
-        <link href='https://api.mapbox.com/mapbox.js/v2.2.3/mapbox.css' rel='stylesheet' />
-        <script type="text/javascript" ,="" src="scripts/dygraph-combined-dev.js"></script>
+<script type="text/javascript" ,="" src="scripts/dygraph-combined-dev.js"></script>
 
 <style type="text/css">
             tab1 { padding-left: 2em; }
@@ -37,14 +44,6 @@
                 background-color: #5D6D7E;  
             } 
 
-            /* bootstrap hack: fix content width inside hidden tabs */
-           /* .tab-content > .tab-pane:not(.active),
-            .pill-content > .pill-pane:not(.active) {
-                display: block;
-                height: 0;
-                overflow-y: hidden;
-            } */
-/* bootstrap hack end */
 </style>
 			
 		<title> NCEAS | Spills Data Visualization </title>
@@ -60,7 +59,7 @@ var mapSpudYr = "All";
 var mapLifeYear = "All";
 var mapCause = "All";
 var mapVolume = "All";
-var plotThisBox = "Cause"
+var plotThisBox = "Cause";
 var filterData;
 </script>
 </head>
@@ -85,7 +84,7 @@ var filterData;
       <hr>
 </div> <!-- Introduction div-->
 
-<div class="container-fluid" style: "border: 0;"> <!--panel to filter and map divs-->
+<div class="container-fluid" style= "border: 0;"> <!--panel to filter and map divs-->
      <div class="row" style="padding-top: 0px">
 <!-- ###################################### START CONTROL PANEL  ############################ -->
         <div class="col-sm-3" style="height: 850px; " >
@@ -96,11 +95,11 @@ var filterData;
         <form name = "state" style="color: black; padding-left: 5px;">
             <td><b>State: </b></td>
             <br>
-            <input name="stateList" id="stateList" onclick="setState(this.value)" value="All" type="radio" checked> All <br>
-            <input name="stateList" id="stateList" onclick="setState(this.value)" value="co" type="radio"> Colorado <br>
-            <input name="stateList" id="stateList" onclick="setState(this.value)" value="nm"  type="radio"> New Mexico <br>
-            <input name="stateList" id="stateList" onclick="setState(this.value)" value="nd"  type="radio"> North Dakota <br>
-            <input name="stateList" id="stateList" onclick="setState(this.value)" value="pa" type="radio"> Pennsylvania <br>
+            <input name="stateList"  onclick="setState(this.value)" value="All" type="radio" checked> All <br>
+            <input name="stateList"  onclick="setState(this.value)" value="co" type="radio"> Colorado <br>
+            <input name="stateList"  onclick="setState(this.value)" value="nm"  type="radio"> New Mexico <br>
+            <input name="stateList"  onclick="setState(this.value)" value="nd"  type="radio"> North Dakota <br>
+            <input name="stateList"  onclick="setState(this.value)" value="pa" type="radio"> Pennsylvania <br>
         </form>
 
         <br>
@@ -288,7 +287,7 @@ $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
 //        console.log("I'm clicked")
         createPathway(mapState, mapSpudYr, mapSpillYear, mapLifeYear, mapVolume, mapPathway, mapCause);
         //mapComment(counter);
-    })
+    });
 
 //################################################################################################
 </script>
@@ -309,19 +308,22 @@ $(document).on( 'shown.bs.tab', 'a[data-toggle="tab"]', function (e) {
          <div class="col-sm-12"> 
             <p style="font-family: verdana; font-size: 15px; padding-top: -40px;"><span style="color: #3BB9FF;"><em>Map of spills</em></span> displays the location of unconventional oil and gas spills. Click on a spill for more information. Click on the map overlay icon in the upper right corner of the map to see all unconventional wells, shale plays and tight plays.</p>
          </div> 
-    <div id="map" class='custom-popup' style="height: 550px;">
+    <div id="map" class="custom-popup" style="height: 550px;">
         <!-- ###################################### START MAP  ############################ -->
 <script type="text/javascript">
 var geojsonLayer = new L.FeatureGroup();
 var map = new L.map('map');
 
 function drawMap(){
-L.mapbox.accessToken = 'pk.eyJ1IjoibHBhdHRlcnNvbiIsImEiOiJjaWtrNWtrcDUwYTdrdHlqNzUxdGJzdm1mIn0.aDMjBGdT4DfUM5NdoALxLg';
-
-// Replace 'mapbox.streets' with your map id.
-var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
-    attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>'
-});
+var mapboxTiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: '<a href="http://www.mapbox.com/about/maps/" target="_blank">Terms &amp; Feedback</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      //id: 'mapbox/light-v10',
+      tileSize: 512,
+      zoomOffset: -1,
+      accessToken: 'pk.eyJ1IjoibXN0aW5lIiwiYSI6ImNqcDBlczI5NTA0cngza3BqOGZnZTJzeHAifQ.WNmjGHST7llr04EtSefKow'
+    });
 
   map.addLayer(mapboxTiles)
     .setView([39.5, -98.4], 4); //center of US, zoom
@@ -433,17 +435,17 @@ drawMap();
        <div id="selectBox">
             <form name = "boxplot" style="color: black; font-size: 15px; padding-left: 5px">
             <td><b>Plot: </b></td><tab1></tab1>
-            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="Cause" type="radio" checked> Causal Mechanism   
+            <input name="boxplotList" onclick="createTrace(this.value)" value="Cause" type="radio" checked> Causal Mechanism   
             <tab1></tab1>
-            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="Pathway" type="radio"> Common Pathways
+            <input name="boxplotList" onclick="createTrace(this.value)" value="Pathway" type="radio"> Common Pathways
             <tab1></tab1>
-            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="LessPathway" type="radio"> Less Common Pathways
+            <input name="boxplotList" onclick="createTrace(this.value)" value="LessPathway" type="radio"> Less Common Pathways
              <tab1></tab1>
-            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="LifeYear" type="radio"> Life Year
+            <input name="boxplotList" onclick="createTrace(this.value)" value="LifeYear" type="radio"> Life Year
              <tab1></tab1>
-            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="SpillYear" type="radio"> Spill Year
+            <input name="boxplotList" onclick="createTrace(this.value)" value="SpillYear" type="radio"> Spill Year
              <tab1></tab1>
-            <input name="boxplotList" id="boxplotList" onclick="createTrace(this.value)" value="SpudYear" type="radio"> Spud Year
+            <input name="boxplotList" onclick="createTrace(this.value)" value="SpudYear" type="radio"> Spud Year
         </form>
         </div> <!--end selectbox-->
 
@@ -520,8 +522,7 @@ drawMap();
 <!--            <button type="button" id="btn1" class="btn btn-danger btn-lg">Pathway Analysis</button>-->
             <br>
                 <p style="text-align: left; padding-left: 10px; font-size: 15px;"><em><b><span style="color: darkblue;">Materials Spilled</span></b></em> explores what is spilled and whether the spill impacted water.<br><br>
-                <em><b><span style="color: darkorange; ">FracFocus Data</span></b></em> shows the volumes of EPA regulated chemicals used for hydraulic fracturing.
-            </em></p>    
+                <em><b><span style="color: darkorange; ">FracFocus Data</span></b></em> shows the volumes of EPA regulated chemicals used for hydraulic fracturing.</p>    
     </div>
 
     <div class="col-md-3" style="text-align: center;">
@@ -541,7 +542,7 @@ drawMap();
 
 <script type="text/javascript">
     /*document.getElementById("btn1").onclick = function () {
-        location.href = "spills_nceas.html";
+        location.href = "spills.html";
     };*/
 
      document.getElementById("btn2").onclick = function () {
@@ -553,7 +554,7 @@ drawMap();
     };
 
      /*document.getElementById("btn4").onclick = function () {
-        location.href = "spills_nceas.html";
+        location.href = "spills.html";
     };*/
 </script>
 
@@ -561,7 +562,7 @@ drawMap();
 <br>
 <div class="row" style="background-color: #E5E7E9; padding-top: 10px;">
     <div class="col-sm-9" id="internal_footer" style="color: black; font-size: 16px;">
-        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People Partnership (SNAPP) looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a>
+        <p style="text-align: left;">This work was done as part of the National Center for Ecological Analysis and Synthesis (NCEAS) Science for Nature and People Partnership (SNAPP) looking at the <a href="https://www.nceas.ucsb.edu/featured/baruch-mordo"> Impacts of Hydraulic Fracturing on Water Quantity and Quality.</a></p>
 
         <br><br>
 
@@ -573,11 +574,12 @@ drawMap();
                 <a href="http://www.nature.org/science-in-action/our-scientists/our-scientists-joe-fargione.xml">Joe Fargione</a>, 
                 <a href="http://www.lsc.usgs.gov/?q=narb-kelly-maloney">Kelly Maloney</a>,
                 <a href="http://www.nature.org/newsfeatures/pressreleases/media/nature-conservancy-experts-conservation-lands-joe-kiesecker.xml">Joe Kiesecker</a>,
-                <a href="http://www.beg.utexas.edu/personnel_ext.php?id=63"> Jean-Philippe Nicot,
-                <a href="http://www.nature.org/science-in-action/our-scientists/nature-conservancy-experts-conservation-lands-sharon-baruch-mordo.xml"> Sharon Baruch-Mordo,
+                <a href="http://www.beg.utexas.edu/personnel_ext.php?id=63"> Jean-Philippe Nicot</a>,
+                <a href="http://www.nature.org/science-in-action/our-scientists/nature-conservancy-experts-conservation-lands-sharon-baruch-mordo.xml"> Sharon Baruch-Mordo</a>,
                 <a href="https://uca.edu/biology/facultystaff/sally-entrekin-ph-d/"> Sally Entrekin</a>,
                 <a href="http://www.nature.org/science-in-action/leading-with-science/anne-trainor.xml"> Anne Trainor</a>, and
                 <a href="https://environment.yale.edu/profile/saiers/"> James Saiers</a>
+            </li>
             </ul>
         </p>
 
@@ -592,12 +594,8 @@ drawMap();
 
 
 
-<div class="col-sm-3" style="padding-left: 5em";>
-   
-</div> <!-- footer div-->
+<div class="col-sm-3" style="padding-left: 5em;"></div> <!-- footer div-->
 
-
-        <script src="scripts/bootstrap.min.js"></script>
         <script type="text/javascript" src="scripts/AddOverlays.js"></script>
         <script type="text/javascript" src="scripts/MapData.js"></script>
         <script type="text/javascript" src="scripts/whattoFilter.js"></script>
